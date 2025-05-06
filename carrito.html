@@ -35,34 +35,54 @@
         </div>
     </div>
 
-    <!-- MAIN NAVBAR -->
     <header class="py-3 border-bottom">
-        <div class="container d-flex align-items-center justify-content-between">
-            <!-- LOGO -->
-            <a href="index.html" class="logo d-flex align-items-center text-decoration-none">
-                <h1 class="sitename m-0">Freelancer</h1>
-            </a>
-
-            <!-- SEARCH BAR -->
-            <form class="w-50">
-                <div class="input-group">
-                    <input type="text" class="form-control rounded-start-pill" placeholder="Buscar productos">
-                    <button class="btn btn-primary rounded-end-pill" type="submit">
-                        <i class="bi bi-search"></i>
-                    </button>
-                </div>
-            </form>
-
-            <!-- ICONS -->
-            <div class="d-flex align-items-center gap-3">
-            
-                <a href="carrito.html" class="text-dark position-relative">
-                    <i class="bi bi-cart"></i>
-                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary" id="carrito-badge">0</span>
-                </a>
+        <div class="container">
+      
+          <!------ MODO CELULAR (EN ESTE ORDEN SOLO AMENTA EL CARRITO EN MODO CEL, pero si lo pongo abajo el modo celular solo aparece en modo escritorio)------>
+            <div class="d-flex justify-content-between align-items-center d-flex d-lg-none">
+              <!-- Botón hamburguesa -->
+              <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+                <i class="bi bi-list fs-3"></i>
+              </button>
+        
+              <!-- Logo -->
+              <a href="index.html" class="text-decoration-none fw-bold fs-4 text-dark">Freelancer</a>
+        
+              <!-- Carrito -->
+              <a href="carrito.html" class="text-dark position-relative me-2">
+                <i class="bi bi-cart fs-4"></i>
+                <span id="carrito-badge" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">0</span>
+              </a>
             </div>
+      
+          <!------- MODO ESCRITORIO -------->
+            <div class="d-none d-lg-flex justify-content-between align-items-center">
+              <!-- LOGO -->
+              <a href="index.html" class="logo d-flex align-items-center text-decoration-none">
+                <h1 class="sitename m-0">Freelancer</h1>
+              </a>
+        
+              <!-- SEARCH BAR -->
+              <form class="w-50">
+                <div class="input-group">
+                  <input type="text" class="form-control rounded-start-pill" placeholder="Buscar productos">
+                  <button class="btn btn-primary rounded-end-pill" type="submit">
+                    <i class="bi bi-search"></i>
+                  </button>
+                </div>
+              </form>
+        
+              <!-- ICONS CARRITO -->
+              <div class="d-flex align-items-center gap-3">
+                <a href="carrito.html" class="text-dark position-relative">
+                  <i class="bi bi-cart"></i>
+                  <span id="carrito-badge" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">0</span>
+                </a>
+              </div>
+            </div>
+      
         </div>
-    </header>
+      </header>
 
     <!-- MENU BAR -->
     <nav class="bg-white border-top border-bottom py-2">
