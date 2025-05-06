@@ -89,30 +89,17 @@ function actualizarCantidad(id, cantidad) {
 
 
 function enviarPorWhatsapp(event) {
-    event.preventDefault(); // Detiene el comportamiento por defecto del enlace
+    event.preventDefault(); // Evita que el link navegue antes de tiempo
 
-    const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
-    if (carrito.length === 0) {
-        alert("Tu carrito está vacío.");
-        return;
-    }
-
-    let mensaje = "Hola, quiero hacer un pedido:%0A";
-    let total = 0;
-
-    carrito.forEach(item => {
-        const subtotal = item.precio_pen * item.cantidad;
-        total += subtotal;
-        mensaje += `• ${item.cantidad} x ${item.nombre} - S/ ${subtotal.toFixed(2)}%0A`;
-    });
-
-    mensaje += `%0ATotal: S/ ${total.toFixed(2)}`;
-
+    // Mensaje de prueba simple
+    const mensaje = "Hola, quiero hacer un pedido de prueba";
     const numero = "51948571556";
-    const url = `https://wa.me/${numero}?text=${mensaje}`;
+    const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
 
-    window.open(url, "_blank"); // Abre WhatsApp en nueva pestaña
+    console.log("Abriendo WhatsApp con URL:", url); // Para ver en consola
+    window.open(url, "_blank"); // Abre en una nueva pestaña
 }
+
 
 
 
