@@ -5,17 +5,32 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+// Función para ENVIAR PEDIDO A WSP
 function enviarPorWhatsapp(event) {
-    event.preventDefault(); // Evita que el link navegue antes de tiempo
+    event.preventDefault();
 
-    // Mensaje de prueba simple
-    const mensaje = "Hola, quiero hacer un pedido de prueba";
+    const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+    if (carrito.length === 0) {
+        alert("Tu carrito está vacío.");
+        return;
+    }
+
+    let mensaje = "Hola, quiero hacer un pedido:%0A";
+    let total = 0;
+
+    carrito.forEach(item => {
+        const subtotal = item.precio_pen * item.cantidad;
+        total += subtotal;
+        mensaje += `• ${item.cantidad} x ${item.nombre} - S/ ${subtotal.toFixed(2)}%0A`;
+    });
+
+    mensaje += `%0ATotal: S/ ${total.toFixed(2)}`;
+
     const numero = "51948571556";
-    const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
-
-    console.log("Abriendo WhatsApp con URL:", url); // Para ver en consola
-    window.open(url, "_blank"); // Abre en una nueva pestaña
+    const url = `https://wa.me/${numero}?text=${mensaje}`;
+    window.open(url, "_blank");
 }
+
 
 // Función para cargar productos en el carrito
 function cargarCarrito() {
