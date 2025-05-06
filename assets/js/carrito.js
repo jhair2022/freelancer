@@ -87,28 +87,31 @@ function actualizarCantidad(id, cantidad) {
     }
 }
 
-function generarMensajeWhatsapp() {
+
+function enviarPorWhatsapp(event) {
+    event.preventDefault(); // evita que el <a> se dispare de inmediato
+
     const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
-    if (carrito.length === 0) return;
+    if (carrito.length === 0) {
+        alert("Tu carrito está vacío.");
+        return;
+    }
 
     let mensaje = "Hola, quiero hacer un pedido:%0A";
     let total = 0;
 
     carrito.forEach(item => {
-        const subtotal = item.precio * item.cantidad;
+        const subtotal = item.precio_pen * item.cantidad;
         total += subtotal;
         mensaje += `• ${item.cantidad} x ${item.nombre} - S/ ${subtotal.toFixed(2)}%0A`;
     });
 
     mensaje += `%0ATotal: S/ ${total.toFixed(2)}`;
 
-    // Reemplaza TU_NUMERO con tu número real (sin +, empieza con 51 para Perú)
     const numero = "51948571556";
     const url = `https://wa.me/${numero}?text=${mensaje}`;
 
-    document.getElementById("btn-whatsapp").href = url;
+    window.open(url, "_blank"); // ahora sí, abrir en nueva pestaña correctamente
 }
-
-document.addEventListener('DOMContentLoaded', generarMensajeWhatsapp);
 
 
