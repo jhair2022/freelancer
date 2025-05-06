@@ -89,7 +89,7 @@ function actualizarCantidad(id, cantidad) {
 
 
 function enviarPorWhatsapp(event) {
-    event.preventDefault(); // evita que el <a> se dispare de inmediato
+    event.preventDefault(); // Detiene el comportamiento por defecto del enlace
 
     const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
     if (carrito.length === 0) {
@@ -111,7 +111,8 @@ function enviarPorWhatsapp(event) {
     const numero = "51948571556";
     const url = `https://wa.me/${numero}?text=${mensaje}`;
 
-    window.open(url, "_blank"); // ahora sí, abrir en nueva pestaña correctamente
+    window.open(url, "_blank"); // Abre WhatsApp en nueva pestaña
 }
+
 
 
