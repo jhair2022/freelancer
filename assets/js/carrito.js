@@ -5,6 +5,18 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+function enviarPorWhatsapp(event) {
+    event.preventDefault(); // Evita que el link navegue antes de tiempo
+
+    // Mensaje de prueba simple
+    const mensaje = "Hola, quiero hacer un pedido de prueba";
+    const numero = "51948571556";
+    const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
+
+    console.log("Abriendo WhatsApp con URL:", url); // Para ver en consola
+    window.open(url, "_blank"); // Abre en una nueva pestaña
+}
+
 // Función para cargar productos en el carrito
 function cargarCarrito() {
     
@@ -88,17 +100,7 @@ function actualizarCantidad(id, cantidad) {
 }
 
 
-function enviarPorWhatsapp(event) {
-    event.preventDefault(); // Evita que el link navegue antes de tiempo
 
-    // Mensaje de prueba simple
-    const mensaje = "Hola, quiero hacer un pedido de prueba";
-    const numero = "51948571556";
-    const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
-
-    console.log("Abriendo WhatsApp con URL:", url); // Para ver en consola
-    window.open(url, "_blank"); // Abre en una nueva pestaña
-}
 
 
 
