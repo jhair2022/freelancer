@@ -33,3 +33,16 @@
   .whatsapp-fijo:hover {
     background-color: #1ebe5d;
   }
+
+  .brand-carousel {
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch; /* deslizamiento suave en iOS */
+    scroll-snap-type: x mandatory;
+  }
+  
+  .brand-logo {
+    max-height: 60px;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+  }
