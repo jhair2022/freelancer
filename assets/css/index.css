@@ -35,8 +35,8 @@
   }
 
   .brand-logo {
-    width: 100%;
     max-height: 60px;
+    width: auto;
     object-fit: contain;
     filter: grayscale(100%);
     transition: filter 0.3s ease;
