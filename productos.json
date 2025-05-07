@@ -284,5 +284,45 @@
         "categoria": "parlante",
         "subcategoria": "Parlante bluetooth",
         "destacado": false
+    },
+    {
+        "id": 31,
+        "nombre": "PARLANTE LIDIMI S625",
+        "imagen": "assets/img/productos/parlante-ld-s625.jpg",
+        "stock": "Mayor a 10 Artículos",
+        "modelo": "LD-S625",
+        "marca": "Lidimi",
+        "precio_usd": 25.99,
+        "precio_pen": 100.00,
+        "categoria": "parlante",
+        "subcategoria": "Parlante bluetooth",
+        "destacado": false
+    },
+    {
+        "id": 32,
+        "nombre": "PARLANTE LIDIMI S649",
+        "imagen": "assets/img/productos/parlante-ld-s649.jpg",
+        "stock": "Mayor a 10 Artículos",
+        "modelo": "LD-S649",
+        "marca": "Lidimi",
+        "precio_usd": 30.99,
+        "precio_pen": 100.00,
+        "categoria": "parlante",
+        "subcategoria": "Parlante bluetooth",
+        "destacado": false
+    },
+    {
+        "id": 33,
+        "nombre": "PARLANTE LIDIMI S831",
+        "imagen": "assets/img/productos/parlante-ld-s831.jpg",
+        "stock": "Mayor a 10 Artículos",
+        "modelo": "LD-S831",
+        "marca": "Lidimi",
+        "precio_usd": 12.99,
+        "precio_pen": 45.00,
+        "categoria": "parlante",
+        "subcategoria": "Parlante bluetooth",
+        "destacado": false
     }
+    
 ]
