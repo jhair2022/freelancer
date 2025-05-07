@@ -6,3 +6,13 @@ function mostrarBreadcrumb(subcategoria = null) {
         ${subcategoria ? `<li class="breadcrumb-item active" aria-current="page">${capitalizar(subcategoria)}</li>` : ''}
     `;
 }
+
+function capitalizar(texto) {
+    return texto.charAt(0).toUpperCase() + texto.slice(1);
+}
+
+
+function verProducto(id) {
+    localStorage.setItem("productoSeleccionado", id);
+    window.location.href = "producto.html";
+}
