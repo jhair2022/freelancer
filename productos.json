@@ -217,6 +217,32 @@
         "destacado": false
     },
     {
+        "id": 17,
+        "nombre": "CARGADOR TC DEXBO",
+        "imagen": "assets/img/productos/carg-dexbo-tc-5.5a.jpg",
+        "stock": "Mayor a 10 Artículos",
+        "modelo": "DE-5150C",
+        "marca": "Dexbo",
+        "precio_usd": 4.99,
+        "precio_pen": 20.00,
+        "categoria": "cargador",
+        "subcategoria": "Tipo C",
+        "destacado": false
+    },
+    {
+        "id": 18,
+        "nombre": "CABLE TC REDD",
+        "imagen": "assets/img/productos/cable-redd-tc.jpg",
+        "stock": "Mayor a 10 Artículos",
+        "modelo": "DE-5150C",
+        "marca": "Dexbo",
+        "precio_usd": 4.99,
+        "precio_pen": 20.00,
+        "categoria": "cargador",
+        "subcategoria": "Tipo C",
+        "destacado": false
+    },
+    {
         "id": 19,
         "nombre": "AUDIFONO JACK 3.5 SAMSUNG",
         "imagen": "assets/img/productos/aud-sam-jack.jpg",
