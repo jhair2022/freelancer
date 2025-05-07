@@ -24,7 +24,7 @@ fetch('productos.json')
     const contenedor = document.getElementById("productos-container");
     const subcatDiv = document.getElementById("subcategorias");
 
-    const productosAudifonos = productos.filter(p => p.categoria === "parlante");
+    const productosAudifonos = productos.filter(p => p.categoria === "parlantes");
 
     // Obtener subcategorías únicas (evita vacíos)
     const subcategorias = [...new Set(productosAudifonos.map(p => p.subcategoria).filter(Boolean))];
