@@ -13,6 +13,7 @@ fetch('productos.json')
             const categoriaLinks = {
                 "audifonos": "audifonos.html",
                 "cargador": "cargadores.html",
+                "parlantes": "parlantes.html",
             };
 
             const categoriaURL = categoriaLinks[producto.categoria] || "#";
