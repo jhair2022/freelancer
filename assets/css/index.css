@@ -38,6 +38,7 @@
     max-height: 60px;
     width: auto;
     object-fit: contain;
+    padding: 10px;
     filter: grayscale(100%);
     transition: filter 0.3s ease;
   }
@@ -45,5 +46,4 @@
   .brand-logo:hover {
     filter: grayscale(0%);
   }
-
   

@@ -40,11 +40,11 @@ fetch('productos.json')
 var swiper = new Swiper(".brandSwiper", {
     loop: true,
     autoplay: {
-      delay: 2000,
+      delay: 2500,
       disableOnInteraction: false,
     },
-    slidesPerView: 2,
     spaceBetween: 20,
+    slidesPerView: 2,
     breakpoints: {
       576: {
         slidesPerView: 3
@@ -54,6 +54,9 @@ var swiper = new Swiper(".brandSwiper", {
       },
       992: {
         slidesPerView: 5
+      },
+      1200: {
+        slidesPerView: 6
       }
     }
   });
