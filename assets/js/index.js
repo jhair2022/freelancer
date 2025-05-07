@@ -37,5 +37,27 @@ fetch('productos.json')
 });
 
 
-
+var swiper = new Swiper(".brandSwiper", {
+    loop: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    slidesPerView: 2,
+    spaceBetween: 20,
+    breakpoints: {
+      576: {
+        slidesPerView: 3
+      },
+      768: {
+        slidesPerView: 4
+      },
+      992: {
+        slidesPerView: 5
+      },
+      1200: {
+        slidesPerView: 6
+      }
+    }
+  });
 
