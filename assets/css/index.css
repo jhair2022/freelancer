@@ -45,7 +45,7 @@
 
   .breadcrumb a {
     text-decoration: none; /* Quita la línea inferior */
-    color: black; /* Cambia el color del texto a negro */
+    color: rgb(19, 18, 18); /* Cambia el color del texto a negro */
   }
 
   .breadcrumb a:hover {
