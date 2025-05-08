@@ -30,17 +30,34 @@
     transition: background 0.3s;
   }
 
+  .whatsapp-fijo i {
+    font-size: 1.2rem;
+    margin-right: 6px;
+}
+
   .whatsapp-fijo:hover {
     background-color: #1ebe5d;
   }
 
-/* En pantallas pequeñas (como celular), ocultar el texto */
+/* Ocultar el texto solo en celular */
 @media (max-width: 768px) {
   .whatsapp-texto {
-    display: none;
+      display: none;
+  }
+
+  .whatsapp-fijo {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      justify-content: center;
+      padding: 0;
+  }
+
+  .whatsapp-fijo i {
+      margin-right: 0;
+      font-size: 1.4rem;
   }
 }
-
   .brand-logo {
     height: 60px;
     width: auto;
