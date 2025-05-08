@@ -107,7 +107,7 @@
         "precio_pen": 12.00,
         "categoria": "cargador",
         "subcategoria": "Micro USB - V8",
-        "destacado": true
+        "destacado": false
     },
     {
         "id": 9,
@@ -234,8 +234,8 @@
         "nombre": "CABLE TC RD-2081",
         "imagen": "assets/img/productos/cable-redd-tc.jpg",
         "stock": "Mayor a 10 Artículos",
-        "modelo": "DE-5150C",
-        "marca": "Dexbo",
+        "modelo": "RD-2081",
+        "marca": "Redd",
         "precio_usd": 4.99,
         "precio_pen": 20.00,
         "categoria": "cargador",
@@ -283,7 +283,7 @@
         "precio_pen": 109.00,
         "categoria": "parlantes",
         "subcategoria": "Parlante Lidimi",
-        "destacado": false
+        "destacado": true
     },
     {
         "id": 31,
