@@ -34,6 +34,13 @@
     background-color: #1ebe5d;
   }
 
+/* En pantallas pequeñas (como celular), ocultar el texto */
+@media (max-width: 768px) {
+  .whatsapp-texto {
+    display: none;
+  }
+}
+
   .brand-logo {
     height: 60px;
     width: auto;
