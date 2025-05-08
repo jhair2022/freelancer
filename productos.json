@@ -323,6 +323,32 @@
         "categoria": "parlantes",
         "subcategoria": "Parlante Lidimi",
         "destacado": false
+    },
+    {
+        "id": 34,
+        "nombre": "PARLANTE EW-P102B",
+        "imagen": "assets/img/productos/EW-P102B.jpg",
+        "stock": "5 Artículos",
+        "modelo": "EW-P102B",
+        "marca": "Ewtto",
+        "precio_usd": 12.99,
+        "precio_pen": 45.00,
+        "categoria": "parlantes",
+        "subcategoria": "Parlante Lidimi",
+        "destacado": false
+    },
+    {
+        "id": 35,
+        "nombre": "PARLANTE EW-P123B",
+        "imagen": "assets/img/productos/EW-P123B.jpg",
+        "stock": "5 Artículos",
+        "modelo": "EW-P123B",
+        "marca": "Ewtto",
+        "precio_usd": 12.99,
+        "precio_pen": 45.00,
+        "categoria": "parlantes",
+        "subcategoria": "Parlante Lidimi",
+        "destacado": false
     }
     
 ]
