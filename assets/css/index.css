@@ -42,3 +42,8 @@
     padding: 5px;
     transition: filter 2s ease;
   }
+
+  .breadcrumb a {
+    text-decoration: none; /* Quita la línea inferior */
+    color: black; /* Cambia el color del texto a negro */
+  }
