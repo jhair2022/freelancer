@@ -276,6 +276,9 @@
         "id": 30,
         "nombre": "PARLANTE LIDIMI S650",
         "imagen": "assets/img/productos/parlante-ld-s650.jpg",
+        "imagenes_adicionales": [
+            "assets/img/productos/parlante-ld-s650-2.png"
+       ],
         "stock": "5 Artículos",
         "modelo": "LD-S650",
         "marca": "Lidimi",
