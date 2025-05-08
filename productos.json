@@ -13,7 +13,7 @@
       "precio_pen": 15.00,
       "categoria": "audifonos",
       "subcategoria": "alambricos",
-      "destacado": true
+      "destacado": false
     },
     {
         "id": 2,
@@ -65,7 +65,7 @@
         "precio_pen": 15.00,
         "categoria": "audifonos",
         "subcategoria": "alambricos",
-        "destacado": false
+        "destacado": true
     },
     {
         "id": 6,
@@ -89,7 +89,7 @@
         ],
         "stock": "Mayor a 10 Artículos",
         "modelo": "",
-        "marca": "Calidad Original",
+        "marca": "Calidad Orig.",
         "precio_usd": 11.20,
         "precio_pen": 45.00,
         "categoria": "cargador",
@@ -115,7 +115,7 @@
         "imagen": "assets/img/productos/cable-c-c.jpg",
         "stock": "Mayor a 10 Artículos",
         "modelo": "",
-        "marca": "Calidad Original",
+        "marca": "Calidad Orig.",
         "precio_usd": 3.99,
         "precio_pen": 15.00,
         "categoria": "cargador",
