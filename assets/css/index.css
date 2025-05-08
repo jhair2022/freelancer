@@ -50,5 +50,5 @@
 
   .breadcrumb a:hover {
     text-decoration: underline; /* Opcional: subrayado al pasar el cursor */
-    color: #333; /* Opcional: color más oscuro al pasar el cursor */
+    color: #1b47d8; /* Opcional: color más oscuro al pasar el cursor */
   }
