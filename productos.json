@@ -231,19 +231,6 @@
     },
     {
         "id": 18,
-        "nombre": "CABLE TC RD-2081",
-        "imagen": "assets/img/productos/cable-redd-tc.jpg",
-        "stock": "5 Artículos",
-        "modelo": "RD-2081",
-        "marca": "Redd",
-        "precio_usd": 2.99,
-        "precio_pen": 10.00,
-        "categoria": "cargador",
-        "subcategoria": "Tipo C",
-        "destacado": false
-    },
-    {
-        "id": 19,
         "nombre": "AUDIFONO JACK 3.5 SAMSUNG",
         "imagen": "assets/img/productos/aud-sam-jack.jpg",
         "stock": "5 Artículos",
@@ -256,7 +243,7 @@
         "destacado": false
     },
     {
-        "id": 20,
+        "id": 19,
         "nombre": "Audifono Jack L",
         "imagen": "assets/img/productos/aud-bs-a1054.jpg",
         "imagenes_adicionales": [
