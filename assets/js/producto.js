@@ -113,3 +113,34 @@ function cambiarCantidad(cambio) {
 }
 
 
+function mostrarImagenes(imagenes) {
+  const galeria = document.getElementById('galeria-imagenes');
+  const imagenPrincipal = document.getElementById('imagen-principal');
+  const carruselInner = document.getElementById('carousel-inner');
+
+  galeria.innerHTML = '';
+  carruselInner.innerHTML = '';
+
+  imagenes.forEach((img, index) => {
+    // Miniatura (escritorio)
+    const miniatura = document.createElement('img');
+    miniatura.src = img;
+    miniatura.className = 'img-thumbnail';
+    miniatura.style.cursor = 'pointer';
+    miniatura.onclick = () => {
+      imagenPrincipal.src = img;
+    };
+    galeria.appendChild(miniatura);
+
+    // Carrusel (móvil)
+    const item = document.createElement('div');
+    item.className = 'carousel-item' + (index === 0 ? ' active' : '');
+    item.innerHTML = `<img src="${img}" class="d-block w-100" alt="...">`;
+    carruselInner.appendChild(item);
+  });
+
+  // Establecer la primera imagen como principal
+  if (imagenes.length > 0) {
+    imagenPrincipal.src = imagenes[0];
+  }
+}
