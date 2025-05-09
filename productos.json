@@ -365,6 +365,22 @@
         "categoria": "parlantes",
         "subcategoria": "Ewtto",
         "destacado": false
+    },
+    {
+        "id": 37,
+        "nombre": "PARLANTE LD-S007AC",
+        "imagen": "assets/img/productos/ld-s007ac.png",
+        "imagenes_adicionales": [
+            "assets/img/productos/ld-s007ac-2.png"
+       ],
+        "stock": "5 Artículos",
+        "modelo": "EW-P120B",
+        "marca": "Ewtto",
+        "precio_usd": 65.99,
+        "precio_pen": 199.90,
+        "categoria": "parlantes",
+        "subcategoria": "Ewtto",
+        "destacado": false
     }
     
 ]
