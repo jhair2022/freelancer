@@ -177,9 +177,9 @@
     {
         "id": 14,
         "nombre": "CABLE TC TCD0474",
-        "imagen": "assets/img/productos/cable-tcd0474.jpg",
+        "imagen": "assets/img/productos/cable-tcd0474-2.jpg",
         "imagenes_adicionales": [
-             "assets/img/productos/cable-tcd0474-2.jpg"
+             "assets/img/productos/cable-tcd0474.jpg"
         ],
         "stock": "5 Artículos",
         "modelo": "TCD0474",
