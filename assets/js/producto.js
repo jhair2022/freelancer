@@ -29,24 +29,28 @@ fetch('productos.json')
             document.getElementById('imagen-principal').src = producto.imagen;
             document.getElementById('imagen-principal').alt = producto.nombre;
 
-            // Mostrar las miniaturas
+           // Mostrar miniaturas (escritorio) y carrusel (móvil)
             const galeria = document.getElementById('galeria-imagenes');
+            const carruselInner = document.getElementById('carousel-inner');
             galeria.innerHTML = '';
+            carruselInner.innerHTML = '';
 
-            // Siempre agregamos la imagen principal como miniatura primero
-            galeria.innerHTML += `
-                <img src="${producto.imagen}" class="img-thumbnail" style="width: 80px; cursor:pointer;" onclick="cambiarImagen('${producto.imagen}')">
-            `;
+            // Lista combinada: imagen principal + adicionales
+            const todasLasImagenes = [producto.imagen, ...(producto.imagenes_adicionales || [])];
 
-            // Si tiene imágenes adicionales (opcional)
-            if (producto.imagenes_adicionales && producto.imagenes_adicionales.length > 0) {
-                producto.imagenes_adicionales.forEach(img => {
-                    galeria.innerHTML += `
-                        <img src="${img}" class="img-thumbnail" style="width: 80px; cursor:pointer;" onclick="cambiarImagen('${img}')">
-                    `;
-                });
-            }
+            todasLasImagenes.forEach((img, index) => {
+                // Miniatura escritorio
+                galeria.innerHTML += `
+                    <img src="${img}" class="img-thumbnail" style="width: 80px; cursor:pointer;" onclick="cambiarImagen('${img}')">
+                `;
 
+                // Carrusel móvil
+                carruselInner.innerHTML += `
+                    <div class="carousel-item ${index === 0 ? 'active' : ''}">
+                        <img src="${img}" class="d-block w-100" alt="">
+                    </div>
+                `;
+            });
             // Otros datos
             document.getElementById('nombre-producto').textContent = producto.nombre;
             document.getElementById('modelo-producto').textContent = producto.modelo;
@@ -113,34 +117,3 @@ function cambiarCantidad(cambio) {
 }
 
 
-function mostrarImagenes(imagenes) {
-  const galeria = document.getElementById('galeria-imagenes');
-  const imagenPrincipal = document.getElementById('imagen-principal');
-  const carruselInner = document.getElementById('carousel-inner');
-
-  galeria.innerHTML = '';
-  carruselInner.innerHTML = '';
-
-  imagenes.forEach((img, index) => {
-    // Miniatura (escritorio)
-    const miniatura = document.createElement('img');
-    miniatura.src = img;
-    miniatura.className = 'img-thumbnail';
-    miniatura.style.cursor = 'pointer';
-    miniatura.onclick = () => {
-      imagenPrincipal.src = img;
-    };
-    galeria.appendChild(miniatura);
-
-    // Carrusel (móvil)
-    const item = document.createElement('div');
-    item.className = 'carousel-item' + (index === 0 ? ' active' : '');
-    item.innerHTML = `<img src="${img}" class="d-block w-100" alt="...">`;
-    carruselInner.appendChild(item);
-  });
-
-  // Establecer la primera imagen como principal
-  if (imagenes.length > 0) {
-    imagenPrincipal.src = imagenes[0];
-  }
-}
