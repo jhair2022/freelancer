@@ -247,8 +247,7 @@
         "nombre": "Audifono Jack L",
         "imagen": "assets/img/productos/aud-bs-a1054.jpg",
         "imagenes_adicionales": [
-            "assets/img/productos/aud-bs-a1054-2.jpg",
-             "assets/img/productos/aud-bs-a1054-3.jpg"
+            "assets/img/productos/aud-bs-a1054-2.jpg"
         ],
         "stock": "5 Artículos",
         "modelo": "BS-A1054",
