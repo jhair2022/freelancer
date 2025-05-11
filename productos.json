@@ -113,6 +113,9 @@
         "id": 9,
         "nombre": "CABLE TC SAMSUNG",
         "imagen": "assets/img/productos/cable-c-c.jpg",
+         "imagenes_adicionales": [
+            "assets/img/productos/cable-c-c-2.jpg"
+        ],
         "stock": "5 Artículos",
         "modelo": "",
         "marca": "C/Original",
