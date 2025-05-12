@@ -16,15 +16,11 @@
   }
 
 
-  .dropdown-item {
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-
   .dropdown-item:hover {
-    background-color: #1E88E5;
-    color: white !important;
+    background-color: #1E88E5; /* Cambia el color de fondo */
+    color: white !important;   /* Asegura que el texto sea blanco */
   }
-
+  
   .whatsapp-fijo {
     position: fixed;
     bottom: 20px;
