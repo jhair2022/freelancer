@@ -15,6 +15,11 @@
     display: block;
   }
 
+
+  .dropdown-item:hover {
+    background-color: #1E88E5; /* Cambia el color de fondo */
+    color: white !important;   /* Asegura que el texto sea blanco */
+  }
   .whatsapp-fijo {
     position: fixed;
     bottom: 20px;
@@ -51,3 +56,4 @@
   .breadcrumb a:hover {
     color: #1E88E5; /* Opcional: color más oscuro al pasar el cursor */
   }
+
