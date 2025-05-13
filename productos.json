@@ -13,7 +13,12 @@
       "precio_pen": 12.00,
       "categoria": "audifonos",
       "subcategoria": "alambricos",
-      "destacado": false
+      "destacado": false,
+      "info_adicional": {
+        "Color": "Negro",
+        "Conectividad": "Bluetooth 5.0",
+        "Duración de batería": "10 horas"
+        }
     },
     {
         "id": 2,

@@ -58,6 +58,22 @@ fetch('productos.json')
             document.getElementById('stock-producto').textContent = producto.stock;
             document.getElementById('precio-producto').innerHTML = `$${producto.precio_usd.toFixed(2)} <small class="text-muted">(S/ ${producto.precio_pen.toFixed(2)})</small>`;
             document.getElementById('descripcion-producto').textContent = producto.descripcion || "Descripción no disponible.";
+            // Información adicional
+            const infoLista = document.getElementById('info-adicional');
+            infoLista.innerHTML = '';
+
+            if (producto.info_adicional) {
+                for (const clave in producto.info_adicional) {
+                    infoLista.innerHTML += `
+                        <li class="list-group-item">
+                            <strong>${clave}:</strong> ${producto.info_adicional[clave]}
+                        </li>
+                    `;
+                }
+            } else {
+                infoLista.innerHTML = "<li class='list-group-item'>Sin información adicional.</li>";
+            }
+            
             // AQUÍ se configura el botón
             document.getElementById('btn-agregar-carrito').addEventListener('click', () => {
                 let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
