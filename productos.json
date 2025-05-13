@@ -282,8 +282,9 @@
         "nombre": "PARLANTE LIDIMI S625",
         "imagen": "assets/img/productos/parlante-ld-s625.png",
         "imagenes_adicionales": [
-            "assets/img/productos/parlante-ld-s625.jpg",
-            "assets/img/productos/parlante-ld-s625-3.png"
+
+            "assets/img/productos/parlante-ld-s625-3.png",
+            "assets/img/productos/parlante-ld-s625.jpg"
        ],
         "stock": "Disponible",
         "modelo": "LD-S625",
