@@ -299,6 +299,9 @@
         "id": 32,
         "nombre": "PARLANTE LIDIMI S645",
         "imagen": "assets/img/productos/ld-s645.jpg",
+        "imagenes_adicionales": [
+            "assets/img/productos/parlante-ld-s645-2.png"
+        ],
         "stock": "Disponible",
         "modelo": "LD-S649",
         "marca": "Lidimi",
