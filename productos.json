@@ -6,7 +6,7 @@
       "imagenes_adicionales": [
             "assets/img/productos/california2.jpg"
         ],
-        "stock": "Disponible",
+        "stock": "En Stock",
       "modelo": "california",
       "marca": "Generico",
       "precio_usd": 4.00,
