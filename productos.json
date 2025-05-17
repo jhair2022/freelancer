@@ -6,7 +6,7 @@
       "imagenes_adicionales": [
             "assets/img/productos/california2.jpg"
         ],
-        "stock": "En Stock",
+        "stock": "Disponible",
       "modelo": "california",
       "marca": "Generico",
       "precio_usd": 4.00,
@@ -24,7 +24,7 @@
         "id": 2,
         "nombre": "AUDÍFONO BT EWTOO",
         "imagen": "assets/img/productos/audifono-ewtto.jfif",
-        "stock": "En Stock",
+        "stock": "Disponible",
         "modelo": "",
         "marca": "Ewtto",
         "precio_usd": 3.99,
@@ -37,7 +37,7 @@
         "id": 3,
         "nombre": "AUDÍFONO BT DEXBO",
         "imagen": "assets/img/productos/audifono-dexbo.jpg",
-        "stock": "En Stock",
+        "stock": "Disponible",
         "modelo": "DE-A975B",
         "marca": "Dexbo",
         "precio_usd": 3.99,
