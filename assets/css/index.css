@@ -58,3 +58,14 @@
     color: #1E88E5; /* Opcional: color más oscuro al pasar el cursor */
   }
 
+  .accordion-button::after {
+  content: '+';
+  font-size: 1.5rem;
+  color: white;
+  transform: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+  content: '-';
+  transform: none;
+}
