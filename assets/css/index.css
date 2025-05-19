@@ -58,19 +58,25 @@
     color: #1E88E5; /* Opcional: color más oscuro al pasar el cursor */
   }
 
-  .accordion-button::after {
-  content: '+';
-  font-size: 1.5rem;
-  color: rgb(255, 255, 255);
-  transform: none;
+/* Quitar la flecha azul por defecto */
+.accordion-button::after {
+  display: none !important;
 }
 
-.accordion-button:not(.collapsed)::after {
-  content: '-';
-  transform: none;
-}
-
+/* Quitar el borde azul al hacer clic */
 .accordion-button:focus {
   box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.2);
   outline: none;
+}
+
+/* Íconos personalizados + y - */
+.accordion-button.custom-toggle::before {
+  content: '+';
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.accordion-button.custom-toggle:not(.collapsed)::before {
+  content: '-';
 }
