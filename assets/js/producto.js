@@ -57,7 +57,7 @@ fetch('productos.json')
             document.getElementById('marca-producto').textContent = producto.marca;
             document.getElementById('stock-producto').textContent = producto.stock;
             document.getElementById('precio-producto').innerHTML = `$${producto.precio_usd.toFixed(2)} <small class="text-muted">(S/ ${producto.precio_pen.toFixed(2)})</small>`;
-            document.getElementById('descripcion-producto').textContent = producto.descripcion || "Descripción no disponible.";
+            document.getElementById('descripcion-producto').textContent = producto.descripcion || "";
             // Información adicional // Especificaciones técnicas
            const infoLista = document.getElementById('info-adicional');
             infoLista.innerHTML = '';
