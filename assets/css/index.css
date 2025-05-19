@@ -59,22 +59,10 @@
   }
 
 
-
-/* Quitar el borde azul al hacer clic */
-.accordion-button:focus {
-  box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, 0.2);
-  outline: none;
-}
-
-/* Eliminar la flecha azul predeterminada */
-.accordion-button::after {
-  font-size: 1.5rem;
-  color: rgb(253, 253, 253);
-  content: '+';  /* Signo por defecto */
-  transform: none !important;
-}
-
-/* Cambiar a – cuando está abierto */
-.accordion-button:not(.collapsed)::after {
-  content: '-';
-}
+.info-tecnica p {
+    margin-bottom: 6px;
+  }
+  .info-tecnica strong {
+    display: inline-block;
+    width: 120px; /* Ajusta según tu necesidad */
+  }
