@@ -15,9 +15,9 @@
       "subcategoria": "alambricos",
       "destacado": false,
       "info_adicional": {
-        "Color": "Blanco",
-        "Conectividad": "Bluetooth 5.0",
-        "Duración de batería": "10 horas"
+        "Control de volumen": "Si",
+        "Entrada:": "Tipo C",
+        "Micrófono": "Si"
         }
     },
     {
