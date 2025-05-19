@@ -69,14 +69,15 @@
   outline: none;
 }
 
-/* Íconos personalizados + y - */
-.accordion-button.custom-toggle::before {
-  content: '+';
+/* Eliminar la flecha azul predeterminada */
+.accordion-button::after {
   font-size: 1.5rem;
-  margin-right: 0.5rem;
-  color: rgb(255, 255, 255);
+  color: black;
+  content: '+';  /* Signo por defecto */
+  transform: none !important;
 }
 
-.accordion-button.custom-toggle:not(.collapsed)::before {
+/* Cambiar a – cuando está abierto */
+.accordion-button:not(.collapsed)::after {
   content: '-';
 }
