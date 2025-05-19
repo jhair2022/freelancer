@@ -61,7 +61,7 @@
   .accordion-button::after {
   content: '+';
   font-size: 1.5rem;
-  color: white;
+  color: black;
   transform: none;
 }
 
