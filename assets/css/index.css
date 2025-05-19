@@ -58,10 +58,7 @@
     color: #1E88E5; /* Opcional: color más oscuro al pasar el cursor */
   }
 
-/* Quitar la flecha azul por defecto */
-.accordion-button::after {
-  display: none !important;
-}
+
 
 /* Quitar el borde azul al hacer clic */
 .accordion-button:focus {
