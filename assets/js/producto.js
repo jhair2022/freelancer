@@ -58,22 +58,27 @@ fetch('productos.json')
             document.getElementById('stock-producto').textContent = producto.stock;
             document.getElementById('precio-producto').innerHTML = `$${producto.precio_usd.toFixed(2)} <small class="text-muted">(S/ ${producto.precio_pen.toFixed(2)})</small>`;
             document.getElementById('descripcion-producto').textContent = producto.descripcion || "Descripción no disponible.";
-            // Información adicional
-            const infoLista = document.getElementById('info-adicional');
-            infoLista.innerHTML = '';
-
+            // Información adicional // Especificaciones técnicas
+           
             if (producto.info_adicional) {
-                for (const clave in producto.info_adicional) {
-                    infoLista.innerHTML += `
-                        <li class="list-group-item">
-                            <strong>${clave}:</strong> ${producto.info_adicional[clave]}
-                        </li>
-                    `;
-                }
-            } else {
-                infoLista.innerHTML = "<li class='list-group-item'>Sin información adicional.</li>";
+            const lista = document.getElementById("info-adicional");
+            for (const clave in producto.info_adicional) {
+                const li = document.createElement("li");
+                li.innerHTML = `<strong>${clave}:</strong> ${producto.info_adicional[clave]}`;
+                lista.appendChild(li);
             }
-            
+            }
+
+            // Contenido de la caja
+            if (producto.en_la_caja) {
+            const listaCaja = document.getElementById("contenido-caja");
+            producto.en_la_caja.forEach(item => {
+                const li = document.createElement("li");
+                li.textContent = item;
+                listaCaja.appendChild(li);
+            });
+            }
+                        
             // AQUÍ se configura el botón
             document.getElementById('btn-agregar-carrito').addEventListener('click', () => {
                 let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
