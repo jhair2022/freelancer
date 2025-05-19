@@ -59,25 +59,20 @@ fetch('productos.json')
             document.getElementById('precio-producto').innerHTML = `$${producto.precio_usd.toFixed(2)} <small class="text-muted">(S/ ${producto.precio_pen.toFixed(2)})</small>`;
             document.getElementById('descripcion-producto').textContent = producto.descripcion || "Descripción no disponible.";
             // Información adicional // Especificaciones técnicas
-           
+           const infoLista = document.getElementById('info-adicional');
+            infoLista.innerHTML = '';
+
             if (producto.info_adicional) {
-            const lista = document.getElementById("info-adicional");
             for (const clave in producto.info_adicional) {
-                const li = document.createElement("li");
-                li.innerHTML = `<strong>${clave}:</strong> ${producto.info_adicional[clave]}`;
-                lista.appendChild(li);
+                infoLista.innerHTML += `
+                <p><strong>${clave}</strong>: ${producto.info_adicional[clave]}</p>
+                `;
             }
+            } else {
+            infoLista.innerHTML = "<p>Sin información adicional.</p>";
             }
 
-            // Contenido de la caja
-            if (producto.en_la_caja) {
-            const listaCaja = document.getElementById("contenido-caja");
-            producto.en_la_caja.forEach(item => {
-                const li = document.createElement("li");
-                li.textContent = item;
-                listaCaja.appendChild(li);
-            });
-            }
+           
                         
             // AQUÍ se configura el botón
             document.getElementById('btn-agregar-carrito').addEventListener('click', () => {
