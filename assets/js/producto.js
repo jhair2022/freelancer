@@ -58,16 +58,28 @@ fetch('productos.json')
             document.getElementById('stock-producto').textContent = producto.stock;
             document.getElementById('precio-producto').innerHTML = `$${producto.precio_usd.toFixed(2)} <small class="text-muted">(S/ ${producto.precio_pen.toFixed(2)})</small>`;
             document.getElementById('descripcion-producto').textContent = producto.descripcion || "";
-            // Información adicional // Especificaciones técnicas
-           const infoLista = document.getElementById('info-adicional');
+            // Información adicional CARACTERISTICAS PRINCIPALES
+            const infoLista = document.getElementById('info-adicional');
             infoLista.innerHTML = '';
 
             if (producto.info_adicional) {
+            let contenido = '<div class="row">';
             for (const clave in producto.info_adicional) {
-                infoLista.innerHTML += `
-                <p><strong>${clave}</strong>: ${producto.info_adicional[clave]}</p>
+                contenido += `
+                <div class="col-12 col-md-6 mb-3">
+                    <div class="d-flex align-items-center border rounded p-3 bg-light h-100">
+                    <div class="me-3 text-success">
+                        <i class="bi bi-info-circle-fill fs-4"></i>
+                    </div>
+                    <div>
+                        <p class="mb-0"><strong>${clave}:</strong> ${producto.info_adicional[clave]}</p>
+                    </div>
+                    </div>
+                </div>
                 `;
             }
+            contenido += '</div>';
+            infoLista.innerHTML = contenido;
             } else {
             infoLista.innerHTML = "<p>Sin información adicional.</p>";
             }
