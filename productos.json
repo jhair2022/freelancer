@@ -6,7 +6,7 @@
       "imagenes_adicionales": [
             "assets/img/productos/california2.jpg"
         ],
-        "stock": "Disponible",
+        "stock": "Agotado",
       "modelo": "california",
       "marca": "Generico",
       "precio_usd": 4.00,
@@ -23,7 +23,7 @@
         "id": 2,
         "nombre": "AUDÍFONO BT EWTOO",
         "imagen": "assets/img/productos/audifono-ewtto.jfif",
-        "stock": "Disponible",
+        "stock": "Agotado",
         "modelo": "",
         "marca": "Ewtto",
         "precio_usd": 3.99,
