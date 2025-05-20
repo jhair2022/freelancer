@@ -63,14 +63,9 @@
     margin-bottom: 6px;
   }
 
-  .info-tecnica {
-  border: 2px solid #ccc;
-  padding: 40px 20px; /* 40px arriba y abajo, 20px lados en PC */
-  background-color: #fff;
-}
+/*.info-tecnica strong {
+    display: inline-block;
+    width: 100px; 
+  } /*
 
-@media (max-width: 576px) {
-  .info-tecnica {
-    padding: 15px 10px; /* menos espacio arriba/abajo y lados en móvil */
-  }
-}
+  
