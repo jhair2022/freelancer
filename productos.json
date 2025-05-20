@@ -304,7 +304,7 @@
         "categoria": "parlantes",
         "subcategoria": "Lidimi",
         "destacado": false,
-         "info_adicional": {
+        "info_adicional": {
             "Potencia": "20W",
             "Tamaño": "23 x 10 x 10 cm",
             "Duración de la batería": "6 horas",
@@ -327,8 +327,10 @@
         "subcategoria": "Lidimi",
         "destacado": false,
         "info_adicional": {
-        "Potencia": "40 W",
-        "Dimensiones": "9 x 24 cm"
+            "Potencia": "40W",
+            "Tamaño": "29 x 11.7 x 11 cm",
+            "Duración de la batería": "5 horas",
+            "Material": "ABS"
         }
     },
     {
