@@ -317,7 +317,7 @@
         "precio_pen": 150.00,
         "categoria": "parlantes",
         "subcategoria": "Lidimi",
-        "destacado": false,
+        "destacado": true,
         "info_adicional": {
         "Potencia": "40 W",
         "Dimensiones": "9 x 24 cm"
