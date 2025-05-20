@@ -16,7 +16,7 @@
       "destacado": false,
       "info_adicional": {
         "Entrada": "Tipo C",
-        "Incluye": "Microfono integrado"
+        "Incluye": "Microfono"
         }
     },
     {
@@ -279,7 +279,11 @@
         "precio_pen": 109.00,
         "categoria": "parlantes",
         "subcategoria": "Lidimi",
-        "destacado": true
+        "destacado": false,
+        "info_adicional": {
+        "Potencia": "20 Watts",
+        "Incluye": "Cable tipo C"
+        }
     },
     {
         "id": 31,
@@ -313,7 +317,11 @@
         "precio_pen": 150.00,
         "categoria": "parlantes",
         "subcategoria": "Lidimi",
-        "destacado": false
+        "destacado": false,
+        "info_adicional": {
+        "Potencia": "40 Watts",
+        "Incluye": "Cable tipo C"
+        }
     },
     {
         "id": 33,
