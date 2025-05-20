@@ -317,7 +317,7 @@
         "precio_pen": 150.00,
         "categoria": "parlantes",
         "subcategoria": "Lidimi",
-        "destacado": true,
+        "destacado": false,
         "info_adicional": {
         "Potencia": "40 W",
         "Dimensiones": "9 x 24 cm"
@@ -347,7 +347,7 @@
         "precio_pen": 110.00,
         "categoria": "parlantes",
         "subcategoria": "Ewtto",
-        "destacado": false
+        "destacado": true
     },
     {
         "id": 35,
