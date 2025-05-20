@@ -282,7 +282,9 @@
         "destacado": false,
         "info_adicional": {
         "Potencia": "20 W",
-        "Dimensiones": "9 x 24 cm"
+        "Tamaño": "22.2 x 10.4 x 10.6 cm",
+        "Duración de la batería": "10 horas",
+        "Material": "ABS"
         }
     },
     {
