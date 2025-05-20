@@ -65,7 +65,6 @@
 
   .info-tecnica {
   border: 2px solid #ccc;
-  border-radius: 20px;
   padding: 40px 20px; /* 40px arriba y abajo, 20px lados en PC */
   background-color: #fff;
 }
@@ -73,6 +72,5 @@
 @media (max-width: 576px) {
   .info-tecnica {
     padding: 15px 10px; /* menos espacio arriba/abajo y lados en móvil */
-    border-radius: 6px;
   }
 }
