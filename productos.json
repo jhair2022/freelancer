@@ -77,7 +77,7 @@
     },
     {
         "id": 6,
-        "nombre": "AUDÍFONO JACK 3.5",
+        "nombre": "AUDÍFONO ONCE 310",
         "imagen": "assets/img/productos/aud-oc-310.jpg",
         "stock": "Disponible",
         "modelo": "OC-310",
@@ -263,7 +263,7 @@
     },
     {
         "id": 19,
-        "nombre": "Audifono Jack L",
+        "nombre": "AUDIFONO BOSSNEY A1054",
         "imagen": "assets/img/productos/aud-bs-a1054.jpg",
         "imagenes_adicionales": [
             "assets/img/productos/aud-bs-a1054-2.jpg"
@@ -275,7 +275,11 @@
         "precio_pen": 6.00,
         "categoria": "audifonos",
         "subcategoria": "alambricos",
-        "destacado": false
+        "destacado": false,
+        "info_adicional": {
+            "Entrada": "Jack 3.5mm",
+            "Incluye": "Microfono"
+        }
     },
     {
         "id": 30,
