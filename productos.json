@@ -34,7 +34,7 @@
     },
     {
         "id": 3,
-        "nombre": "AUDÍFONO BT DEXBO",
+        "nombre": "AUDÍFONO BT DEXBO A975B",
         "imagen": "assets/img/productos/audifono-dexbo.jpg",
         "stock": "Agotado",
         "modelo": "DE-A975B",
@@ -56,11 +56,17 @@
         "precio_pen": 45.00,
         "categoria": "audifonos",
         "subcategoria": "bluetooth",
-        "destacado": false
+        "destacado": false,
+        "info_adicional": {
+            "Distancia": "Tipo C",
+            "Tiempo de Carga": "2 h",
+            "Batería de auriculares": "25 mAh",
+            "Batería de caja": "250 mAh"
+        }
     },
     {
         "id": 5,
-        "nombre": "AUDÍFONO TC ET-A1046MC",
+        "nombre": "AUDÍFONO TC EWTTO A1046MC",
         "imagen": "assets/img/productos/aud-a1046mc.jpg",
         "stock": "Disponible",
         "modelo": "ET-A1046MC",
@@ -299,7 +305,7 @@
         "info_adicional": {
             "Potencia": "20W",
             "Tamaño": "22 x 10.4 x 10.6cm",
-            "Duración de batería": "10 horas",
+            "Duración de batería": "10 h",
             "Material": "ABS"
         }
     },
@@ -345,7 +351,7 @@
         "info_adicional": {
             "Potencia": "40W",
             "Tamaño": "29 x 11.7 x 11cm",
-            "Duración de batería": "5 horas",
+            "Duración de batería": "5 h",
             "Material": "ABS"
         }
     },
@@ -364,7 +370,7 @@
         "info_adicional": {
             "Potencia": "20W",
             "Tamaño": "21.6 x 11 x 11cm",
-            "Duración de batería": "10 horas",
+            "Duración de batería": "10 h",
             "Material": "ABS"
         }
     },
