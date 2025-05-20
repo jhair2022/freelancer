@@ -51,7 +51,7 @@ fetch('productos.json')
                         </div>
                         <div class="card-body">
                             <p class="card-title fw-bold small">${producto.nombre}</p>
-                            <p class="small mb-1 fw-bold">
+                            <p class="small mb-1">
                             Stock: <span class="${producto.stock === 'Disponible' ? 'text-success' : 'text-danger'}">${producto.stock}</span>
                             </p>
                             <p class="text-muted small mb-1">Marca: ${producto.marca}</p>
