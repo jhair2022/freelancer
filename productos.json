@@ -69,7 +69,11 @@
         "precio_pen": 15.00,
         "categoria": "audifonos",
         "subcategoria": "alambricos",
-        "destacado": true
+        "destacado": true,
+        "info_adicional": {
+            "Entrada": "Tipo C",
+            "Incluye": "Microfono"
+        }
     },
     {
         "id": 6,
@@ -82,7 +86,11 @@
         "precio_pen": 14.00,
         "categoria": "audifonos",
         "subcategoria": "alambricos",
-        "destacado": false
+        "destacado": false,
+        "info_adicional": {
+            "Entrada": "Jack 3.5mm",
+            "Incluye": "Microfono"
+        }
     },
     {
         "id": 7,
@@ -238,16 +246,20 @@
     },
     {
         "id": 18,
-        "nombre": "AUDIFONO JACK 3.5 SAMSUNG",
+        "nombre": "AUDIFONO SAMSUNG",
         "imagen": "assets/img/productos/aud-sam-jack.jpg",
         "stock": "Disponible",
         "modelo": "",
-        "marca": "Dexbo",
+        "marca": "Generico",
         "precio_usd": 4.99,
         "precio_pen": 15.00,
         "categoria": "audifonos",
         "subcategoria": "alambricos",
-        "destacado": false
+        "destacado": false,
+        "info_adicional": {
+            "Entrada": "Jack 3.5mm",
+            "Incluye": "Microfono"
+        }
     },
     {
         "id": 19,
