@@ -36,7 +36,7 @@
         "id": 3,
         "nombre": "AUDÍFONO BT DEXBO",
         "imagen": "assets/img/productos/audifono-dexbo.jpg",
-        "stock": "Disponible",
+        "stock": "Agotado",
         "modelo": "DE-A975B",
         "marca": "Dexbo",
         "precio_usd": 3.99,
