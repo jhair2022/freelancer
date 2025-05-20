@@ -62,7 +62,8 @@
 .info-tecnica p {
     margin-bottom: 6px;
   }
-  .info-tecnica strong {
+
+/*.info-tecnica strong {
     display: inline-block;
-    width: 100px; /* Ajusta según tu necesidad */
-  }
+    width: 100px; 
+  } /*
