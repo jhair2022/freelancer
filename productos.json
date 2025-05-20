@@ -344,7 +344,13 @@
         "precio_pen": 110.00,
         "categoria": "parlantes",
         "subcategoria": "Lidimi",
-        "destacado": false
+        "destacado": false,
+        "info_adicional": {
+            "Potencia": "20W",
+            "Tamaño": "21.6 x 11 x 11cm",
+            "Duración de batería": "10 horas",
+            "Material": "ABS"
+        }
     },
     {
         "id": 34,
