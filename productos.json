@@ -434,6 +434,25 @@
             "Duración de batería": "10 h",
             "Material": "ABS"
         }
+    },
+    {
+        "id": 38,
+        "nombre": "PARLANTE LD-S652",
+        "imagen": "assets/img/productos/parlante-s652.png",
+        "stock": "Disponible",
+        "modelo": "EW-P120B",
+        "marca": "Ewtto",
+        "precio_usd": 59.00,
+        "precio_pen": 130.00,
+        "categoria": "parlantes",
+        "subcategoria": "Lidimi",
+        "destacado": false,
+        "info_adicional": {
+            "Potencia": "30W",
+            "Tamaño": "9 x 24cm",
+            "Duración de batería": "5-7h",
+            "Material": "ABS"
+        }
     }
     
 ]
