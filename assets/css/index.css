@@ -60,9 +60,8 @@
 
 
 .info-tecnica p {
-  margin: 0 !important;
-  line-height: 1.2;
-}
+    margin-bottom: 4px;
+  }
 
 /*.info-tecnica strong {
     display: inline-block;
