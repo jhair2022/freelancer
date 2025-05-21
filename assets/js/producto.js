@@ -67,7 +67,7 @@ fetch('productos.json')
             for (const clave in producto.info_adicional) {
                 contenido += `
                 <div class="col-12 col-md-6 mb-3">
-                    <div class="d-flex align-items-center border rounded p-3 bg-light h-100">
+                    <div class="d-flex align-items-center border rounded p-2 bg-light h-100">
                     <div class="me-3 text-primary">
                         <i class="bi bi-info-circle-fill fs-4"></i>
                     </div>
