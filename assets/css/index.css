@@ -65,8 +65,8 @@
 
 .texto-superior {
   font-size: 15px; /* o 16px */
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   font-family: 'Roboto', sans-serif;
 }
 
