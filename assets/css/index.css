@@ -62,6 +62,7 @@
 .info-tecnica p {
     margin-bottom: 6px;
     padding: 5px; /* Reduce el espacio interno */
+    font-size: 10px;
   }
 
 /*.info-tecnica strong {
