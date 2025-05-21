@@ -17,8 +17,7 @@
 
 
   .dropdown-item:hover {
-    background-color: #3e3f3f52; /* Cambia el color de fondo */
-    color: white !important;   /* Asegura que el texto sea blanco */
+    background-color: #86888852; /* Cambia el color de fondo */
   }
   
   .whatsapp-fijo {
