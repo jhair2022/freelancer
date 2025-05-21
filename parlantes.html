@@ -84,25 +84,54 @@
     </header>
 
 
-     <!-- Menú Offcanvas SOLO MOVIL-->
+   <!-- Menú Offcanvas SOLO MOVIL-->
     <div class="offcanvas offcanvas-start" tabindex="-1" id="menuLateral">
       <div class="offcanvas-header">
         <h5 class="offcanvas-title">Menú</h5>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
       </div>
+
       <div class="offcanvas-body">
         <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">POR CATEGORÍA</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="audifonos.html">Audífonos</a></li>
-              <li><a class="dropdown-item" href="cargadores.html">Cargadores</a></li>
-              <li><a class="dropdown-item" href="#">Computo</a></li>
-              <li><a class="dropdown-item" href="parlantes.html">Parlantes</a></li>
-            </ul>
+
+          <!-- INICIO -->
+          <li class="nav-item mb-2">
+            <a href="index.html" class="nav-link rounded shadow-sm px-3 py-2 d-flex align-items-center">
+              <i class="bi bi-house-door me-2 text-primary"></i> Inicio
+            </a>
           </li>
-          <li class="nav-item"><a class="nav-link" href="#">SERVICIOS</a></li>
-          <li class="nav-item"><a class="nav-link" href="formasdepago.html">FORMAS DE PAGO</a></li>
+
+          <!-- POR CATEGORÍA (con submenú colapsable) -->
+          <li class="nav-item mb-2">
+            <a class="nav-link rounded shadow-sm px-3 py-2 d-flex justify-content-between align-items-center"
+              data-bs-toggle="collapse" href="#submenuCategorias" role="button" aria-expanded="false" aria-controls="submenuCategorias">
+              <span><i class="bi bi-grid-3x3-gap me-2 text-primary"></i> Por Categoría</span>
+              <i class="bi bi-chevron-down"></i>
+            </a>
+            <div class="collapse ps-4 mt-1" id="submenuCategorias">
+              <ul class="list-unstyled">
+                <li><a class="nav-link px-3 py-2" href="audifonos.html">Audífonos</a></li>
+                <li><a class="nav-link px-3 py-2" href="cargadores.html">Cargadores</a></li>
+                <li><a class="nav-link px-3 py-2" href="#">Computo</a></li>
+                <li><a class="nav-link px-3 py-2" href="parlantes.html">Parlantes</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <!-- SERVICIOS -->
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link rounded shadow-sm px-3 py-2 d-flex align-items-center">
+              <i class="bi bi-tools me-2 text-primary"></i> Servicios
+            </a>
+          </li>
+
+          <!-- FORMAS DE PAGO -->
+          <li class="nav-item mb-2">
+            <a href="formasdepago.html" class="nav-link rounded shadow-sm px-3 py-2 d-flex align-items-center">
+              <i class="bi bi-credit-card me-2 text-primary"></i> Formas de pago
+            </a>
+          </li>
+
         </ul>
       </div>
     </div>
