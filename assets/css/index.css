@@ -17,7 +17,7 @@
 
 
   .dropdown-item:hover {
-    background-color: #00774552; /* Cambia el color de fondo */
+    background-color: #3e3f3f52; /* Cambia el color de fondo */
     color: white !important;   /* Asegura que el texto sea blanco */
   }
   
@@ -55,7 +55,7 @@
   }
 
   .breadcrumb a:hover {
-    color: #1E88E5; /* Opcional: color más oscuro al pasar el cursor */
+    color: #1767ad; /* Opcional: color más oscuro al pasar el cursor */
   }
 
 
