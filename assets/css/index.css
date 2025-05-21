@@ -63,9 +63,17 @@
     margin-bottom: 4px;
   }
 
+.texto-superior {
+  font-size: 15px; /* o 16px */
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+
 /*.info-tecnica strong {
     display: inline-block;
     width: 100px; 
   } /*
 
+  
   
