@@ -60,8 +60,7 @@
 
 
 .info-tecnica p {
-    margin-bottom: 6px;
-    margin: 0; /* Elimina el espacio vertical */
+    margin-bottom: 2px;
   }
 
 /*.info-tecnica strong {
