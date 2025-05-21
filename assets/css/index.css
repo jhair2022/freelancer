@@ -17,7 +17,7 @@
 
 
   .dropdown-item:hover {
-    background-color: #034c8b; /* Cambia el color de fondo */
+    background-color: #00774552; /* Cambia el color de fondo */
     color: white !important;   /* Asegura que el texto sea blanco */
   }
   
