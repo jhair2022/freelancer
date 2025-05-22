@@ -23,7 +23,7 @@
   }
   
   .input-group input {
-    border: 2px solid #505050;
+    border: 2px solid #8a8a8a;
     box-shadow: 0 0 5px rgba(13, 110, 253, 0.1);
   }
   
@@ -32,7 +32,7 @@
   }
   
   .input-group button {
-    background-color: #505050;
+    background-color: #8a8a8a;
     border: none;
   }
   
