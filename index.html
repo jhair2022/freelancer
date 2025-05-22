@@ -137,28 +137,35 @@
     </div>
 
 
-    <!-- MENU BAR SOLO ESCRITORIO -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light border-top py-2">
-      <div class="container">
-        
-        <!-- Contenido del menú -->
-         <div class="collapse navbar-collapse" id="menuNav">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">POR CATEGORÍA</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="audifonos.html">Audífonos</a></li>  
-                <li><a class="dropdown-item" href="cargadores.html">Cargadores</a></li>
-                <li><a class="dropdown-item" href="#">Computo</a></li>
-                <li><a class="dropdown-item" href="parlantes.html">Parlantes</a></li>
-              </ul>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="#">SERVICIOS</a></li>
-            <li class="nav-item"><a class="nav-link" href="formasdepago.html">FORMAS DE PAGO</a></li>
-          </ul>
-        </div>
+  <!-- NAVBAR ESTILO MODERNO SOLO ESCRITORIO -->
+  <nav class="d-none d-lg-flex py-3">
+    <div class="container d-flex align-items-center gap-2">
+
+      <!-- Botón: POR CATEGORÍA -->
+      <div class="dropdown">
+        <button class="btn btn-dark rounded-pill px-4 py-2 d-flex align-items-center gap-2" data-bs-toggle="dropdown">
+          <i class="bi bi-circle-fill text-white"></i>
+          <strong class="text-white">POR CATEGORÍA</strong>
+          <i class="bi bi-chevron-down text-white ms-2"></i>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="audifonos.html">Audífonos</a></li>  
+          <li><a class="dropdown-item" href="cargadores.html">Cargadores</a></li>
+          <li><a class="dropdown-item" href="#">Computo</a></li>
+          <li><a class="dropdown-item" href="parlantes.html">Parlantes</a></li>
+        </ul>
       </div>
-    </nav>
+
+      <!-- Sección turquesa con enlaces -->
+      <div class="bg-turquesa text-white rounded-pill px-4 py-2 d-flex align-items-center gap-3">
+        <a href="#" class="text-white text-decoration-none fw-semibold">SERVICIOS</a>
+        <span class="text-white">|</span>
+        <a href="formasdepago.html" class="text-white text-decoration-none fw-semibold">FORMAS DE PAGO</a>
+      </div>
+
+    </div>
+  </nav>
+
   
     <!-- CAROUSEL -->
     <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
