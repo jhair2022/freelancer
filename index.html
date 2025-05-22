@@ -136,35 +136,35 @@
       </div>
     </div>
 
+  <!-- NAVBAR ESTILO DISEÑO SUPERPUESTO -->
+  <nav class="d-none d-lg-block py-3 position-relative">
+    <div class="container position-relative d-flex align-items-center">
 
-    <!-- NAVBAR ESTILO DISEÑO SUPERPUESTO -->
-    <nav class="d-none d-lg-block py-3 position-relative">
-      <div class="container position-relative">
-
-        <!-- Fondo turquesa (bloque principal) -->
-        <div class="bg-turquesa rounded-pill w-100 py-2 px-5 d-flex justify-content-center align-items-center">
-          <a href="#" class="text-white text-decoration-none fw-semibold me-3">SERVICIOS</a>
-          <span class="text-white">|</span>
-          <a href="formasdepago.html" class="text-white text-decoration-none fw-semibold ms-3">FORMAS DE PAGO</a>
-        </div>
-
-        <!-- Botón negro encima (superpuesto y centrado verticalmente) -->
-        <div class="dropdown position-absolute top-50 start-0 translate-middle-y" style="z-index: 2;">
-          <button class="btn btn-dark rounded-pill px-4 py-2 d-flex align-items-center gap-2" data-bs-toggle="dropdown">
-            <i class="bi bi-circle-fill text-white"></i>
-            <strong class="text-white">POR CATEGORÍA</strong>
-            <i class="bi bi-chevron-down text-white ms-2"></i>
-          </button>
-          <ul class="dropdown-menu mt-2">
-            <li><a class="dropdown-item" href="audifonos.html">Audífonos</a></li>
-            <li><a class="dropdown-item" href="cargadores.html">Cargadores</a></li>
-            <li><a class="dropdown-item" href="#">Computo</a></li>
-            <li><a class="dropdown-item" href="parlantes.html">Parlantes</a></li>
-          </ul>
-        </div>
-
+      <!-- Botón negro superpuesto y centrado verticalmente -->
+      <div class="dropdown position-relative z-2" style="margin-right: -20px;">
+        <button class="btn btn-dark rounded-pill px-4 py-2 d-flex align-items-center gap-2" data-bs-toggle="dropdown">
+          <i class="bi bi-circle-fill text-white"></i>
+          <strong class="text-white">POR CATEGORÍA</strong>
+          <i class="bi bi-chevron-down text-white ms-2"></i>
+        </button>
+        <ul class="dropdown-menu mt-2">
+          <li><a class="dropdown-item" href="audifonos.html">Audífonos</a></li>
+          <li><a class="dropdown-item" href="cargadores.html">Cargadores</a></li>
+          <li><a class="dropdown-item" href="#">Computo</a></li>
+          <li><a class="dropdown-item" href="parlantes.html">Parlantes</a></li>
+        </ul>
       </div>
-    </nav>
+
+      <!-- Bloque turquesa justo al lado del botón -->
+      <div class="bg-turquesa rounded-pill flex-grow-1 py-2 px-4 d-flex align-items-center" style="margin-left: -10px;">
+        <a href="#" class="text-white text-decoration-none fw-semibold me-3">SERVICIOS</a>
+        <span class="text-white">|</span>
+        <a href="formasdepago.html" class="text-white text-decoration-none fw-semibold ms-3">FORMAS DE PAGO</a>
+      </div>
+
+    </div>
+  </nav>
+
 
 
 
