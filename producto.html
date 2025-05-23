@@ -53,7 +53,7 @@
             <!-- Carrito -->
             <a href="carrito.html" class="text-dark position-relative me-2">
               <i class="bi bi-cart fs-4"></i>
-              <span id="carrito-badge-movil" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">0</span>
+              <span id="carrito-badge-movil" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">0</span>
             </a>
           </div>
     
@@ -198,57 +198,63 @@
           
     </div>
 
-    <!-- INFORMACION DE PRODUCTO -->
-    <div class="container py-2">
-      <div class="row" id="detalle-producto">
-        
-        <!-- Miniaturas (solo visibles en pantallas medianas en adelante) -->
-        <div class="col-md-2 d-none d-md-flex flex-column align-items-center gap-2" id="galeria-imagenes">
-          <!-- Miniaturas aquí (se insertan dinámicamente) -->
-        </div>
+   <!-- INFORMACIÓN DE PRODUCTO -->
+<div class="container py-2">
+  <div class="row">
 
-        <!-- Imagen principal (visible solo en pantallas medianas en adelante) -->
-        <div class="col-md-6 d-none d-md-block">
-          <img id="imagen-principal" src="" alt="" class="img-fluid border">
-        </div>
+    <!-- Galería de imágenes -->
+    <div class="col-lg-2 d-none d-lg-flex flex-column align-items-center gap-2" id="galeria-imagenes">
+      <!-- Miniaturas aquí -->
+    </div>
 
-        <!-- Carrusel para móviles -->
-        <div class="col-12 d-block d-md-none mb-3">
-          <div id="carouselMobile" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner" id="carousel-inner">
-              <!-- Imágenes se insertan dinámicamente desde JS -->
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselMobile" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselMobile" data-bs-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </button>
-          </div>
-        </div>
+    <!-- Imagen principal -->
+    <div class="col-lg-5 d-none d-lg-block">
+      <img id="imagen-principal" src="" alt="" class="img-fluid border w-100">
+    </div>
 
-        <!-- Información del producto -->
-        <div class="col-md-4">
-          <h1 id="nombre-producto" class="fs-3"></h1>
-
-          <div class="py-3">
-            <p><strong>Referencia :</strong> <span id="modelo-producto"></span></p>
-            <p><strong>Stock : </strong> <span id="stock-producto"></span></p>
-            <p><strong>Marca : </strong> <span id="marca-producto" class="text-muted"></span></p>
-          </div>
-
-          <div class="d-flex align-items-center gap-2 mb-3">
-            <button class="btn btn-outline-secondary" type="button" onclick="cambiarCantidad(-1)">-</button>
-            <input type="number" id="cantidad-producto" class="form-control text-center" value="1" min="1" style="width: 60px;">
-            <button class="btn btn-outline-secondary" type="button" onclick="cambiarCantidad(1)">+</button>
-          </div>
-
-          <h3 class="text-primary" id="precio-producto"></h3>
-          <p id="descripcion-producto"></p>
-          <button class="btn btn-primary mt-3" id="btn-agregar-carrito">Agregar al carrito</button>
-        </div>
+    <!-- Carrusel para móviles -->
+    <div class="col-12 d-block d-lg-none mb-3">
+      <div id="carouselMobile" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" id="carousel-inner"></div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselMobile" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselMobile" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
       </div>
     </div>
+
+    <!-- Información del producto -->
+    <div class="col-lg-3">
+      <h1 id="nombre-producto" class="fs-4"></h1>
+
+      <div class="py-2">
+        <p><strong>Referencia:</strong> <span id="modelo-producto"></span></p>
+        <p><strong>Stock:</strong> <span id="stock-producto"></span></p>
+        <p><strong>Marca:</strong> <span id="marca-producto" class="text-muted"></span></p>
+      </div>
+
+      <h4 class="text-success fw-bold" id="precio-producto"></h4>
+
+      <div class="d-flex align-items-center gap-2 mb-3">
+        <button class="btn btn-outline-secondary" type="button" onclick="cambiarCantidad(-1)">-</button>
+        <input type="number" id="cantidad-producto" class="form-control text-center" value="1" min="1" style="width: 60px;">
+        <button class="btn btn-outline-secondary" type="button" onclick="cambiarCantidad(1)">+</button>
+      </div>
+
+      <p id="descripcion-producto"></p>
+      <button class="btn btn-primary w-100" id="btn-agregar-carrito">Agregar al carrito</button>
+    </div>
+
+    <!-- Imagen lateral tipo "Comprar es muy fácil" -->
+    <div class="col-lg-2 mt-3 mt-lg-0">
+      <img src="ruta/de/tu/imagen-lateral.png" alt="Comprar fácil" class="img-fluid rounded shadow-sm">
+    </div>
+
+  </div>
+</div>
+
 
 
     <!--******** ESPECIFICACIONES TECNICAS ********-->        
