@@ -188,76 +188,71 @@
     </div>
   </nav>
  <!-- AQUI EMPIEZZA BREAD MAS CONTENIDO -->
-<div class="container">
+<div class="container mt-3">
   <div class="row">
-    
-    <!-- Breadcrumb + contenido en un solo bloque sin espacios -->
-    <div class="col-12">
-      <div class="d-flex align-items-start">
-        
-        <!-- Galería -->
-        <div class="d-none d-lg-flex flex-column align-items-center gap-2 me-3" id="galeria-imagenes" style="width: 80px;">
-          <!-- Miniaturas aquí -->
+
+    <!-- Miniaturas -->
+    <div class="col-lg-1 d-none d-lg-flex flex-column align-items-center gap-2" id="galeria-imagenes">
+      <!-- Miniaturas aquí -->
+    </div>
+
+    <!-- Breadcrumb + contenido -->
+    <div class="col-lg-11">
+      <!-- Breadcrumb al mismo nivel que las miniaturas -->
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-3" id="breadcrumb-producto">
+          <!-- Se inyecta desde JS -->
+        </ol>
+      </nav>
+
+      <!-- Contenido del producto -->
+      <div class="row">
+        <!-- Imagen principal -->
+        <div class="col-lg-6 d-none d-lg-block">
+          <img id="imagen-principal" src="" alt="" class="img-fluid border w-100">
         </div>
 
-        <!-- Contenedor derecha (breadcrumb + info + imagen principal + banner) -->
-        <div class="flex-grow-1">
-          
-          <!-- BREADCRUMB sin margen -->
-          <nav aria-label="breadcrumb">
-            <ol class="breadcrumb mb-1" id="breadcrumb-producto">
-              <!-- Aquí se inyecta con JS -->
-            </ol>
-          </nav>
-
-          <div class="row">
-            <!-- Imagen principal -->
-            <div class="col-lg-6 d-none d-lg-block">
-              <img id="imagen-principal" src="" alt="" class="img-fluid border w-100">
-            </div>
-
-            <!-- Carrusel móvil -->
-            <div class="col-12 d-block d-lg-none mb-3">
-              <div id="carouselMobile" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner" id="carousel-inner"></div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselMobile" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselMobile" data-bs-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-                </button>
-              </div>
-            </div>
-
-            <!-- Información del producto -->
-            <div class="col-lg-4">
-              <h1 id="nombre-producto" class="fs-4"></h1>
-              <div class="py-2">
-                <p><strong>Referencia:</strong> <span id="modelo-producto"></span></p>
-                <p><strong>Stock:</strong> <span id="stock-producto"></span></p>
-                <p><strong>Marca:</strong> <span id="marca-producto" class="text-muted"></span></p>
-              </div>
-              <h4 class="text-success fw-bold" id="precio-producto"></h4>
-              <div class="d-flex align-items-center gap-2 mb-3">
-                <button class="btn btn-outline-secondary" type="button" onclick="cambiarCantidad(-1)">-</button>
-                <input type="number" id="cantidad-producto" class="form-control text-center" value="1" min="1" style="width: 60px;">
-                <button class="btn btn-outline-secondary" type="button" onclick="cambiarCantidad(1)">+</button>
-              </div>
-              <p id="descripcion-producto"></p>
-              <button class="btn btn-primary w-100" id="btn-agregar-carrito">Agregar al carrito</button>
-            </div>
-
-            <!-- Banner lateral -->
-            <div class="col-lg-2 mt-3 mt-lg-0">
-              <img src="assets/img/compra.jpg" alt="Comprar fácil" class="img-fluid rounded shadow-sm">
-            </div>
+        <!-- Carrusel móvil -->
+        <div class="col-12 d-block d-lg-none mb-3">
+          <div id="carouselMobile" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" id="carousel-inner"></div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselMobile" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselMobile" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
           </div>
+        </div>
+
+        <!-- Información del producto -->
+        <div class="col-lg-4">
+          <h1 id="nombre-producto" class="fs-4"></h1>
+          <div class="py-2">
+            <p><strong>Referencia:</strong> <span id="modelo-producto"></span></p>
+            <p><strong>Stock:</strong> <span id="stock-producto"></span></p>
+            <p><strong>Marca:</strong> <span id="marca-producto" class="text-muted"></span></p>
+          </div>
+          <h4 class="text-success fw-bold" id="precio-producto"></h4>
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <button class="btn btn-outline-secondary" type="button" onclick="cambiarCantidad(-1)">-</button>
+            <input type="number" id="cantidad-producto" class="form-control text-center" value="1" min="1" style="width: 60px;">
+            <button class="btn btn-outline-secondary" type="button" onclick="cambiarCantidad(1)">+</button>
+          </div>
+          <p id="descripcion-producto"></p>
+          <button class="btn btn-primary w-100" id="btn-agregar-carrito">Agregar al carrito</button>
+        </div>
+
+        <!-- Imagen lateral -->
+        <div class="col-lg-2 mt-3 mt-lg-0">
+          <img src="assets/img/compra.jpg" alt="Comprar fácil" class="img-fluid rounded shadow-sm">
         </div>
       </div>
     </div>
 
   </div>
 </div>
+
 
 
 
