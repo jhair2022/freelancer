@@ -41,7 +41,7 @@ fetch('productos.json')
             todasLasImagenes.forEach((img, index) => {
                 // Miniatura escritorio
                 galeria.innerHTML += `
-                    <img src="${img}" class="img-thumbnail" style="width: 80px; cursor:pointer;" onclick="cambiarImagen('${img}')">
+                    <img src="${img}" class="img-thumbnail" style="width: 90px; cursor:pointer;" onclick="cambiarImagen('${img}')">
                 `;
 
                 // Carrusel móvil
