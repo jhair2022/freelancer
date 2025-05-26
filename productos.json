@@ -465,7 +465,7 @@
         "precio_pen": 190.00,
         "categoria": "cámara wifi",
         "subcategoria": "Cámara + Panel",
-        "destacado": true,
+        "destacado": false,
         "info_adicional": {
             "Potencia": "30W",
             "Tamaño": "9 x 24cm",
