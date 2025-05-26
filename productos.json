@@ -453,6 +453,25 @@
             "Duración de batería": "5-7h",
             "Material": "ABS"
         }
+    },
+    {
+        "id": 39,
+        "nombre": "CÁMARA WIFI CON PANEL",
+        "imagen": "assets/img/productos/parlante-s652.png",
+        "stock": "Disponible",
+        "modelo": "LD-S652",
+        "marca": "LIDIMI",
+        "precio_usd": 59.00,
+        "precio_pen": 130.00,
+        "categoria": "camaravigilancia",
+        "subcategoria": "Lidimi",
+        "destacado": false,
+        "info_adicional": {
+            "Potencia": "30W",
+            "Tamaño": "9 x 24cm",
+            "Duración de batería": "5-7h",
+            "Material": "ABS"
+        }
     }
     
 ]
