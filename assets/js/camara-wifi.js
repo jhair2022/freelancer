@@ -15,3 +15,15 @@ function verProducto(id) {
     localStorage.setItem("productoSeleccionado", id);
     window.location.href = "producto.html";
 }
+
+
+fetch('productos.json')
+.then(response => response.json())
+.then(productos => {
+    const contenedor = document.getElementById("productos-container");
+    const subcatDiv = document.getElementById("subcategorias");
+
+    const productosAudifonos = productos.filter(p => p.categoria === "camara-wifi");
+
+    // Obtener subcategorías únicas (evita vacíos)
+    const subcategorias = [...new Set(productosAudifonos.map(p => p.subcategoria).filter(Boolean))];
