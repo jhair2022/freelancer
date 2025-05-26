@@ -8,7 +8,13 @@ if (breadcrumb) {
       <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
       <li class="breadcrumb-item active" aria-current="page">Audífonos</li>
     `;
-  } else if (path.includes("cargadores.html")) {
+  } else if (path.includes("camaravigilancia.html")) {
+    breadcrumb.innerHTML = `
+      <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Cámara de Vigilancia</li>
+    `;
+  }
+  else if (path.includes("cargadores.html")) {
     breadcrumb.innerHTML = `
       <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
       <li class="breadcrumb-item active" aria-current="page">Cargadores</li>
@@ -20,11 +26,6 @@ if (breadcrumb) {
       <li class="breadcrumb-item active" aria-current="page">Parlantes</li>
     `;
   }
-   else if (path.includes("camaravigilancia.html")) {
-    breadcrumb.innerHTML = `
-      <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Cámara de Vigilancia</li>
-    `;
-  }
+   
   // Agrega más según necesites
 }
