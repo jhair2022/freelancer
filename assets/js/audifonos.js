@@ -2,7 +2,7 @@ function mostrarBreadcrumb(subcategoria = null) {
     const breadcrumb = document.getElementById('breadcrumb-producto');
     breadcrumb.innerHTML = `
         <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-        <li class="breadcrumb-item"><a href="audifonos.html">audífonos</a></li>
+        <li class="breadcrumb-item"><a href="audifonos.html">audifonos</a></li>
         ${subcategoria ? `<li class="breadcrumb-item active" aria-current="page">${capitalizar(subcategoria)}</li>` : ''}
     `;
 }
