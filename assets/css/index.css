@@ -76,3 +76,7 @@
 }
   
   
+.dropdown-menu {
+  min-width: 100%;
+  border-radius: 1rem; /* opcional, para mantener la estética redondeada */
+}
