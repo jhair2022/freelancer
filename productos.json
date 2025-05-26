@@ -472,6 +472,26 @@
             "Duración de batería": "5-7h",
             "Material": "ABS"
         }
+    },
+    {
+        "id": 40,
+        "nombre": "CÁMARA WIFI + PANEL H9013",
+        "imagen": "assets/img/productos/camara-h9005.png",
+        "stock": "Disponible",
+        "modelo": "",
+        "marca": "Bossney",
+        "precio_usd": 59.00,
+        "precio_pen": 190.00,
+        "categoria": "cámara wifi",
+        "subcategoria": "Cámara + Panel",
+        "destacado": true,
+        "info_adicional": {
+            "Potencia": "30W",
+            "Tamaño": "9 x 24cm",
+            "Duración de batería": "5-7h",
+            "Material": "ABS"
+        }
     }
     
 ]
+
