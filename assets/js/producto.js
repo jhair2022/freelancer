@@ -12,6 +12,7 @@ fetch('productos.json')
 
             const categoriaLinks = {
                 "audifonos": "audifonos.html",
+                "camara de vigilancia": "camaravigilancia.html",
                 "cargador": "cargadores.html",
                 "parlantes": "parlantes.html",
             };
