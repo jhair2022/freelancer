@@ -473,5 +473,25 @@
             "Material": "ABS"
         }
     }
+    ,
+    {
+        "id": 40,
+        "nombre": "CÁMARA WIFI CON PANEL",
+        "imagen": "assets/img/productos/aud-bs-a1054.jpg",
+        "stock": "Disponible",
+        "modelo": "",
+        "marca": "",
+        "precio_usd": 59.00,
+        "precio_pen": 130.00,
+        "categoria": "camara-wifi",
+        "subcategoria": "ip",
+        "destacado": true,
+        "info_adicional": {
+            "Potencia": "30W",
+            "Tamaño": "9 x 24cm",
+            "Duración de batería": "5-7h",
+            "Material": "ABS"
+        }
+    }
     
 ]
