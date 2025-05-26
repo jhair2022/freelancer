@@ -464,8 +464,8 @@
         "precio_usd": 59.00,
         "precio_pen": 130.00,
         "categoria": "camaravigilancia",
-        "subcategoria": "Lidimi",
-        "destacado": false,
+        "subcategoria": "camaravigilancia",
+        "destacado": true,
         "info_adicional": {
             "Potencia": "30W",
             "Tamaño": "9 x 24cm",
