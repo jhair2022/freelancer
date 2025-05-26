@@ -209,7 +209,7 @@
         "precio_pen": 10.00,
         "categoria": "cargador",
         "subcategoria": "Tipo C",
-        "destacado": true
+        "destacado": false
     },
     {
         "id": 15,
