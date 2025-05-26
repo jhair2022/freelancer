@@ -15,8 +15,7 @@
     
 <body>
 
-
-   <!-- PRIMERA BARRA ANTES DEL MENU -->
+ <!-- PRIMERA BARRA ANTES DEL MENU -->
   <div class="bg-light texto-superior d-none d-lg-block">
         <div class="container d-flex justify-content-between align-items-center">
             <div class="text-muted">
@@ -35,58 +34,59 @@
             </div>
         </div>
   </div> 
-
-    <header class="py-3 border-bottom">
-      <div class="container">
     
-        <!------ MODO CELULAR (EN ESTE ORDEN SOLO AMENTA EL CARRITO EN MODO CEL, pero si lo pongo abajo el modo celular solo aparece en modo escritorio)------>
-          <div class="d-flex justify-content-between align-items-center d-flex d-lg-none">
-            <!-- Botón hamburguesa -->
-            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
-              <i class="bi bi-list fs-3"></i>
-            </button>
+    <header class="py-3">
+        <div class="container">
       
-             <!-- Logo como imagen -->
+          <!------ MODO CELULAR ------>
+            <div class="d-flex justify-content-between align-items-center d-flex d-lg-none">
+               <!-- Botón hamburguesa nuevo -->
+              <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuLateral">
+                <i class="bi bi-list fs-3"></i>
+              </button>
+        
+               <!-- Logo como imagen -->
             <a href="index.html" class="text-decoration-none">
               <img src="assets/img/FREELANCER LOGO.png" alt="Logo Freelancer" style="height: 40px;">
             </a>
+        
+              <!-- Carrito -->
+              <a href="carrito.html" class="text-dark position-relative me-2">
+                <i class="bi bi-cart fs-4"></i>
+                <span id="carrito-badge-movil" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">0</span>
+              </a>
+            </div>
       
-            <!-- Carrito -->
-            <a href="carrito.html" class="text-dark position-relative me-2">
-              <i class="bi bi-cart fs-4"></i>
-              <span id="carrito-badge-movil" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">0</span>
-            </a>
-          </div>
-    
-        <!------- MODO ESCRITORIO -------->
-          <div class="d-none d-lg-flex justify-content-between align-items-center">
-            <!-- LOGO -->
+          <!------- MODO ESCRITORIO -------->
+            <div class="d-none d-lg-flex justify-content-between align-items-center">
+              <!-- LOGO -->
+               <!-- LOGO -->
             <a href="index.html" class="logo d-flex align-items-center text-decoration-none">
                 <img src="assets/img/FREELANCER LOGO.png" alt="Logo" class="logo-img" height="40">
             </a>
-      
-            <!-- SEARCH BAR -->
-            <form class="w-50">
-              <div class="input-group">
-                <input type="text" class="form-control rounded-start-pill" placeholder="Buscar productos">
-                <button class="btn btn-primary rounded-end-pill" type="submit">
-                  <i class="bi bi-search"></i>
-                </button>
+        
+              <!-- SEARCH BAR -->
+              <form class="w-50">
+                <div class="input-group">
+                  <input type="text" class="form-control rounded-start-pill" placeholder="Buscar productos">
+                  <button class="btn btn-primary rounded-end-pill" type="submit">
+                    <i class="bi bi-search"></i>
+                  </button>
+                </div>
+              </form>
+        
+              <!-- ICONS -->
+              <div class="d-flex align-items-center gap-3">
+                <a href="carrito.html" class="text-dark position-relative">
+                  <i class="bi bi-cart"></i>
+                  <span id="carrito-badge-escritorio" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">0</span>
+                </a>
               </div>
-            </form>
-      
-            <!-- ICONS CARRITO -->
-            <div class="d-flex align-items-center gap-3">
-              <a href="carrito.html" class="text-dark position-relative">
-                <i class="bi bi-cart"></i>
-                <span id="carrito-badge-escritorio" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">0</span>
-              </a>
             </div>
-          </div>
-    
-      </div>
+      
+        </div>
     </header>
-    
+
 
    <!-- Menú Offcanvas SOLO MOVIL-->
     <div class="offcanvas offcanvas-start" tabindex="-1" id="menuLateral">
@@ -147,8 +147,8 @@
         </button>
         <ul class="dropdown-menu mt-2">
           <li><a class="dropdown-item" href="audifonos.html">Audífonos</a></li>
+          <li><a class="dropdown-item" href="#">Cámaras de Vigilancia</a></li>
           <li><a class="dropdown-item" href="cargadores.html">Cargadores</a></li>
-          <li><a class="dropdown-item" href="#">Computo</a></li>
           <li><a class="dropdown-item" href="parlantes.html">Parlantes</a></li>
         </ul>
       </div>
@@ -162,7 +162,7 @@
 
     </div>
   </nav>
-    
+   
 
     <section class="formas-pago text-center py-3">
         <img src="assets/img/FORMASDEPAGO.png" alt="Formas de Pago - C&C Computer" class="img-fluid mx-auto d-block">
