@@ -81,23 +81,18 @@
   border-radius: 1rem; /* opcional, para mantener la estética redondeada */
 }
 
-/* Oculta el menú inicialmente */
-.dropdown-menu.dropdown-animado {
-  opacity: 0;
+.dropdown-menu.slide-down {
   transform: translateY(10px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
-  display: block; /* Evita que Bootstrap lo oculte completamente */
-  pointer-events: none; /* Evita que se haga clic cuando está oculto */
+  transition: transform 0.3s ease;
+  display: block;
+  pointer-events: none;
   visibility: hidden;
   min-width: 100%;
+  border-radius: 1rem; /* opcional, para que combine con el botón redondeado */
 }
 
-/* Cuando el dropdown está activo */
-.dropdown:hover .dropdown-menu.dropdown-animado,
-.dropdown.show .dropdown-menu.dropdown-animado {
-  opacity: 1;
+.dropdown.show .dropdown-menu.slide-down {
   transform: translateY(0);
   pointer-events: auto;
   visibility: visible;
 }
-
