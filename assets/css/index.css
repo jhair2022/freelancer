@@ -81,19 +81,4 @@
   border-radius: 1rem; /* opcional, para mantener la estética redondeada */
 }
 
-.dropdown-menu.slide-down {
-  transform: translateY(10px);
-  transition: transform 0.3s ease;
-  display: block;
-  pointer-events: none;
-  visibility: hidden;
-  min-width: 100%;
-  border-radius: 1rem; /* opcional, para que combine con el botón redondeado */
-}
-
-.dropdown.show .dropdown-menu.slide-down {
-  transform: translateY(0);
-  pointer-events: auto;
-  visibility: visible;
-}
 
