@@ -18,7 +18,6 @@ function verProducto(id) {
 }
 
 
-
 fetch('productos.json')
 .then(response => response.json())
 .then(productos => {
