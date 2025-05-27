@@ -360,6 +360,7 @@
         "nombre": "PARLANTE LIDIMI S843",
         "imagen": "assets/img/productos/parlante-ld-s843.png",
         "imagenes_adicionales": [
+            "assets/img/productos/parlante-ld-s843-2.1.png",
             "assets/img/productos/parlante-ld-s843-2.png"
         ],
         "stock": "Disponible",
