@@ -94,7 +94,7 @@
 
  /* Color de fondo del botón cuando está abierto */
   .accordion-button:not(.collapsed) {
-    background-color: #912abd; /* Cambia esto al color que quieras */
+    background-color: #6e288b; /* Cambia esto al color que quieras */
     color: #fff;            /* Color del texto */
   }
 
