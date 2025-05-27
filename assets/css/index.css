@@ -91,3 +91,20 @@
 .bg-categoria {
   background-color: #ffbc2d; /* Cambia el color a tu gusto */
 }
+
+ /* Color de fondo del botón cuando está abierto */
+  .accordion-button:not(.collapsed) {
+    background-color: #222; /* Cambia esto al color que quieras */
+    color: #fff;            /* Color del texto */
+  }
+
+  /* Color de texto cuando el botón está colapsado */
+  .accordion-button.collapsed {
+    background-color: #f8f9fa; /* Color del fondo cuando está cerrado */
+    color: #000;
+  }
+
+  /* Quita el borde azul que aparece al hacer clic */
+  .accordion-button:focus {
+    box-shadow: none;
+  }
