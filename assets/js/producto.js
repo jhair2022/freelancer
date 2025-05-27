@@ -6,10 +6,7 @@ fetch('productos.json')
         const producto = productos.find(p => p.id == productoId);
 
         if (producto) {
-
-            
             const breadcrumb = document.getElementById('breadcrumb-producto');
-
             const categoriaLinks = {
                 "audifonos": "audifonos.html",
                 "cámara wifi": "camara-wifi.html",
@@ -24,6 +21,12 @@ fetch('productos.json')
                 <li class="breadcrumb-item"><a href="${categoriaURL}">${producto.categoria}</a></li>
                 <li class="breadcrumb-item active" aria-current="page">${producto.nombre}</li>
             `;
+
+            // Generar enlace de WhatsApp con el nombre del producto
+            const mensaje = `Hola, estoy interesado en comprar este producto: ${producto.nombre}`;
+            const telefono = '51912345678'; // Reemplaza con tu número (sin +)
+            const enlace = `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`;
+            document.getElementById('btn-whatsapp').href = enlace;
 
 
             // Mostrar la imagen principal
@@ -145,15 +148,7 @@ function cambiarCantidad(cambio) {
     inputCantidad.value = cantidadActual;
 }
 
-// Suponiendo que el nombre del producto ya está en el span con id="nombre-producto"
-document.addEventListener('DOMContentLoaded', () => {
-  const nombre = document.getElementById('nombre-producto').textContent.trim();
-  const mensaje = `Hola, estoy interesado en comprar este producto: ${nombre}`;
-  const telefono = '51912345678'; // Cambia esto por tu número con código de país
 
-  const enlace = `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`;
-  document.getElementById('btn-whatsapp').href = enlace;
-});
 
 
 
