@@ -24,7 +24,7 @@ fetch('productos.json')
 
             // Generar enlace de WhatsApp con el nombre del producto
             const mensaje = `Hola, estoy interesado en comprar este producto: ${producto.nombre}`;
-            const telefono = '51912345678'; // Reemplaza con tu número (sin +)
+            const telefono = '51925523171'; // Reemplaza con tu número (sin +)
             const enlace = `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`;
             document.getElementById('btn-whatsapp').href = enlace;
 
