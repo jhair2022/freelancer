@@ -27,8 +27,8 @@
     background-color: #25d366;
     color: white;
     padding: 0;              /* quitar padding horizontal y vertical */
-    width: 50px;             /* tamaño fijo para botón cuadrado */
-    height: 50px;            /* igual alto y ancho para círculo */
+    width: 60px;             /* tamaño fijo para botón cuadrado */
+    height: 60px;            /* igual alto y ancho para círculo */
     border-radius: 50%;      /* círculo perfecto */
     font-weight: bold;
     text-decoration: none;
