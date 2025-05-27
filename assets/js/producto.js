@@ -145,4 +145,15 @@ function cambiarCantidad(cambio) {
     inputCantidad.value = cantidadActual;
 }
 
+// Suponiendo que el nombre del producto ya está en el span con id="nombre-producto"
+document.addEventListener('DOMContentLoaded', () => {
+  const nombre = document.getElementById('nombre-producto').textContent.trim();
+  const mensaje = `Hola, estoy interesado en comprar este producto: ${nombre}`;
+  const telefono = '51912345678'; // Cambia esto por tu número con código de país
+
+  const enlace = `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`;
+  document.getElementById('btn-whatsapp').href = enlace;
+});
+
+
 
