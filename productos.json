@@ -359,6 +359,10 @@
         "id": 33,
         "nombre": "PARLANTE LIDIMI S843",
         "imagen": "assets/img/productos/parlante-ld-s843.jpeg",
+        "imagenes_adicionales": [
+            "assets/img/productos/parlante-ld-s843-2.2.png",
+            "assets/img/productos/parlante-ld-s843-2.png"
+        ],
         "stock": "Disponible",
         "modelo": "LD-S843",
         "marca": "Lidimi",
