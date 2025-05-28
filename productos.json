@@ -34,7 +34,7 @@
     },
     {
         "id": 3,
-        "nombre": "AUDÍFONO BT PRO 6",
+        "nombre": "AUDÍFONO PRO 6",
         "imagen": "assets/img/productos/aud-pro6.png",
         "stock": "Disponible",
         "modelo": "PRO6",
@@ -47,7 +47,7 @@
     },
     {
         "id": 4,
-        "nombre": "AUDÍFONO BT EWTTO A4910B",
+        "nombre": "AUDÍFONO EWTTO A4910B",
         "imagen": "assets/img/productos/aud-bt-a4910b.jpg",
         "stock": "Disponible",
         "modelo": "ET-A4910B",
