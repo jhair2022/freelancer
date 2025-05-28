@@ -288,6 +288,19 @@
         }
     },
     {
+        "id": 20,
+        "nombre": "AUDÍFONO BT M28",
+        "imagen": "assets/img/productos/aud-m28.png",
+        "stock": "Disponible",
+        "modelo": "M28",
+        "marca": "Generico",
+        "precio_usd": 5.99,
+        "precio_pen": 26.00,
+        "categoria": "audifonos",
+        "subcategoria": "bluetooth",
+        "destacado": false
+    },
+    {
         "id": 30,
         "nombre": "PARLANTE LIDIMI S650",
         "imagen": "assets/img/productos/parlante-ld-s650.jpg",
