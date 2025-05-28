@@ -291,6 +291,9 @@
         "id": 20,
         "nombre": "AUDÍFONO BT M28",
         "imagen": "assets/img/productos/aud-m28.png",
+        "imagenes_adicionales": [
+            "assets/img/productos/aud-m28-2.png"
+        ],
         "stock": "Disponible",
         "modelo": "M28",
         "marca": "Generico",
