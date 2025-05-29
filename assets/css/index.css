@@ -108,3 +108,10 @@
   .accordion-button:focus {
     box-shadow: none;
   }
+
+  /* BUSCAR PRODUCTOS ARRIBA DEL NAV */
+  .search-bar {
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
