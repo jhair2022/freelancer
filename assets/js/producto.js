@@ -9,7 +9,7 @@ fetch('productos.json')
             const breadcrumb = document.getElementById('breadcrumb-producto');
             const categoriaLinks = {
                 "audifonos": "audifonos.html",
-                "cámara wifi": "camara-wifi.html",
+                "área computo": "camara-wifi.html",
                 "cargador": "cargadores.html",
                 "parlantes": "parlantes.html",
             };

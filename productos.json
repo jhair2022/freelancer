@@ -484,8 +484,8 @@
         "marca": "Bossney",
         "precio_usd": 59.00,
         "precio_pen": 190.00,
-        "categoria": "cámara wifi",
-        "subcategoria": "Cámara + Panel",
+        "categoria": "área computo",
+        "subcategoria": "Cámara wifi",
         "destacado": false,
         "info_adicional": {
             "Potencia": "30W",
@@ -503,8 +503,8 @@
         "marca": "Bossney",
         "precio_usd": 59.00,
         "precio_pen": 170.00,
-        "categoria": "cámara wifi",
-        "subcategoria": "Cámara + Panel",
+        "categoria": "área computo",
+        "subcategoria": "Cámara wifi",
         "destacado": true,
         "info_adicional": {
             "Potencia": "30W",
