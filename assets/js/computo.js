@@ -52,7 +52,7 @@ fetch('productos.json')
                             <p class="small mb-1">
                             Stock: <span class="${producto.stock === 'Disponible' ? 'text-success' : 'text-danger'}">${producto.stock}</span>
                             </p>                             <p class="text-muted small mb-1">Marca: ${producto.marca}</p>
-                            <p class="fw-semibold mb-0 text-primary">$${producto.precio_usd.toFixed(2)} <small class="text-muted">(S/ ${producto.precio_pen.toFixed(2)})</small></p>
+                            <p class="fw-semibold mb-0 text-primary">S/ ${producto.precio_pen.toFixed(2)}</p>
                         </div>
                     </div>
                 </div>
