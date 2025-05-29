@@ -497,9 +497,10 @@
     {
         "id": 40,
         "nombre": "MOUSE GENERICO TPM010",
-        "imagen": "assets/img/productos/mouse-economico.png",
+        "imagen": "assets/img/productos/mouse-tpm010.png",
         "imagenes_adicionales": [
-            "assets/img/productos/mouse-tpm010.png"
+             "assets/img/productos/mouse-tpm010-caja.png",
+            "assets/img/productos/mouse-tpm010-2.png"
        ],
         "stock": "Disponible",
         "modelo": "TPM010",
