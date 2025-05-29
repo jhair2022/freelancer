@@ -8,7 +8,7 @@ if (breadcrumb) {
       <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
       <li class="breadcrumb-item active" aria-current="page">Audífonos</li>
     `;
-  } else if (path.includes("camara-wifi.html")) {
+  } else if (path.includes("computo.html")) {
     breadcrumb.innerHTML = `
       <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
       <li class="breadcrumb-item active" aria-current="page">Área Computo</li>
