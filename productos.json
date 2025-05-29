@@ -477,6 +477,44 @@
     },
     {
         "id": 39,
+        "nombre": "MOUSE SEISA N611",
+        "imagen": "assets/img/productos/mouse-seisa-dn-n611.png",
+        "imagenes_adicionales": [
+            "assets/img/productos/mouse-seisa-dn-n611-2.jpg"
+       ],
+        "stock": "Disponible",
+        "modelo": "DN-N6411",
+        "marca": "SEISA",
+        "precio_usd": 5.99,
+        "precio_pen": 15.00,
+        "categoria": "área computo",
+        "subcategoria": "Mouse",
+        "destacado": false,
+        "info_adicional": {
+            "Tipo": "Alámbrico"
+        }
+    },
+    {
+        "id": 40,
+        "nombre": "MOUSE GENERICO TPM010",
+        "imagen": "assets/img/productos/mouse-economico.png",
+        "imagenes_adicionales": [
+            "assets/img/productos/mouse-tpm010.png"
+       ],
+        "stock": "Disponible",
+        "modelo": "TPM010",
+        "marca": "Generico",
+        "precio_usd": 2.99,
+        "precio_pen": 10.00,
+        "categoria": "área computo",
+        "subcategoria": "Mouse",
+        "destacado": false,
+        "info_adicional": {
+            "Tipo": "Alámbrico"
+        }
+    },
+    {
+        "id": 50,
         "nombre": "CÁMARA WIFI + PANEL H9013",
         "imagen": "assets/img/productos/camara-bs-h9013.png",
         "stock": "Disponible",
@@ -495,7 +533,7 @@
         }
     },
     {
-        "id": 40,
+        "id": 51,
         "nombre": "CÁMARA WIFI H9005",
         "imagen": "assets/img/productos/camara-h9005.png",
         "stock": "Disponible",
