@@ -115,3 +115,12 @@
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
+.titulo-con-fondo {
+  background-color: #0db4a6; /* mismo color del menú */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
