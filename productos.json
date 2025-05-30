@@ -486,7 +486,7 @@
         "modelo": "DN-N611",
         "marca": "SEISA",
         "precio_usd": 5.99,
-        "precio_pen": 15.00,
+        "precio_pen": 18.00,
         "categoria": "área computo",
         "subcategoria": "Mouse",
         "destacado": false,
@@ -512,6 +512,42 @@
         "destacado": false,
         "info_adicional": {
             "Tipo": "Alámbrico"
+        }
+    },
+    {
+        "id": 41,
+        "nombre": "MOUSE SEISA N702",
+        "imagen": "assets/img/productos/mouse-dn-n702.png",
+        "imagenes_adicionales": [
+             "assets/img/productos/mouse-dn-n702-2.png",
+            "assets/img/productos/mouse-dn-n702-3.png"
+       ],
+        "stock": "Disponible",
+        "modelo": "DN-N702",
+        "marca": "SEISA",
+        "precio_usd": 2.99,
+        "precio_pen": 18.00,
+        "categoria": "área computo",
+        "subcategoria": "Mouse",
+        "destacado": false,
+        "info_adicional": {
+            "Tipo": "Alámbrico"
+        }
+    },
+    {
+        "id": 42,
+        "nombre": "MOUSE BLUETOOTH M3658B",
+        "imagen": "assets/img/productos/mouse-bt-et-m3658b.png",
+        "stock": "Disponible",
+        "modelo": "ET-M3658B",
+        "marca": "Ewtto",
+        "precio_usd": 2.99,
+        "precio_pen": 28.00,
+        "categoria": "área computo",
+        "subcategoria": "Mouse",
+        "destacado": false,
+        "info_adicional": {
+            "Tipo": "Bluetooth"
         }
     },
     {
