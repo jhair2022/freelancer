@@ -1,64 +1,172 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Buscar Producto</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Freelancer</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+<link rel="stylesheet" href="assets/css/index.css">
+<link rel="stylesheet" href="assets/css/custom-navbar.css">
+
 </head>
-<body class="p-4">
 
-  <div class="container">
-    <h2 class="mb-4">Buscar Producto por Código</h2>
+<body>
+    
+  <!-- PRIMERA BARRA ANTES DEL MENU -->
+  <div class="bg-light texto-superior d-none d-lg-block">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="text-muted">
+                <i class="bi bi-geo-alt"></i> Chiclayo
+            </div>
 
-    <div class="input-group mb-3">
-      <input type="text" id="codigoInput" class="form-control" placeholder="Ingresa el código del producto">
-      <button class="btn btn-primary" onclick="buscarProducto()">Buscar</button>
-    </div>
-
-    <div id="resultado" class="mt-4"></div>
-  </div>
-
-  <script>
-    let productos = [];
-
-    // Cargar productos desde el archivo JSON
-    fetch('productos.json')
-      .then(response => response.json())
-      .then(data => {
-        productos = data;
-      })
-      .catch(error => {
-        console.error('Error al cargar productos:', error);
-      });
-
-    function buscarProducto() {
-      const codigo = document.getElementById("codigoInput").value.trim().toUpperCase();
-      const resultado = document.getElementById("resultado");
-
-      const producto = productos.find(p => p.codigo === codigo);
-
-      if (producto) {
-        resultado.innerHTML = `
-          <div class="card">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="${producto.imagen}" class="img-fluid rounded-start" alt="${producto.nombre}">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">${producto.nombre}</h5>
-                  <p class="card-text">${producto.descripcion}</p>
-                  <p class="card-text"><strong>Precio:</strong> ${producto.precio}</p>
+            <div>
+                <div class="text-muted d-flex align-items-center">
+                  WhatsApp: 948571556  
+                  <span class="mx-3"> | </span>
+                  <img src="assets/img/peru.png" width="17" height="17" alt="Perú" class="me-2">
+                   Español 
+                  <span class="mx-3"> | </span>
+                   S/.
                 </div>
+            </div>
+        </div>
+  </div> 
+
+    <header class="py-3">
+      <div class="container">
+    
+        <!------ MODO CELULAR------>
+          <div class="d-flex justify-content-between align-items-center d-flex d-lg-none">
+            <!-- Botón hamburguesa nuevo -->
+            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuLateral">
+              <i class="bi bi-list fs-3"></i>
+            </button>
+     
+            <!-- Logo como imagen -->
+            <a href="index.html" class="text-decoration-none">
+              <img src="assets/img/FREELANCER LOGO.png" alt="Logo Freelancer" style="height: 40px;">
+            </a>
+      
+            <!-- Carrito -->
+            <a href="carrito.html" class="text-dark position-relative me-2">
+              <i class="bi bi-cart fs-4"></i>
+              <span id="carrito-badge-movil" class="position-absolute top-0 start-100 translate-middle badge rounded-pill" style="background-color: #232424;">0</span>
+            </a>
+          </div>
+    
+        <!------- MODO ESCRITORIO -------->
+          <div class="d-none d-lg-flex justify-content-between align-items-center">
+            <!-- LOGO -->
+            <a href="index.html" class="logo d-flex align-items-center text-decoration-none">
+                <img src="assets/img/FREELANCER LOGO.png" alt="Logo" class="logo-img" height="40">
+            </a>
+      
+            <!-- SEARCH BAR BONITA -->
+            <form class="w-50 mx-auto">
+              <div class="input-group search-bar">
+                <input type="text" class="form-control border-0 shadow-none" placeholder="Buscar productos">
+                <button class="btn btn-primary" type="submit">
+                  <i class="bi bi-search"></i>
+                </button>
               </div>
+            </form>
+
+
+      
+            <!-- ICONS CARRITO -->
+            <div class="d-flex align-items-center gap-3">
+              <a href="carrito.html" class="text-dark position-relative">
+                <i class="bi bi-cart"></i>
+                <span id="carrito-badge-escritorio" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">0</span>
+              </a>
             </div>
           </div>
-        `;
-      } else {
-        resultado.innerHTML = `<div class="alert alert-danger">Producto no encontrado.</div>`;
-      }
-    }
-  </script>
+    
+      </div>
+    </header>
+    
+   <!-- Menú Offcanvas SOLO MOVIL-->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="menuLateral">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Menú</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+      </div>
+
+      <div class="offcanvas-body">
+        <ul class="navbar-nav">
+        
+          <!-- POR CATEGORÍA (con submenú colapsable) -->
+          <li class="nav-item mb-2">
+            <a class="nav-link rounded shadow-sm px-3 py-2 d-flex justify-content-between align-items-center bg-categoria"
+              data-bs-toggle="collapse" href="#submenuCategorias" role="button" aria-expanded="true" aria-controls="submenuCategorias">
+              <span><i class="bi bi-grid-3x3-gap me-2 text-dark"></i> Por Categoría</span>
+              <i class="bi bi-chevron-down"></i>
+            </a>
+            <div class="collapse show ps-4 mt-1" id="submenuCategorias">
+              <ul class="list-unstyled">
+                <li><a class="nav-link px-3 py-2" href="audifonos.html">Audífonos</a></li>
+                <li><a class="nav-link px-3 py-2" href="computo.html">Área Computo</a></li>
+                <li><a class="nav-link px-3 py-2" href="cargadores.html">Cargadores</a></li>
+
+                <li><a class="nav-link px-3 py-2" href="parlantes.html">Parlantes</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <!-- SERVICIOS -->
+          <li class="nav-item mb-2">
+            <a href="servicios.html" class="nav-link rounded shadow-sm px-3 py-2 d-flex align-items-center">
+              <i class="bi bi-tools me-2 text-dark"></i> Servicios
+            </a>
+          </li>
+
+          <!-- FORMAS DE PAGO -->
+          <li class="nav-item mb-2">
+            <a href="formasdepago.html" class="nav-link rounded shadow-sm px-3 py-2 d-flex align-items-center">
+              <i class="bi bi-credit-card me-2 text-dark"></i> Formas de pago
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+
+  <!-- NAVBAR DISEÑO SOLO PC -->
+  <nav class="d-none d-lg-block py-3 position-relative">
+    <div class="container position-relative d-flex align-items-center">
+
+      <!-- Botón negro superpuesto y centrado verticalmente -->
+      <div class="dropdown position-relative z-2" style="margin-right: -40px;">
+        <button class="btn btn-dark rounded-pill px-4 py-3 d-flex align-items-center gap-2" data-bs-toggle="dropdown">
+          <i class="bi bi-circle-fill text-white"></i>
+          <strong class="text-white">TODAS LAS CATEGORÍAS</strong>
+          <i class="bi bi-chevron-down text-white ms-2"></i>
+        </button>
+        <ul class="dropdown-menu mt-2">
+          <li><a class="dropdown-item" href="audifonos.html">Audífonos</a></li>
+          <li><a class="dropdown-item" href="computo.html">Área Computo</a></li>
+          <li><a class="dropdown-item" href="cargadores.html">Cargadores</a></li>
+          <li><a class="dropdown-item" href="parlantes.html">Parlantes</a></li>
+        </ul>
+      </div>
+
+      <!-- Bloque turquesa justo al lado del botón -->
+    <div class="bg-turquesa rounded-pill flex-grow-1 py-4 pe-4 d-flex align-items-center" style="margin-left: -10px; padding-left: 98px;">
+        <a href="servicios.html" class="text-white text-decoration-none fw-semibold me-3">SERVICIOS</a>
+        <span class="text-white">|</span>
+        <a href="formasdepago.html" class="text-white text-decoration-none fw-semibold ms-3">FORMAS DE PAGO</a>
+      </div>
+
+    </div>
+  </nav>
+
+
+
+
 
 </body>
 </html>
