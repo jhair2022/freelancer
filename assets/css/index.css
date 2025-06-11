@@ -125,11 +125,6 @@
   font-weight: bold;
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
-  content: ">";
-  padding: 0 0.1rem;
-  color: #6c757d; /* color gris estándar de Bootstrap */
-}
 
 /* Cambiar color del texto del breadcrumb */
 .breadcrumb {
@@ -140,4 +135,11 @@
 .breadcrumb a {
   color: #adb5bd;
   text-decoration: none;
+}
+
+/* Separador personalizado (ya con >) también queda con el mismo color */
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+  padding: 0 0.2rem;
+  color: #adb5bd;
 }
