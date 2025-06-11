@@ -140,6 +140,6 @@
 /* Separador personalizado (ya con >) también queda con el mismo color */
 .breadcrumb-item + .breadcrumb-item::before {
   content: ">";
-  padding: 0 0.3rem;
+  padding: 0 0.4rem;
   color: #adb5bd;
 }
