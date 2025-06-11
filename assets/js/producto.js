@@ -17,9 +17,10 @@ fetch('productos.json')
             const categoriaURL = categoriaLinks[producto.categoria] || "#";
 
             breadcrumb.innerHTML = `
-                <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-                <li class="breadcrumb-item"><a href="${categoriaURL}">${producto.categoria}</a></li>
-                <li class="breadcrumb-item active" aria-current="page">${producto.nombre}</li>
+                <li class="breadcrumb-item">
+                    <a href="index.html"><i class="bi bi-house-door-fill"></i>I</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">${producto.categoria}</li>
             `;
 
             // Generar enlace de WhatsApp con el nombre del producto
