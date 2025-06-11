@@ -124,3 +124,9 @@
   border-radius: 10px;
   font-weight: bold;
 }
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+  padding: 0 0.5rem;
+  color: #6c757d; /* color gris estándar de Bootstrap */
+}

@@ -18,7 +18,7 @@ fetch('productos.json')
 
             breadcrumb.innerHTML = `
                 <li class="breadcrumb-item">
-                    <a href="index.html"><i class="bi bi-house-door-fill"></i>I</a>
+                    <a href="index.html"><i class="bi bi-house-door-fill"></i></a>
                 </li>
                 <li class="breadcrumb-item active" aria-current="page">${producto.categoria}</li>
             `;
