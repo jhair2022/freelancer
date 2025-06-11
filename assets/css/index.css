@@ -127,7 +127,7 @@
 
 .breadcrumb-item + .breadcrumb-item::before {
   content: ">";
-  padding: 0 0.2rem;
+  padding: 0 0.1rem;
   color: #6c757d; /* color gris estándar de Bootstrap */
 }
 
