@@ -18,13 +18,12 @@ fetch('productos.json')
 
             breadcrumb.innerHTML = `
             <li class="breadcrumb-item">
-                <a href="index.html"><i class="bi bi-house-door-fill"></i> Inicio</a>
+                <a href="index.html"><i class="bi bi-house-door-fill"></i></a>
             </li>
             <li class="breadcrumb-item">
                 <a href="${categoriaURL}">${producto.categoria}</a>
             </li>
             `;
-
 
             // Generar enlace de WhatsApp con el nombre del producto
             const mensaje = `Hola, estoy interesado en comprar este producto: ${producto.nombre}`;
