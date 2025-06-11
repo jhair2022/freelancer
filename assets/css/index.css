@@ -130,3 +130,14 @@
   padding: 0 0.2rem;
   color: #6c757d; /* color gris estándar de Bootstrap */
 }
+
+/* Cambiar color del texto del breadcrumb */
+.breadcrumb {
+  color: #adb5bd; /* plomo claro */
+}
+
+/* También cambia los enlaces dentro del breadcrumb */
+.breadcrumb a {
+  color: #adb5bd;
+  text-decoration: none;
+}
