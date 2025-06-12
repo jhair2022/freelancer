@@ -75,7 +75,7 @@
         "precio_pen": 15.00,
         "categoria": "audifonos",
         "subcategoria": "alambricos",
-        "destacado": true,
+        "destacado": false,
         "info_adicional": {
             "Entrada": "Tipo C",
             "Incluye": "Microfono"
@@ -112,7 +112,7 @@
         "precio_pen": 25.00,
         "categoria": "cargador",
         "subcategoria": "Tipo C",
-        "destacado": false
+        "destacado": true
     },
     {
         "id": 8,
@@ -228,7 +228,7 @@
         "id": 16,
         "nombre": "CARGADOR TC EWTTO E6198C",
         "imagen": "assets/img/productos/carg-et-e6198c.png",
-        "stock": "Agotado",
+        "stock": "Disponible",
         "modelo": "DE-5150C",
         "marca": "Ewtto",
         "precio_usd": 4.99,
@@ -387,7 +387,7 @@
         "precio_pen": 100.00,
         "categoria": "parlantes",
         "subcategoria": "Lidimi",
-        "destacado": false,
+        "destacado": true,
         "info_adicional": {
             "Potencia": "20W",
             "Tamaño": "21.6 x 11 x 11cm",
@@ -406,7 +406,7 @@
         "precio_pen": 110.00,
         "categoria": "parlantes",
         "subcategoria": "Ewtto",
-        "destacado": true
+        "destacado": false
     },
     {
         "id": 35,
