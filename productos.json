@@ -100,8 +100,8 @@
     },
     {
         "id": 7,
-        "nombre": "CARGADOR TC SAMSUNG",
-        "imagen": "assets/img/productos/Cargador-samsung.jpg",
+        "nombre": "CABEZAL TC SAMSUNG",
+        "imagen": "assets/img/productos/cabezal-samsung.png",
         "imagenes_adicionales": [
             "assets/img/productos/cargador-c-c.png"
         ],
