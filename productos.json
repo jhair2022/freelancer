@@ -226,13 +226,13 @@
     },
     {
         "id": 16,
-        "nombre": "CARGADOR TC DE-5150C",
-        "imagen": "assets/img/productos/carg-dexbo-tc.jpg",
+        "nombre": "CARGADOR TC EWTTO E6198C",
+        "imagen": "assets/img/productos/carg-et-e6198c.png",
         "stock": "Agotado",
         "modelo": "DE-5150C",
-        "marca": "Dexbo",
+        "marca": "Ewtto",
         "precio_usd": 4.99,
-        "precio_pen": 20.00,
+        "precio_pen": 25.00,
         "categoria": "cargador",
         "subcategoria": "Tipo C",
         "destacado": false
