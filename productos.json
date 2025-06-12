@@ -43,7 +43,7 @@
         "precio_pen": 26.00,
         "categoria": "audifonos",
         "subcategoria": "bluetooth",
-        "destacado": false
+        "destacado": true
     },
     {
         "id": 4,
@@ -141,7 +141,7 @@
         "precio_pen": 15.00,
         "categoria": "cargador",
         "subcategoria": "Tipo C",
-        "destacado": true
+        "destacado": false
     },
     {
         "id": 10,
