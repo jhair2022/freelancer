@@ -6,6 +6,9 @@ fetch('productos.json')
         const producto = productos.find(p => p.id == productoId);
 
         if (producto) {
+            console.log("Precio actual:", producto.precio_pen);
+            console.log("Precio anterior:", producto.precio_pen_anterior);
+
             const breadcrumb = document.getElementById('breadcrumb-producto');
             const categoriaLinks = {
                 "audifonos": "audifonos.html",
