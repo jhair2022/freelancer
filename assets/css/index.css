@@ -165,3 +165,8 @@
   background-color: #00e660;
   opacity: 1;
 }
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: none !important;
+}
