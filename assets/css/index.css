@@ -153,7 +153,6 @@
   all: unset; /* Elimina todos los estilos por defecto */
   width: 10px;
   height: 10px;
-  border-radius: 50%;
   background-color: #888;
   margin: 4px;
   cursor: pointer;
