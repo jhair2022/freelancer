@@ -144,18 +144,24 @@
   color: #adb5bd;
 }
 
-carousel-indicators button {
-  width: 10px !important;
-  height: 10px !important;
-  border-radius: 50% !important;
-  background-color: #888 !important;
-  border: none !important;
-  margin: 4px !important;
-  opacity: 0.5 !important;
-  padding: 0 !important;
+.carousel-indicators {
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.carousel-indicators button {
+  all: unset; /* Elimina todos los estilos por defecto */
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #888;
+  margin: 4px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: background-color 0.3s, opacity 0.3s;
 }
 
 .carousel-indicators button.active {
-  background-color: #af263b !important;
-  opacity: 1 !important;
+  background-color: #e60023;
+  opacity: 1;
 }
