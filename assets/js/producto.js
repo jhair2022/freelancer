@@ -76,7 +76,11 @@ fetch('productos.json')
             document.getElementById('modelo-producto').textContent = producto.modelo;
             document.getElementById('marca-producto').textContent = producto.marca;
             //document.getElementById('stock-producto').textContent = producto.stock;
-            document.getElementById('precio-producto').innerHTML = `S/ ${producto.precio_pen.toFixed(2)}`;
+            document.getElementById('precio-anterior').textContent = producto.precio_pen_anterior
+            ? `S/ ${producto.precio_pen_anterior.toFixed(2)}`
+            : '';
+            document.getElementById('precio-actual').textContent = `S/ ${producto.precio_pen.toFixed(2)}`;
+
             document.getElementById('descripcion-producto').textContent = producto.descripcion || "";
             // Información adicional CARACTERISTICAS PRINCIPALES
             const infoLista = document.getElementById('info-adicional');
