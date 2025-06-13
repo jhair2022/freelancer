@@ -143,3 +143,18 @@
   padding: 0 0.4rem;
   color: #adb5bd;
 }
+
+.carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #888;
+  border: none;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.carousel-indicators button.active {
+  background-color: #d41935; /* Color activo */
+  opacity: 1;
+}
