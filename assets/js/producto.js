@@ -39,6 +39,7 @@ fetch('productos.json')
            // Mostrar miniaturas (escritorio) y carrusel (móvil)
             const galeria = document.getElementById('galeria-imagenes');
             const carruselInner = document.getElementById('carousel-inner');
+            const indicadores = document.getElementById('carousel-indicators'); 
             galeria.innerHTML = '';
             carruselInner.innerHTML = '';
 
@@ -51,12 +52,24 @@ fetch('productos.json')
                     <img src="${img}" class="img-thumbnail" style="width: 90px; cursor:pointer;" onclick="cambiarImagen('${img}')">
                 `;
 
-                // Carrusel móvil
+            // Carrusel móvil
                 carruselInner.innerHTML += `
                     <div class="carousel-item ${index === 0 ? 'active' : ''}">
                         <img src="${img}" class="d-block w-100" alt="">
                     </div>
                 `;
+
+            // Indicadores del carrusel móvil
+                const boton = document.createElement("button");
+                boton.type = "button";
+                boton.setAttribute("data-bs-target", "#carouselMobile");
+                boton.setAttribute("data-bs-slide-to", index);
+                boton.setAttribute("aria-label", `Slide ${index + 1}`);
+                if (index === 0) {
+                    boton.classList.add("active");
+                    boton.setAttribute("aria-current", "true");
+                }
+                indicadores.appendChild(boton);
             });
             // Otros datos
             document.getElementById('nombre-producto').textContent = producto.nombre;
