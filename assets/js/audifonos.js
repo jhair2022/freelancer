@@ -17,8 +17,6 @@ function verProducto(id) {
 }
 
 
-
-
 fetch('productos.json')
 .then(response => response.json())
 .then(productos => {
@@ -64,10 +62,6 @@ fetch('productos.json')
                                 S/ ${producto.precio_pen.toFixed(2)}
                             </span>
                             </p>
-
-                            <button class="btn btn-sm btn-dark mt-2 w-100" onclick="agregarDesdeCatalogo(event, ${producto.id})">
-                                Agregar al carrito
-                            </button>
                         </div>
                     </div>
                 </div>
@@ -82,48 +76,8 @@ fetch('productos.json')
         mostrarBreadcrumb(subcategoria); // Breadcrumb con subcategoría
     };
 
-    function agregarDesdeCatalogo(event, idProducto) {
-        event.stopPropagation(); // 👈 Esto evita que se active verProducto()
-
-        const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
-
-        const productoSeleccionado = productos.find(p => p.id === idProducto);
-        if (!productoSeleccionado) return;
-
-        const productoExistente = carrito.find(item => item.id === idProducto);
-
-        if (productoExistente) {
-            productoExistente.cantidad += 1;
-        } else {
-            carrito.push({
-            id: productoSeleccionado.id,
-            nombre: productoSeleccionado.nombre,
-            precio_usd: productoSeleccionado.precio_usd,
-            precio_pen: productoSeleccionado.precio_pen,
-            imagen: productoSeleccionado.imagen,
-            cantidad: 1
-            });
-        }
-
-        localStorage.setItem('carrito', JSON.stringify(carrito));
-
-        Swal.fire({
-            icon: 'success',
-            title: '¡Producto agregado!',
-            text: 'El producto se añadió correctamente.',
-            confirmButtonText: 'Aceptar'
-        });
-
-        if (typeof actualizarCarrito === 'function') {
-            actualizarCarrito();
-        }
-    }
-
-
-
     
 })
 .catch(error => {
     console.error("Error cargando los productos:", error);
 });
-
