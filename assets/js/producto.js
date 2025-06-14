@@ -82,7 +82,7 @@ fetch('productos.json')
             //document.getElementById('precio-producto').innerHTML = `S/ ${producto.precio_pen.toFixed(2)}`;
             document.getElementById('descripcion-producto').textContent = producto.descripcion || "";
 
-            const ahorro = parseFloat(producto.precioAnterior) - parseFloat(producto.precio);
+            const ahorro = parseFloat(producto.precioAnterior) - parseFloat(producto.precio_pen);
 
             if (ahorro > 0) {
             document.getElementById('ahorro-producto').textContent = `Ahorra S/ ${ahorro.toFixed(2)}`;
