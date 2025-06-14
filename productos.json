@@ -30,8 +30,8 @@
         "stock": "Agotado",
         "modelo": "",
         "marca": "Ewtto",
-        "precio_usd": 3.99,
-        "precio_pen": 40.00,
+        "precio_pen": 150.00,
+        "precioAnterior": 125.00,
         "categoria": "audifonos",
         "subcategoria": "bluetooth",
         "destacado": false
