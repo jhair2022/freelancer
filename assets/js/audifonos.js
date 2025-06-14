@@ -54,7 +54,7 @@ fetch('productos.json')
                             <p class="small mb-1">
                             Stock: <span class="${producto.stock === 'Disponible' ? 'text-success' : 'text-danger'}">${producto.stock}</span>
                             </p>
-                            <p class="mb-0" style="font-size: 0.8rem;">
+                            <p class="mb-0" style="font-size: 0.9rem;">
                             <span class="text-muted text-decoration-line-through me-2 small">
                                 S/ ${producto.precioAnterior.toFixed(2)}
                             </span>
