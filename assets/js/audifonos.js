@@ -56,7 +56,7 @@ fetch('productos.json')
                             </p>
                         <div>
                         <p class="mb-0 small text-muted text-decoration-line-through">
-                            S/ ${producto.precio_anterior.toFixed(2)}
+                            S/ ${producto.precioAnterior.toFixed(2)}
                         </p>
                         <p class="fw-semibold text-dark mb-0">
                             S/ ${producto.precio_pen.toFixed(2)}
