@@ -65,7 +65,7 @@ fetch('productos.json')
                             </span>
                             </p>
 
-                            <button class="btn btn-sm btn-dark mt-2 w-100" onclick="agregarDesdeCatalogo(${producto.id})">
+                            <button class="btn btn-sm btn-dark mt-2 w-100" onclick="agregarDesdeCatalogo(event, ${producto.id})">
                                 Agregar al carrito
                             </button>
                         </div>
@@ -82,7 +82,15 @@ fetch('productos.json')
         mostrarBreadcrumb(subcategoria); // Breadcrumb con subcategoría
     };
 
-    function agregarDesdeCatalogo(idProducto) {
+    
+})
+.catch(error => {
+    console.error("Error cargando los productos:", error);
+});
+
+function agregarDesdeCatalogo(event, idProducto) {
+        event.stopPropagation(); // 👈 Esto evita que se active verProducto()
+
         const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
 
         const productoSeleccionado = productos.find(p => p.id === idProducto);
@@ -115,11 +123,4 @@ fetch('productos.json')
         if (typeof actualizarCarrito === 'function') {
             actualizarCarrito();
         }
-        }
-
-
-    
-})
-.catch(error => {
-    console.error("Error cargando los productos:", error);
-});
+    }
