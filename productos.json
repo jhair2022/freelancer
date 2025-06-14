@@ -9,7 +9,7 @@
         "stock": "Disponible",
       "modelo": "california",
       "marca": "Generico",
-      "precio": 11.00,
+      "precio_pen": 11.00,
       "precioAnterior": 15.00,
       "categoria": "audifonos",
       "subcategoria": "alambricos",
