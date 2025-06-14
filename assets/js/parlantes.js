@@ -50,12 +50,19 @@ fetch('productos.json')
                             <img src="${producto.imagen}" class="card-img-top" alt="${producto.nombre}">
                             <span class="badge bg-success position-absolute top-0 start-0 m-2">Nuevo</span>
                         </div>
-                        <div class="card-body">
-                            <p class="card-title fw-bold small">${producto.nombre}</p>
+                        <div class="card-body text-center">
+                             <p class="card-title fw-semibold small mb-1">${producto.nombre}</p>
                             <p class="small mb-1">
                             Stock: <span class="${producto.stock === 'Disponible' ? 'text-success' : 'text-danger'}">${producto.stock}</span>
-                            </p>                             <p class="text-muted small mb-1">Marca: ${producto.marca}</p>
-                            <p class="fw-semibold mb-0 text-primary">S/ ${producto.precio_pen.toFixed(2)}</p>
+                            </p>
+                            <p class="mb-0" style="font-size: 0.9rem;">
+                            <span class="text-muted text-decoration-line-through me-2 small">
+                                S/ ${producto.precioAnterior.toFixed(2)}
+                            </span>
+                            <span class="text-dark fw-bold small">
+                                S/ ${producto.precio_pen.toFixed(2)}
+                            </span>
+                            </p>
                         </div>
                     </div>
                 </div>
