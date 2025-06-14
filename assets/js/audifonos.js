@@ -49,8 +49,8 @@ fetch('productos.json')
                             <img src="${producto.imagen}" class="card-img-top" alt="${producto.nombre}">
                             <span class="badge bg-success position-absolute top-0 start-0 m-2">Nuevo</span>
                         </div>
-                        <div class="card-body">
-                            <p class="card-title fw-semibold small mb-1 text-center">${producto.nombre}</p>
+                        <div class="card-body text-center">
+                            <p class="card-title fw-semibold small mb-1">${producto.nombre}</p>
                             <p class="small mb-1">
                             Stock: <span class="${producto.stock === 'Disponible' ? 'text-success' : 'text-danger'}">${producto.stock}</span>
                             </p>
