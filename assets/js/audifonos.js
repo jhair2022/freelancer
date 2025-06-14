@@ -55,13 +55,12 @@ fetch('productos.json')
                             Stock: <span class="${producto.stock === 'Disponible' ? 'text-success' : 'text-danger'}">${producto.stock}</span>
                             </p>
                             <p class="mb-0">
-                                <span class="text-muted text-decoration-line-through me-2 small">
-                                    S/ ${producto.precioAnterior.toFixed(2)}
-                                </span>
-
-                                <span class="fw-bold text-dark">
-                                    S/ ${producto.precio_pen.toFixed(2)}
-                                </span>
+                            <span class="text-muted text-decoration-line-through me-2 fw-bold small">
+                                S/ ${producto.precioAnterior.toFixed(2)}
+                            </span>
+                            <span class="text-dark fw-bold small">
+                                S/ ${producto.precio_pen.toFixed(2)}
+                            </span>
                             </p>
                         </div>
                     </div>
