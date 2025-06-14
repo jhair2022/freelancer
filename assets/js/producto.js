@@ -81,6 +81,15 @@ fetch('productos.json')
             //document.getElementById('stock-producto').textContent = producto.stock;
             //document.getElementById('precio-producto').innerHTML = `S/ ${producto.precio_pen.toFixed(2)}`;
             document.getElementById('descripcion-producto').textContent = producto.descripcion || "";
+
+            const ahorro = parseFloat(producto.precioAnterior) - parseFloat(producto.precio);
+
+            if (ahorro > 0) {
+            document.getElementById('ahorro-producto').textContent = `Ahorra S/ ${ahorro.toFixed(2)}`;
+            } else {
+            document.getElementById('ahorro-producto').style.display = 'none'; // Oculta si no hay descuento
+            }
+
             // Información adicional CARACTERISTICAS PRINCIPALES
             const infoLista = document.getElementById('info-adicional');
             infoLista.innerHTML = '';
@@ -143,7 +152,7 @@ fetch('productos.json')
             
 
         } else {
-            document.getElementById('detalle-producto').innerHTML = "<p>Producto no encontrado.</p>";
+                document.getElementById('detalle-producto').innerHTML = "<p>Producto no encontrado.</p>";
         }
     })
     .catch(error => console.error('Error cargando el producto:', error));
