@@ -34,7 +34,9 @@
         "precioAnterior": 125.00,
         "categoria": "audifonos",
         "subcategoria": "bluetooth",
+        "descripcion": "Audífonos con conexión Tipo C, diseñados para brindar sonido nítido. Ideales para dispositivos sin entrada jack, incluye micrófono incorporado para llamadas claras",
         "destacado": false
+
     },
     {
         "id": 3,
