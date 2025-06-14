@@ -169,3 +169,7 @@
 .carousel-control-next {
   display: none !important;
 }
+
+.justificar {
+  text-align: justify;
+}
