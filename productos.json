@@ -469,13 +469,7 @@
         "precio_pen": 140.00,
         "categoria": "parlantes",
         "subcategoria": "Lidimi",
-        "destacado": false,
-        "info_adicional": {
-            "Potencia": "44W",
-            "Tamaño": "29 x 10 x 11cm",
-            "Duración de batería": "10 h",
-            "Material": "ABS"
-        }
+        "destacado": false
     },
     {
         "id": 38,
@@ -488,13 +482,7 @@
         "precio_pen": 130.00,
         "categoria": "parlantes",
         "subcategoria": "Lidimi",
-        "destacado": false,
-        "info_adicional": {
-            "Potencia": "30W",
-            "Tamaño": "9 x 24cm",
-            "Duración de batería": "5-7h",
-            "Material": "ABS"
-        }
+        "destacado": false
     },
     {
         "id": 39,
@@ -550,10 +538,7 @@
         "precio_pen": 17.00,
         "categoria": "área computo",
         "subcategoria": "Mouse",
-        "destacado": false,
-        "info_adicional": {
-            "Tipo": "Alámbrico"
-        }
+        "destacado": false
     },
     {
         "id": 42,
@@ -566,10 +551,7 @@
         "precio_pen": 28.00,
         "categoria": "área computo",
         "subcategoria": "Mouse",
-        "destacado": false,
-        "info_adicional": {
-            "Tipo": "Bluetooth"
-        }
+        "destacado": false
     },
     {
         "id": 50,
@@ -582,13 +564,7 @@
         "precio_pen": 190.00,
         "categoria": "área computo",
         "subcategoria": "Cámara wifi",
-        "destacado": false,
-        "info_adicional": {
-            "Potencia": "30W",
-            "Tamaño": "9 x 24cm",
-            "Duración de batería": "5-7h",
-            "Material": "ABS"
-        }
+        "destacado": false
     },
     {
         "id": 51,
@@ -601,13 +577,7 @@
         "precio_pen": 170.00,
         "categoria": "área computo",
         "subcategoria": "Cámara wifi",
-        "destacado": true,
-        "info_adicional": {
-            "Potencia": "30W",
-            "Tamaño": "9 x 24cm",
-            "Duración de batería": "5-7h",
-            "Material": "ABS"
-        }
+        "destacado": true
     }
     
 ]
