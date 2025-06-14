@@ -82,13 +82,7 @@ fetch('productos.json')
         mostrarBreadcrumb(subcategoria); // Breadcrumb con subcategoría
     };
 
-    
-})
-.catch(error => {
-    console.error("Error cargando los productos:", error);
-});
-
-function agregarDesdeCatalogo(event, idProducto) {
+    function agregarDesdeCatalogo(event, idProducto) {
         event.stopPropagation(); // 👈 Esto evita que se active verProducto()
 
         const carrito = JSON.parse(localStorage.getItem('carrito')) || [];
@@ -124,3 +118,12 @@ function agregarDesdeCatalogo(event, idProducto) {
             actualizarCarrito();
         }
     }
+
+
+
+    
+})
+.catch(error => {
+    console.error("Error cargando los productos:", error);
+});
+
