@@ -14,10 +14,6 @@
       "categoria": "audifonos",
       "subcategoria": "alambricos",
       "destacado": false,
-      "info_adicional": {
-        "Entrada": "Tipo C",
-        "Incluye": "Microfono"
-        },
       "descripcion": "Audífonos con conexión Tipo C, diseñados para brindar sonido nítido, incluye micrófono incorporado para llamadas claras"
     },
     {
@@ -64,12 +60,6 @@
         "categoria": "audifonos",
         "subcategoria": "bluetooth",
         "destacado": false,
-        "info_adicional": {
-            "Distancia": "10 metros",
-            "Tiempo de Carga": "2 h",
-            "Batería de auriculares": "25 mAh",
-            "Batería de caja": "250 mAh"
-        },
         "descripcion": "Audífonos inalámbricos con estuche de carga, gran sonido y control táctil. Compactos, cómodos y listos para todo."
 
     },
@@ -85,10 +75,6 @@
         "categoria": "audifonos",
         "subcategoria": "alambricos",
         "destacado": false,
-        "info_adicional": {
-            "Entrada": "Tipo C",
-            "Incluye": "Microfono"
-        },
         "descripcion": "Audífonos con conexión Tipo C, diseñados para brindar sonido nítido, incluye micrófono incorporado para llamadas claras"
 
     },
@@ -104,10 +90,6 @@
         "categoria": "audifonos",
         "subcategoria": "alambricos",
         "destacado": false,
-        "info_adicional": {
-            "Entrada": "Jack 3.5mm",
-            "Incluye": "Microfono"
-        },
         "descripcion": "Audífonos con conexión Jack 3.5, diseñados para brindar sonido nítido, incluye micrófono incorporado para llamadas claras"
 
     },
@@ -282,11 +264,7 @@
         "precio_pen": 15.00,
         "categoria": "audifonos",
         "subcategoria": "alambricos",
-        "destacado": false,
-        "info_adicional": {
-            "Entrada": "Jack 3.5mm",
-            "Incluye": "Microfono"
-        }
+        "destacado": false
     },
     {
         "id": 19,
@@ -302,11 +280,7 @@
         "precio_pen": 5.00,
         "categoria": "audifonos",
         "subcategoria": "alambricos",
-        "destacado": false,
-        "info_adicional": {
-            "Entrada": "Jack 3.5mm",
-            "Incluye": "Microfono"
-        }
+        "destacado": false
     },
     {
         "id": 20,
@@ -338,13 +312,7 @@
         "precio_pen": 100.00,
         "categoria": "parlantes",
         "subcategoria": "Lidimi",
-        "destacado": false,
-        "info_adicional": {
-            "Potencia": "20W",
-            "Tamaño": "22 x 10.4 x 10.6cm",
-            "Duración de batería": "10 h",
-            "Material": "ABS"
-        }
+        "destacado": false
     },
     {
         "id": 31,
@@ -362,13 +330,7 @@
         "precio_pen": 100.00,
         "categoria": "parlantes",
         "subcategoria": "Lidimi",
-        "destacado": false,
-        "info_adicional": {
-            "Potencia": "20W",
-            "Tamaño": "23 x 10 x 10cm",
-            "Duración de batería": "6 horas",
-            "Material": "ABS"
-        }
+        "destacado": false
     },
     {
         "id": 32,
@@ -384,13 +346,7 @@
         "precio_pen": 150.00,
         "categoria": "parlantes",
         "subcategoria": "Lidimi",
-        "destacado": false,
-        "info_adicional": {
-            "Potencia": "40W",
-            "Tamaño": "29 x 11.7 x 11cm",
-            "Duración de batería": "5 h",
-            "Material": "ABS"
-        }
+        "destacado": false
     },
     {
         "id": 33,
@@ -408,13 +364,7 @@
         "precio_pen": 100.00,
         "categoria": "parlantes",
         "subcategoria": "Lidimi",
-        "destacado": true,
-        "info_adicional": {
-            "Potencia": "20W",
-            "Tamaño": "21.6 x 11 x 11cm",
-            "Duración de batería": "10 h",
-            "Material": "ABS"
-        }
+        "destacado": true
     },
     {
         "id": 34,
