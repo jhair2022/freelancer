@@ -50,7 +50,7 @@ fetch('productos.json')
                             <span class="badge bg-success position-absolute top-0 start-0 m-2">Nuevo</span>
                         </div>
                         <div class="card-body">
-                            <p class="card-title fw-normal text-muted small mb-1 text-center">${producto.nombre}</p>
+                            <p class="card-title fw-semibold text-muted small mb-1 text-center">${producto.nombre}</p>
                             <p class="small mb-1">
                             Stock: <span class="${producto.stock === 'Disponible' ? 'text-success' : 'text-danger'}">${producto.stock}</span>
                             </p>
