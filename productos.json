@@ -22,8 +22,11 @@
     },
     {
         "id": 2,
-        "nombre": "AUDÍFONO BT EWTOO",
-        "imagen": "assets/img/productos/audifono-ewtto.jfif",
+        "nombre": "AUDÍFONO JBLO TUNE 51O",
+        "imagen": "assets/img/productos/aud-jbl-tune510.jpg",
+        "imagenes_adicionales": [
+            "assets/img/productos/aud-jbl-tune510-2.png"
+        ],
         "stock": "Agotado",
         "modelo": "",
         "marca": "Ewtto",
