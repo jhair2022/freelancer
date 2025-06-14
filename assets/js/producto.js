@@ -73,6 +73,7 @@ fetch('productos.json')
             });
             // Otros datos
             document.getElementById('nombre-producto').textContent = producto.nombre;
+            document.getElementById('descripcion-producto').textContent = producto.descripcion;
             document.getElementById('precio-anterior').textContent = `S/ ${parseFloat(producto.precioAnterior).toFixed(2)}`;
             document.getElementById('precio-actual').textContent = `S/ ${parseFloat(producto.precio_pen).toFixed(2)}`;
             //document.getElementById('modelo-producto').textContent = producto.modelo;
