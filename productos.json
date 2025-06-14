@@ -22,7 +22,7 @@
     },
     {
         "id": 2,
-        "nombre": "AUDÍFONO JBLO TUNE 51O",
+        "nombre": "AUDÍFONO JBL TUNE 51O",
         "imagen": "assets/img/productos/aud-jbl-tune510.jpg",
         "imagenes_adicionales": [
             "assets/img/productos/aud-jbl-tune510-2.png"
@@ -34,7 +34,7 @@
         "precioAnterior": 150.00,
         "categoria": "audifonos",
         "subcategoria": "bluetooth",
-        "descripcion": "Audífonos con conexión Tipo C, diseñados para brindar sonido nítido. Ideales para dispositivos sin entrada jack, incluye micrófono incorporado para llamadas claras",
+        "descripcion": "Sonido potente JBL Pure Bass con conexión Bluetooth y hasta 40 horas de batería. Diseño cómodo y plegable.",
         "destacado": false
 
     },
