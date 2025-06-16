@@ -471,9 +471,7 @@
         "destacado": false,
         "info_adicional": {
             "Tipo": "Alámbrico"
-        },
-        "descripcion": "Set de 2 solaperos inalámbricos con conector USB Tipo C, sonido claro y alcance de hasta 20 m. Ideal para entrevistas, grabaciones y transmisiones."
-
+        }
     },
     {
         "id": 41,
@@ -519,7 +517,9 @@
         "precio_pen": 50.00,
         "categoria": "área computo",
         "subcategoria": "Mouse",
-        "destacado": false
+        "destacado": false,
+        "descripcion": "Set de 2 solaperos inalámbricos con conector USB Tipo C, sonido claro y alcance de hasta 20 m. Ideal para entrevistas, grabaciones y transmisiones."
+
     },
     {
         "id": 44,
@@ -532,7 +532,9 @@
         "precio_pen": 65.00,
         "categoria": "área computo",
         "subcategoria": "Mouse",
-        "destacado": false
+        "destacado": false,
+        "descripcion": "Set de 2 solaperos inalámbricos con conector USB Tipo C, sonido claro y alcance de hasta 30 m. Ideal para entrevistas, grabaciones y transmisiones."
+
     },
     {
         "id": 50,
