@@ -513,10 +513,23 @@
              "assets/img/productos/solapero-romax-tsm0016-2.png"
        ],
         "stock": "Disponible",
-        "modelo": "ET-M3658B",
-        "marca": "Ewtto",
+        "modelo": "TSM0016",
+        "marca": "Romax",
         "precioAnterior": 65.00,
         "precio_pen": 50.00,
+        "categoria": "área computo",
+        "subcategoria": "Mouse",
+        "destacado": false
+    },
+    {
+        "id": 44,
+        "nombre": "SOLAPERO INALAMBRICO X2 TSM0019 ",
+        "imagen": "assets/img/productos/solapero-tsm0019.png",
+        "stock": "Disponible",
+        "modelo": "TSM0019",
+        "marca": "Romax",
+        "precioAnterior": 75.00,
+        "precio_pen": 65.00,
         "categoria": "área computo",
         "subcategoria": "Mouse",
         "destacado": false
