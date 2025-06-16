@@ -505,7 +505,7 @@
     },
     {
         "id": 43,
-        "nombre": "MOUSE BT M3658B",
+        "nombre": "2 SOLAPEROS INALAMBRICO TSM0016 ",
         "imagen": "assets/img/productos/solapero-romax-tsm0016.png",
         "imagenes_adicionales": [
              "assets/img/productos/solapero-romax-tsm0016-2.png"
@@ -513,8 +513,8 @@
         "stock": "Disponible",
         "modelo": "ET-M3658B",
         "marca": "Ewtto",
-        "precioAnterior": 35.00,
-        "precio_pen": 28.00,
+        "precioAnterior": 65.00,
+        "precio_pen": 50.00,
         "categoria": "área computo",
         "subcategoria": "Mouse",
         "destacado": false
