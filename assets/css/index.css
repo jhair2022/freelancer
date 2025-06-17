@@ -117,6 +117,14 @@
   border-radius: 0;
 }
 
+.accordion-item,
+.accordion-button,
+.accordion-button:focus,
+.accordion-button:not(.collapsed) {
+  border-radius: 0 !important;
+  box-shadow: none;
+}
+
 
 /* BUSCAR PRODUCTOS ARRIBA DEL NAV */
 .search-bar {
