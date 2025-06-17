@@ -232,7 +232,18 @@
           <span id="ahorro-producto" class="badge rounded-pill bg-success-subtle text-success fw-semibold ms-2"></span>
         </div>
 
-        <!-- Caracteristicas -->
+         <!-- Cantidad + Botón juntos -->
+        <div class="d-flex align-items-center gap-2 mt-3 mb-3">
+          <input type="number" id="cantidad-producto" class="form-control text-center" value="1" min="1" style="width: 70px;">
+          <button class="btn btn-dark flex-grow-1" id="btn-agregar-carrito">Añadir Al Carrito</button>
+        </div>
+
+        <!-- Botón WhatsApp -->
+        <a href="#" id="btn-whatsapp" class="btn w-100 mt-2 text-white" style="background-color: #2d85e4;" target="_blank">
+          <i class="bi bi-whatsapp me-2"></i> Comprar por WhatsApp
+        </a>
+
+         <!-- Caracteristicas -->
       <div class="container-fluid px-0 mt-3" id="acordeon-caracteristicas-container">
           <div class="accordion" id="acordeonCaracteristicas">
             <div class="accordion-item">
@@ -250,17 +261,11 @@
           </div>
       </div>
 
-         <!-- Cantidad + Botón juntos -->
-        <div class="d-flex align-items-center gap-2 mt-3 mb-3">
-          <input type="number" id="cantidad-producto" class="form-control text-center" value="1" min="1" style="width: 70px;">
-          <button class="btn btn-dark flex-grow-1" id="btn-agregar-carrito">Añadir Al Carrito</button>
-        </div>
 
-        <!-- Botón WhatsApp -->
-        <a href="#" id="btn-whatsapp" class="btn w-100 mt-2 text-white" style="background-color: #2d85e4;" target="_blank">
-          <i class="bi bi-whatsapp me-2"></i> Comprar por WhatsApp
-        </a>
+
       </div>
+
+
 
       <!-- Imagen lateral -->
       <div class="col-lg-3 mt-3 mt-lg-0 d-none d-lg-block">
