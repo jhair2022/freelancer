@@ -76,7 +76,12 @@ fetch('productos.json')
             document.getElementById('descripcion-producto').textContent = producto.descripcion;
             document.getElementById('precio-anterior').textContent = `S/ ${parseFloat(producto.precioAnterior).toFixed(2)}`;
             document.getElementById('precio-actual').textContent = `S/ ${parseFloat(producto.precio_pen).toFixed(2)}`;
-            document.getElementById('caracteristicas').innerHTML = producto.caracteristicas || "";
+            const caracteristicasElem = document.getElementById('caracteristicas');
+            if (caracteristicasElem) {
+                caracteristicasElem.innerHTML = producto.caracteristicas || "";
+            } else {
+                console.warn("Elemento #caracteristicas no encontrado");
+            }
 
 
             const ahorro = parseFloat(producto.precioAnterior) - parseFloat(producto.precio_pen);
