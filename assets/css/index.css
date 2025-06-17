@@ -95,13 +95,13 @@
  /* Color de fondo del botón cuando está abierto */
   .accordion-button:not(.collapsed) {
     background-color: #ffffff; /* Cambia esto al color que quieras */
-    color: #fff;            /* Color del texto */
+    color: #000000;            /* Color del texto */
   }
 
   /* Color de texto cuando el botón está colapsado */
   .accordion-button.collapsed {
-    background-color: #f8f9fa; /* Color del fondo cuando está cerrado */
-    color: #000;
+    background-color: #ffffff; /* Color del fondo cuando está cerrado */
+    color: #000000;
   }
 
   /* Quita el borde azul que aparece al hacer clic */
