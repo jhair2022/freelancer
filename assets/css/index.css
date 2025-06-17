@@ -109,6 +109,15 @@
     box-shadow: none;
   }
 
+  .accordion-item {
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+
+
 /* BUSCAR PRODUCTOS ARRIBA DEL NAV */
 .search-bar {
   border-radius: 50px;
