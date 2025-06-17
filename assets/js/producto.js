@@ -76,12 +76,7 @@ fetch('productos.json')
             document.getElementById('descripcion-producto').textContent = producto.descripcion;
             document.getElementById('precio-anterior').textContent = `S/ ${parseFloat(producto.precioAnterior).toFixed(2)}`;
             document.getElementById('precio-actual').textContent = `S/ ${parseFloat(producto.precio_pen).toFixed(2)}`;
-            const caracteristicasElem = document.getElementById('caracteristicas');
-            if (caracteristicasElem) {
-                caracteristicasElem.innerHTML = producto.caracteristicas || "";
-            } else {
-                console.warn("Elemento #caracteristicas no encontrado");
-            }
+            document.getElementById('caracteristicas').innerHTML = producto.caracteristicas || "";
 
 
             const ahorro = parseFloat(producto.precioAnterior) - parseFloat(producto.precio_pen);
@@ -91,37 +86,7 @@ fetch('productos.json')
             } else {
             document.getElementById('ahorro-producto').style.display = 'none'; // Oculta si no hay descuento
             }
-            
-
-
-            // Información adicional CARACTERISTICAS PRINCIPALES
-            const infoLista = document.getElementById('info-adicional');
-            infoLista.innerHTML = '';
-
-            if (producto.info_adicional) {
-            let contenido = '<div class="row">';
-            for (const clave in producto.info_adicional) {
-                contenido += `
-                <div class="col-12 col-md-6 mb-3">
-                    <div class="d-flex align-items-center border rounded p-2 bg-light h-100">
-                    <div class="me-3 text-dark">
-                        <i class="bi bi-info-circle-fill fs-4"></i>
-                    </div>
-                    <div>
-                        <p class="mb-0"><strong>${clave}:</strong> ${producto.info_adicional[clave]}</p>
-                    </div>
-                    </div>
-                </div>
-                `;
-            }
-            contenido += '</div>';
-            infoLista.innerHTML = contenido;
-            } else {
-            infoLista.innerHTML = "<p>Sin información adicional.</p>";
-            }
-
-           
-                        
+                              
             // AQUÍ se configura el botón
             document.getElementById('btn-agregar-carrito').addEventListener('click', () => {
                 let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
