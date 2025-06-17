@@ -81,7 +81,7 @@ fetch('productos.json')
             //document.getElementById('stock-producto').textContent = producto.stock;
             //document.getElementById('precio-producto').innerHTML = `S/ ${producto.precio_pen.toFixed(2)}`;
             document.getElementById('descripcion-producto').textContent = producto.descripcion || "";
-            document.getElementById('caracteristicas').innerHTML = producto.descripcion_larga || "";
+            document.getElementById('caracteristicas').innerHTML = producto.caracteristicas || "";
 
 
             const ahorro = parseFloat(producto.precioAnterior) - parseFloat(producto.precio_pen);
