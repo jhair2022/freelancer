@@ -80,7 +80,6 @@ fetch('productos.json')
             //document.getElementById('marca-producto').textContent = producto.marca;
             //document.getElementById('stock-producto').textContent = producto.stock;
             //document.getElementById('precio-producto').innerHTML = `S/ ${producto.precio_pen.toFixed(2)}`;
-            document.getElementById('descripcion-producto').textContent = producto.descripcion || "";
             document.getElementById('caracteristicas').innerHTML = producto.caracteristicas || "";
 
 
