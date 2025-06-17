@@ -117,6 +117,7 @@
   border-radius: 0;
 }
 
+/* Quitar redondeado */
 .accordion-item,
 .accordion-button,
 .accordion-button:focus,
@@ -124,6 +125,13 @@
   border-radius: 0 !important;
   box-shadow: none;
 }
+
+#caracteristicas {
+  font-size: 0.9rem;            /* Texto un poco más pequeño */
+  color: #6c757d;               /* Gris oscuro (Bootstrap text-secondary) */
+  line-height: 1.5;
+}
+
 
 
 /* BUSCAR PRODUCTOS ARRIBA DEL NAV */
