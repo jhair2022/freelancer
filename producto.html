@@ -243,7 +243,25 @@
           <i class="bi bi-whatsapp me-2"></i> Comprar por WhatsApp
         </a>
 
-        <div id="caracteristicas" class="d-block d-md-none mt-3"></div>
+
+        <!-- Caracteristicas -->
+        <div class="d-block d-md-none mt-3" id="acordeon-caracteristicas-container">
+          <div class="accordion" id="acordeonCaracteristicas">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="encabezadoCaracteristicas">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#contenidoCaracteristicas" aria-expanded="false" aria-controls="contenidoCaracteristicas">
+                  Características del producto
+                </button>
+              </h2>
+              <div id="contenidoCaracteristicas" class="accordion-collapse collapse" aria-labelledby="encabezadoCaracteristicas" data-bs-parent="#acordeonCaracteristicas">
+                <div class="accordion-body" id="caracteristicas">
+                  <!-- Aquí se insertarán dinámicamente las características -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
       </div>
 
