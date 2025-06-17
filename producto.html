@@ -232,6 +232,24 @@
           <span id="ahorro-producto" class="badge rounded-pill bg-success-subtle text-success fw-semibold ms-2"></span>
         </div>
 
+        <!-- Caracteristicas -->
+      <div class="container-fluid px-0 mt-3" id="acordeon-caracteristicas-container">
+          <div class="accordion" id="acordeonCaracteristicas">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="encabezadoCaracteristicas">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#contenidoCaracteristicas" aria-expanded="false" aria-controls="contenidoCaracteristicas">
+                  Características del producto
+                </button>
+              </h2>
+              <div id="contenidoCaracteristicas" class="accordion-collapse collapse" aria-labelledby="encabezadoCaracteristicas" data-bs-parent="#acordeonCaracteristicas">
+                <div class="accordion-body" id="caracteristicas">
+                  <!-- Aquí se insertarán dinámicamente las características -->
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
          <!-- Cantidad + Botón juntos -->
         <div class="d-flex align-items-center gap-2 mt-3 mb-3">
           <input type="number" id="cantidad-producto" class="form-control text-center" value="1" min="1" style="width: 70px;">
@@ -250,23 +268,7 @@
       </div>
 
 
-      <!-- Caracteristicas -->
-      <div class="container-fluid px-0 mt-3" id="acordeon-caracteristicas-container">
-          <div class="accordion" id="acordeonCaracteristicas">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="encabezadoCaracteristicas">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#contenidoCaracteristicas" aria-expanded="false" aria-controls="contenidoCaracteristicas">
-                  Características del producto
-                </button>
-              </h2>
-              <div id="contenidoCaracteristicas" class="accordion-collapse collapse" aria-labelledby="encabezadoCaracteristicas" data-bs-parent="#acordeonCaracteristicas">
-                <div class="accordion-body" id="caracteristicas">
-                  <!-- Aquí se insertarán dinámicamente las características -->
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
+      
 
     </div>
   </div>
