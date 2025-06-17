@@ -81,6 +81,8 @@ fetch('productos.json')
             //document.getElementById('stock-producto').textContent = producto.stock;
             //document.getElementById('precio-producto').innerHTML = `S/ ${producto.precio_pen.toFixed(2)}`;
             document.getElementById('descripcion-producto').textContent = producto.descripcion || "";
+            document.getElementById('caracteristicas').innerHTML = producto.descripcion_larga || "";
+
 
             const ahorro = parseFloat(producto.precioAnterior) - parseFloat(producto.precio_pen);
 
@@ -90,7 +92,6 @@ fetch('productos.json')
             document.getElementById('ahorro-producto').style.display = 'none'; // Oculta si no hay descuento
             }
             
-            document.getElementById('caracteristicas').innerHTML = producto.descripcion_larga || "";
 
 
             // Información adicional CARACTERISTICAS PRINCIPALES
