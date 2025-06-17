@@ -89,6 +89,9 @@ fetch('productos.json')
             } else {
             document.getElementById('ahorro-producto').style.display = 'none'; // Oculta si no hay descuento
             }
+            
+            document.getElementById('caracteristicas').innerHTML = producto.descripcion_larga || "";
+
 
             // Información adicional CARACTERISTICAS PRINCIPALES
             const infoLista = document.getElementById('info-adicional');
