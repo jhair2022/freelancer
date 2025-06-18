@@ -528,7 +528,9 @@
         "categoria": "audifonos",
         "subcategoria": "Microfonos",
         "destacado": false,
-        "descripcion": "Set de 2 solaperos inalámbricos con conector USB Tipo C, sonido claro y alcance de hasta 20m. Ideal para entrevistas, grabaciones y transmisiones."
+        "descripcion": "Set de 2 solaperos inalámbricos con conector USB Tipo C, sonido claro y alcance de hasta 20m. Ideal para entrevistas, grabaciones y transmisiones.",
+        "caracteristicas": "<ul><li>Incluye 2 micrófonos solaperos inalámbricos.</li><li>Conector USB Tipo C (compatible con Android y otros dispositivos con entrada C).</li><li>Emparejamiento automático y fácil uso.</li><li>Alcance de hasta 20 metros sin interferencias.</li><li>Cancelación de ruido para grabaciones más claras.</li></ul><p>*Compatible con la mayoría de dispositivos con puerto Tipo C (no iPhone).</p><p>**Cargar completamente antes del primer uso para mejor rendimiento.</p>"
+
 
     },
     {
