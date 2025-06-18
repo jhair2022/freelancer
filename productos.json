@@ -98,7 +98,9 @@
         "categoria": "audifonos",
         "subcategoria": "alambricos",
         "destacado": false,
-        "descripcion": "Audífonos con conexión Jack 3.5, diseñados para brindar sonido nítido, incluye micrófono incorporado para llamadas claras"
+        "descripcion": "Audífonos con conexión Jack 3.5, diseñados para brindar sonido nítido, incluye micrófono incorporado para llamadas claras",
+        "caracteristicas": "<ul><li>Conector Jack 3.5 mm compatible con la mayoría de dispositivos.</li><li>Sonido estéreo nítido con buen balance de bajos y agudos.</li><li>Micrófono incorporado para llamadas y reuniones.</li><li>Control de volumen y botón multifunción en el cable.</li><li>Diseño ligero y cómodo para uso diario.</li></ul><p>*Requiere entrada Jack 3.5 mm activa para funcionar correctamente.</p><p>**No necesita carga ni emparejamiento.</p>"
+
 
     },
     {
