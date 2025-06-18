@@ -258,7 +258,9 @@
         "precio_pen": 25.00,
         "categoria": "cargador",
         "subcategoria": "Tipo C",
-        "destacado": false
+        "destacado": false,
+        "caracteristicas": "<ul><li>Cargador EWTTO de 40W con salida Tipo C.</li><li>Incluye adaptador USB para mayor compatibilidad.</li><li>Soporta carga rápida para smartphones y tablets.</li><li>Diseño compacto y resistente al calor.</li><li>Protección contra sobrecarga, sobrecalentamiento y cortocircuito.</li></ul><p>*La velocidad de carga puede variar según el dispositivo y cable utilizado.</p><p>**Se recomienda usar con cables certificados para obtener el mejor rendimiento.</p>"
+
     },
     {
         "id": 17,
