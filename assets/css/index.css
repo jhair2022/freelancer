@@ -142,7 +142,7 @@
 }
 
 .accordion-button::after {
-  border-width: 0.35em; /* Valor por defecto */
+  border-width: 0.95em; /* Valor por defecto */
 }
 
 
