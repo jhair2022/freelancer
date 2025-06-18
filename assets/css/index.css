@@ -141,6 +141,9 @@
   font-weight: 500;   /* Negrita para más presencia */
 }
 
+.accordion-button::after {
+  border-width: 0.35em; /* Valor por defecto */
+}
 
 
 
