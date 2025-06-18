@@ -66,8 +66,8 @@
         "categoria": "audifonos",
         "subcategoria": "bluetooth",
         "destacado": false,
-        "descripcion": "Audífonos inalámbricos con estuche de carga, gran sonido y control táctil. Compactos, cómodos y listos para todo."
-
+        "descripcion": "Audífonos inalámbricos con estuche de carga, gran sonido y control táctil. Compactos, cómodos y listos para todo.",
+        "caracteristicas": "<ul><li>Conexión Bluetooth 5.0 para una transmisión estable.</li><li>Diseño ergonómico con estuche cargador portátil.</li><li>Autonomía de hasta 3 horas por carga.</li><li>Micrófono integrado para llamadas con manos libres.</li><li>Controles táctiles para música, llamadas y asistente de voz.</li></ul><p>*El tiempo de uso puede variar según el volumen y el entorno.</p><p>**Cargar completamente antes del primer uso para un rendimiento óptimo.</p>"
     },
     {
         "id": 5,
