@@ -273,7 +273,9 @@
         "precio_pen": 20.00,
         "categoria": "cargador",
         "subcategoria": "Tipo C",
-        "destacado": false
+        "destacado": false,
+        "caracteristicas": "<ul><li>Cargador Dexbo con salida Tipo C de hasta 40W.</li><li>Compatible con carga rápida para smartphones, tablets y más.</li><li>Diseño compacto y resistente, ideal para uso diario.</li><li>Protección contra sobrecalentamiento, sobrecarga y cortocircuito.</li><li>Salida estable para una carga segura y eficiente.</li></ul><p>*Para un rendimiento óptimo, usar con cable de buena calidad compatible con 40W.</p><p>**La velocidad de carga puede variar según el dispositivo conectado.</p>"
+
     },
     {
         "id": 18,
@@ -318,7 +320,9 @@
         "precio_pen": 26.00,
         "categoria": "audifonos",
         "subcategoria": "bluetooth",
-        "destacado": false
+        "destacado": false,
+        "caracteristicas": "<ul><li>Conectividad Bluetooth 5.1 estable y de bajo consumo.</li><li>Diseño deportivo con ajuste cómodo y seguro.</li><li>Estuche cargador con pantalla LED de batería.</li><li>Hasta 4 horas de uso continuo por carga (más con estuche).</li><li>Micrófono incorporado y control táctil para llamadas y música.</li></ul><p>*El rendimiento puede variar según el volumen y uso.</p><p>**Se recomienda cargar completamente antes del primer uso para un mejor desempeño.</p>"
+
     },
     {
         "id": 30,
