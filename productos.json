@@ -354,7 +354,9 @@
         "precio_pen": 160.00,
         "categoria": "parlantes",
         "subcategoria": "Lidimi",
-        "destacado": false
+        "destacado": false,
+        "caracteristicas": "<ul><li>Potencia de sonido de 40W para una experiencia envolvente.</li><li>Diseño resistente al agua, ideal para exteriores.</li><li>Incluye correa para colgar o transportar fácilmente.</li><li>Conectividad Bluetooth estable y de largo alcance.</li><li>Reproducción desde USB, tarjeta TF y auxiliar.</li></ul><p>*No sumergible. Clasificación resistente a salpicaduras.</p><p>**Se recomienda cargar completamente antes del primer uso para mejor rendimiento.</p>"
+
     },
     {
         "id": 32,
