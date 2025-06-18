@@ -77,7 +77,9 @@
         "categoria": "audifonos",
         "subcategoria": "alambricos",
         "destacado": false,
-        "descripcion": "Audífonos con conexión Tipo C, diseñados para brindar sonido nítido, incluye micrófono incorporado para llamadas claras"
+        "descripcion": "Audífonos con conexión Tipo C, diseñados para brindar sonido nítido, incluye micrófono incorporado para llamadas claras",
+        "caracteristicas": "<ul><li>Compatibilidad universal con dispositivos Samsung.</li><li>Carga rápida Adaptive Fast Charging (AFC).</li><li>Salida de 9V/1.67A o 5V/2A.</li><li>Incluye cable USB tipo C de alta calidad.</li></ul><p>*Velocidad de carga puede variar según el dispositivo.</p><p>**Se recomienda usar con cable y adaptador originales para mejor rendimiento.</p>"
+
 
     },
     {
