@@ -126,13 +126,15 @@
   box-shadow: none;
 }
 
-#caracteristicas {
+#caracteristicas,
+#incluye {
   font-size: 0.9rem;            /* Texto un poco más pequeño */
   color: #5e6469;               /* Gris oscuro (Bootstrap text-secondary) */
   line-height: 1.5;
 }
 
-#encabezadoCaracteristicas .accordion-button {
+#encabezadoCaracteristicas .accordion-button,
+#encabezadoIncluye .accordion-button{
   font-size: 1.1rem; /* Aumenta el tamaño */
   font-weight: 600;   /* Negrita para más presencia */
 }
