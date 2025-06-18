@@ -135,7 +135,7 @@
 
 #encabezadoCaracteristicas .accordion-button,
 #encabezadoIncluye .accordion-button{
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 1.1rem; /* Aumenta el tamaño */
   font-weight: 600;   /* Negrita para más presencia */
 }
