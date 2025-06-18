@@ -136,6 +136,7 @@
 #encabezadoCaracteristicas .accordion-button,
 #encabezadoIncluye .accordion-button{
   font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #161616;               /* Gris oscuro (Bootstrap text-secondary) */
   font-size: 1.1rem; /* Aumenta el tamaño */
   font-weight: 600;   /* Negrita para más presencia */
 }
