@@ -15,7 +15,7 @@
       "subcategoria": "alambricos",
       "destacado": false,
       "descripcion": "Audífonos con conexión Tipo C, diseñados para brindar sonido nítido, incluye micrófono incorporado para llamadas claras",
-      "caracteristicas": "<ul><li>Conector USB Tipo C compatible con la mayoría de dispositivos Android.</li><li>Calidad de sonido estéreo con bajos mejorados.</li><li>Micrófono incorporado para llamadas y videollamadas.</li><li>Control de volumen y botón multifunción en el cable.</li><li>Diseño ergonómico para mayor comodidad.</li></ul><p>*No compatible con dispositivos que no admiten salida de audio por USB Tipo C.</p><p>**Para un mejor desempeño, conectar directamente sin adaptadores.</p>"
+      "caracteristicas": "<ul><li>Conector Tipo C compatible con la mayoría de dispositivos Android.</li><li>Calidad de sonido estéreo con bajos mejorados.</li><li>Micrófono incorporado para llamadas y videollamadas.</li><li>Control de volumen y botón multifunción en el cable.</li><li>Diseño ergonómico para mayor comodidad.</li></ul><p>*No compatible con dispositivos que no admiten salida de audio por USB Tipo C.</p><p>**Para un mejor desempeño, conectar directamente sin adaptadores.</p>"
 
     },
     {
@@ -50,7 +50,9 @@
         "categoria": "audifonos",
         "subcategoria": "bluetooth",
         "descripcion": "Audífonos inalámbricos con estuche de carga, gran sonido y control táctil. Compactos, cómodos y listos para todo.",
-        "destacado": false
+        "destacado": false,
+        "caracteristicas": "<ul><li>Conectividad Bluetooth 5.1 estable y de bajo consumo.</li><li>Diseño tipo in-ear con estuche de carga compacto.</li><li>Hasta 4 horas de reproducción continua por carga.</li><li>Micrófono incorporado para llamadas con manos libres.</li><li>Controles táctiles para música y llamadas.</li></ul><p>*La duración de la batería varía según el volumen y uso.</p><p>**Se recomienda cargar completamente antes del primer uso para un mejor rendimiento.</p>"
+
     },
     {
         "id": 4,
