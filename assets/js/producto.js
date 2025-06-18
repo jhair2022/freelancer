@@ -77,6 +77,8 @@ fetch('productos.json')
             document.getElementById('precio-anterior').textContent = `S/ ${parseFloat(producto.precioAnterior).toFixed(2)}`;
             document.getElementById('precio-actual').textContent = `S/ ${parseFloat(producto.precio_pen).toFixed(2)}`;
             document.getElementById('caracteristicas').innerHTML = producto.caracteristicas || "";
+            document.getElementById('incluye').innerHTML = producto.caracteristicas || "";
+
 
 
 
