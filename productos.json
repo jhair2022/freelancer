@@ -14,7 +14,9 @@
       "categoria": "audifonos",
       "subcategoria": "alambricos",
       "destacado": false,
-      "descripcion": "Audífonos con conexión Tipo C, diseñados para brindar sonido nítido, incluye micrófono incorporado para llamadas claras"
+      "descripcion": "Audífonos con conexión Tipo C, diseñados para brindar sonido nítido, incluye micrófono incorporado para llamadas claras",
+      "caracteristicas": "<ul><li>Conector USB Tipo C compatible con la mayoría de dispositivos Android.</li><li>Calidad de sonido estéreo con bajos mejorados.</li><li>Micrófono incorporado para llamadas y videollamadas.</li><li>Control de volumen y botón multifunción en el cable.</li><li>Diseño ergonómico para mayor comodidad.</li></ul><p>*No compatible con dispositivos que no admiten salida de audio por USB Tipo C.</p><p>**Para un mejor desempeño, conectar directamente sin adaptadores.</p>"
+
     },
     {
         "id": 2,
