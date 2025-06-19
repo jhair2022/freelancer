@@ -60,7 +60,7 @@ function cargarCarrito() {
         item.innerHTML = `
             <!-- Imagen -->
             <div style="width: 100px; flex-shrink: 0;">
-                <img src="${producto.imagen}" alt="${producto.nombre}" class="img-fluid rounded" style="object-fit: cover;">
+                <img src="${producto.imagen}" alt="${producto.nombre}" class="img-fluid rounded" style="width: 100px; height: 100px; object-fit: cover;">
             </div>
 
             <!-- Detalles -->
