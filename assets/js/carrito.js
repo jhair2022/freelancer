@@ -53,7 +53,7 @@ function cargarCarrito() {
 
     carrito.forEach(producto => {
         const item = document.createElement('div');
-        item.classList.add('d-flex', 'flex-column', 'gap-2', 'mb-4', 'rounded', 'p-3', 'bg-light');
+        item.classList.add('d-flex', 'flex-row', 'gap-3', 'mb-4', 'rounded', 'p-3', 'bg-light', 'align-items-start', 'w-100', 'flex-wrap');
 
         subtotal += producto.precio_pen * producto.cantidad;
 
