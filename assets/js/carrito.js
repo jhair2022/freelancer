@@ -65,9 +65,9 @@ function cargarCarrito() {
 
         item.innerHTML = `
             <div class="d-flex align-items-center gap-3">
-                <img src="${producto.imagen}" class="img-producto" alt="${producto.nombre}" style="width: 30px; height: 30px; object-fit: cover;">
+                <img src="${producto.imagen}" class="img-producto" alt="${producto.nombre}" style="width: 50px; height: 50px; object-fit: cover;">
                 <div>
-                    <p class="mb-1 fw-bold">${producto.nombre}</p>
+                    <p class="mb-1 fw-semibold">${producto.nombre}</p>
                     <small class="text-muted">Cantidad: ${producto.cantidad}</small>
                 </div>
             </div>
