@@ -53,14 +53,14 @@ function cargarCarrito() {
 
     carrito.forEach(producto => {
         const item = document.createElement('div');
-        item.classList.add('d-flex', 'flex-column', 'gap-2', 'mb-4', 'rounded', 'p-3', 'bg-light');
+        item.classList.add('d-flex', 'gap-3', 'mb-4', 'rounded', 'p-2', 'align-items-start', 'flex-row', 'flex-wrap');
 
         subtotal += producto.precio_pen * producto.cantidad;
 
         item.innerHTML = `
             <!-- Imagen -->
             <div style="width: 100px; flex-shrink: 0;">
-                <img src="${producto.imagen}" alt="${producto.nombre}" class="img-fluid rounded" style="width: 50px; height: 50px; object-fit: cover;">
+                <img src="${producto.imagen}" alt="${producto.nombre}" class="img-fluid rounded" style="width: 100px; height: 100px; object-fit: cover;">
             </div>
 
             <!-- Detalles -->
