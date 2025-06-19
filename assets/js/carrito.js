@@ -53,14 +53,14 @@ function cargarCarrito() {
 
     carrito.forEach(producto => {
         const item = document.createElement('div');
-        item.classList.add('d-flex', 'gap-3', 'mb-4', 'rounded', 'p-2', 'align-items-start', 'flex-row', 'flex-wrap');
+        item.classList.add('d-flex', 'gap-3', 'mb-4', 'border', 'rounded', 'p-2', 'align-items-start', 'flex-sm-row', 'flex-column');
 
         subtotal += producto.precio_pen * producto.cantidad;
 
         item.innerHTML = `
             <!-- Imagen -->
             <div style="width: 100px; flex-shrink: 0;">
-                <img src="${producto.imagen}" alt="${producto.nombre}" class="img-fluid rounded" style="width: 100px; height: 100px; object-fit: cover;">
+                <img src="${producto.imagen}" alt="${producto.nombre}" class="img-fluid rounded" style="object-fit: cover;">
             </div>
 
             <!-- Detalles -->
@@ -128,7 +128,7 @@ function actualizarCantidad(id, cantidad) {
     }
 }
 
-//función para manejar los botones + y -
+//función para manejar los botones + y -:
 function cambiarCantidad(id, cambio) {
     let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
     const producto = carrito.find(p => p.id === id);
