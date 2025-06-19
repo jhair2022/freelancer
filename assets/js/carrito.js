@@ -73,7 +73,7 @@ function cargarCarrito() {
             </div>
             <div class="d-flex align-items-center gap-2">
                 <p class="mb-0 fw-semibold">S/ ${(producto.precio_pen * producto.cantidad).toFixed(2)}</p>
-                <button onclick="eliminarProducto(${producto.id})" class="btn btn-sm btn-danger"><i class="bi bi-x-lg"></i></button>
+                <button onclick="eliminarProducto(${producto.id})" class="btn btn-sm btn-dark"><i class="bi bi-x-lg"></i></button>
             </div>
         `;
 
