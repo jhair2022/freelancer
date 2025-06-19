@@ -71,10 +71,10 @@
     },
     {
         "id": 5,
-        "nombre": "AUDÍFONO TC EWTTO A1046MC",
-        "imagen": "assets/img/productos/aud-a1046mc.jpg",
+        "nombre": "AUDÍFONO TC EWTTO A1283M",
+        "imagen": "assets/img/productos/aud-a1283m.png",
         "stock": "Disponible",
-        "modelo": "ET-A1046MC",
+        "modelo": "ET-A1283M",
         "marca": "Ewtto",
         "precioAnterior": 18.00,
         "precio_pen": 15.00,
