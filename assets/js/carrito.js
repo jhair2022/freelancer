@@ -53,7 +53,7 @@ function cargarCarrito() {
 
     carrito.forEach(producto => {
         const item = document.createElement('div');
-        item.classList.add('d-flex', 'gap-3', 'mb-4', 'border', 'rounded', 'p-2', 'align-items-start', 'flex-sm-row', 'flex-column');
+        item.classList.add('d-flex', 'gap-3', 'mb-4', 'rounded', 'p-2', 'align-items-start', 'flex-sm-row', 'flex-column');
 
         subtotal += producto.precio_pen * producto.cantidad;
 
@@ -128,7 +128,7 @@ function actualizarCantidad(id, cantidad) {
     }
 }
 
-//función para manejar los botones + y -:
+//función para manejar los botones + y -
 function cambiarCantidad(id, cambio) {
     let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
     const producto = carrito.find(p => p.id === id);
