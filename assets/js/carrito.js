@@ -34,19 +34,13 @@ function enviarPorWhatsapp(event) {
 
 // Función para cargar productos en el carrito
 function cargarCarrito() {
-    
     const carritoContenido = document.getElementById('carrito-contenido');
     const subtotalCarrito = document.getElementById('subtotal-carrito');
     const totalCarrito = document.getElementById('total-carrito');
 
-    // Si no existen los elementos, no hacemos nada
-    if (!carritoContenido || !subtotalCarrito || !totalCarrito) {
-        console.warn('Elementos del carrito no encontrados en esta página.');
-        return;
-    }
-    if (!carritoContenido) return;
-    carritoContenido.innerHTML = '';
+    if (!carritoContenido || !subtotalCarrito || !totalCarrito) return;
 
+    carritoContenido.innerHTML = '';
     let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
     let subtotal = 0;
 
@@ -59,21 +53,40 @@ function cargarCarrito() {
 
     carrito.forEach(producto => {
         const item = document.createElement('div');
-        item.classList.add('d-flex', 'align-items-center', 'justify-content-between', 'mb-3', 'border-bottom', 'pb-2');
+        item.classList.add('d-flex', 'gap-3', 'mb-4', 'border', 'rounded', 'p-2', 'align-items-start', 'flex-sm-row', 'flex-column');
 
         subtotal += producto.precio_pen * producto.cantidad;
 
         item.innerHTML = `
-            <div class="d-flex align-items-center gap-3">
-                <img src="${producto.imagen}" class="img-producto" alt="${producto.nombre}" style="width: 50px; height: 50px; object-fit: cover;">
-                <div>
-                    <p class="mb-1 fw-semibold">${producto.nombre}</p>
-                    <small class="text-muted">Cantidad: ${producto.cantidad}</small>
-                </div>
+            <!-- Imagen -->
+            <div style="width: 100px; flex-shrink: 0;">
+                <img src="${producto.imagen}" alt="${producto.nombre}" class="img-fluid rounded" style="object-fit: cover;">
             </div>
-            <div class="d-flex align-items-center gap-2">
-                <p class="mb-0 fw-semibold">S/ ${(producto.precio_pen * producto.cantidad).toFixed(2)}</p>
-                <button onclick="eliminarProducto(${producto.id})" class="btn btn-sm btn-dark"><i class="bi bi-x-lg"></i></button>
+
+            <!-- Detalles -->
+            <div class="flex-grow-1 d-flex flex-column justify-content-between w-100">
+                <div class="d-flex justify-content-between align-items-start">
+                    <div>
+                        <p class="fw-semibold mb-1">${producto.nombre}</p>
+                    </div>
+                    <button onclick="eliminarProducto(${producto.id})" class="btn btn-sm btn-outline-dark"><i class="bi bi-x-lg"></i></button>
+                </div>
+
+                <!-- Controles y precios -->
+                <div class="d-flex justify-content-between align-items-center mt-2 flex-wrap gap-2">
+                    <!-- Controles -->
+                    <div class="d-flex align-items-center gap-2">
+                        <button class="btn btn-outline-secondary btn-sm" onclick="cambiarCantidad(${producto.id}, -1)">-</button>
+                        <span class="fw-semibold">${producto.cantidad}</span>
+                        <button class="btn btn-outline-secondary btn-sm" onclick="cambiarCantidad(${producto.id}, 1)">+</button>
+                    </div>
+
+                    <!-- Precio -->
+                    <div class="text-end">
+                        ${producto.precioAnterior ? `<small class="text-muted text-decoration-line-through d-block">S/ ${producto.precioAnterior.toFixed(2)}</small>` : ''}
+                        <span class="fw-bold text-success">S/ ${(producto.precio_pen * producto.cantidad).toFixed(2)}</span>
+                    </div>
+                </div>
             </div>
         `;
 
@@ -83,6 +96,7 @@ function cargarCarrito() {
     subtotalCarrito.textContent = `S/ ${subtotal.toFixed(2)}`;
     totalCarrito.textContent = `S/ ${subtotal.toFixed(2)}`;
 }
+
 
 // Función para eliminar un solo producto
 function eliminarProducto(id) {
@@ -113,6 +127,21 @@ function actualizarCantidad(id, cantidad) {
         cargarCarrito(); // Recargar el carrito
     }
 }
+
+//función para manejar los botones + y -:
+function cambiarCantidad(id, cambio) {
+    let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+    const producto = carrito.find(p => p.id === id);
+
+    if (producto) {
+        producto.cantidad += cambio;
+        if (producto.cantidad < 1) producto.cantidad = 1;
+
+        localStorage.setItem('carrito', JSON.stringify(carrito));
+        cargarCarrito();
+    }
+}
+
 
 
 
