@@ -87,61 +87,75 @@
       </div>
     </header>
     
-    <!-- Menú Offcanvas SOLO MOVIL-->
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="menuLateral">
-      <div class="offcanvas-header justify-content-between align-items-center">
-        <div class="d-flex align-items-center">
-          <img src="assets/img/FREELANCER LOGO.png" alt="Logo" style="height: 38px;" class="me-2">
-        </div>
-
-        <div class="d-flex align-items-center">
-
-
-          <button type="button" class="btn" data-bs-dismiss="offcanvas" aria-label="Close">
-            <i class="bi bi-x" style="font-size: 1.5rem;"></i>
-          </button>
-        </div>
-      </div>
-
-
-      <div class="offcanvas-body">
-        <ul class="navbar-nav">
-        
-          <!-- POR CATEGORÍA (con submenú colapsable) -->
-          <li class="nav-item mb-2">
-            <a class="nav-link rounded shadow-sm px-3 py-2 d-flex justify-content-between align-items-center bg-categoria"
-              data-bs-toggle="collapse" href="#submenuCategorias" role="button" aria-expanded="true" aria-controls="submenuCategorias">
-              <span><i class="bi bi-grid-3x3-gap me-2 text-dark"></i> Por Categoría</span>
-              <i class="bi bi-chevron-down"></i>
-            </a>
-            <div class="collapse show ps-4 mt-1" id="submenuCategorias">
-              <ul class="list-unstyled">
-                <li><a class="nav-link px-3 py-2" href="audifonos.html">Audífonos</a></li>
-                <li><a class="nav-link px-3 py-2" href="computo.html">Área Computo</a></li>
-                <li><a class="nav-link px-3 py-2" href="cargadores.html">Cargadores</a></li>
-
-                <li><a class="nav-link px-3 py-2" href="parlantes.html">Parlantes</a></li>
-              </ul>
-            </div>
-          </li>
-
-          <!-- SERVICIOS -->
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link rounded shadow-sm px-3 py-2 d-flex align-items-center">
-              <i class="bi bi-tools me-2 text-dark"></i> Servicios
-            </a>
-          </li>
-
-          <!-- FORMAS DE PAGO -->
-          <li class="nav-item mb-2">
-            <a href="formasdepago.html" class="nav-link rounded shadow-sm px-3 py-2 d-flex align-items-center">
-              <i class="bi bi-credit-card me-2 text-dark"></i> Formas de pago
-            </a>
-          </li>
-
-        </ul>
-      </div>
+   <!-- Menú Offcanvas SOLO MOVIL-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="menuLateral">
+  <div class="offcanvas-header justify-content-between align-items-center">
+    <div class="d-flex align-items-center">
+      <img src="assets/img/FREELANCER LOGO.png" alt="Logo" style="height: 38px;" class="me-2">
     </div>
+    <div class="d-flex align-items-center">
+      <button type="button" class="btn" data-bs-dismiss="offcanvas" aria-label="Close">
+        <i class="bi bi-x" style="font-size: 1.7rem;"></i>
+      </button>
+    </div>
+  </div>
+
+  <div class="offcanvas-body">
+    <ul class="navbar-nav">
+
+      <!-- POR CATEGORÍA (con submenú colapsable) -->
+      <li class="nav-item mb-2">
+        <a class="nav-link rounded shadow-sm px-3 py-3 d-flex justify-content-between align-items-center bg-warning fw-semibold"
+          data-bs-toggle="collapse" href="#submenuCategorias" role="button" aria-expanded="true" aria-controls="submenuCategorias">
+          <span><i class="bi-ui-checks-grid me-2 text-dark"></i> Categorías</span>
+          <i class="bi bi-chevron-down"></i>
+        </a>
+        <div class="collapse show mt-2" id="submenuCategorias">
+          <ul class="list-unstyled">
+
+            <li>
+              <a class="nav-link d-flex align-items-center rounded shadow-sm px-3 py-3 mb-2" href="audifonos.html">
+                <img src="assets/img/productos/icono-audifono.png" alt="Audífonos" style="height: 37px;" class="me-3">
+                Audífonos
+              </a>
+            </li>
+
+            <li>
+              <a class="nav-link d-flex align-items-center rounded shadow-sm px-3 py-3 mb-2" href="computo.html">
+                <img src="assets/img/productos/icono-computo.png" alt="Computo" style="height: 37px;" class="me-3">
+                Cómputo
+              </a>
+            </li>
+
+            <li>
+              <a class="nav-link d-flex align-items-center rounded shadow-sm px-3 py-3 mb-2" href="cargadores.html">
+                <img src="assets/img/productos/icono-cargador.png" alt="Cargadores" style="height: 37px;" class="me-3">
+                Cargadores
+              </a>
+            </li>
+
+            <li>
+              <a class="nav-link d-flex align-items-center rounded shadow-sm  px-3 py-3 mb-2" href="parlantes.html">
+                <img src="assets/img/productos/icono-parlante.png" alt="Parlantes" style="height: 37px;" class="me-3">
+                Parlantes
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </li>
+
+      
+      <!-- FORMAS DE PAGO -->
+      <li class="nav-item mb-2">
+        <a href="formasdepago.html" class="nav-link rounded shadow-sm px-3 py-3 bg-light d-flex align-items-center">
+          <i class="bi-credit-card-2-front me-2 text-dark"></i> Formas de pago
+        </a>
+      </li>
+
+    </ul>
+  </div>
+</div>
 
    <!-- NAVBAR DISEÑO SOLO PC -->
   <nav class="d-none d-lg-block py-3 position-relative">
