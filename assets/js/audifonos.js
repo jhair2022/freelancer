@@ -47,7 +47,7 @@ fetch('productos.json')
                     <div class="card h-100" onclick="verProducto(${producto.id})" style="cursor:pointer;">
                         <div class="position-relative">
                             <img src="${producto.imagen}" class="card-img-top" alt="${producto.nombre}">
-                            <span class="badge bg-success position-absolute top-0 start-0 m-2">Nuevo</span>
+                            <span class="badge bg-success position-absolute top-0 start-0 m-2"></span>
                         </div>
                         <div class="card-body text-center">
                             <p class="card-title fw-semibold small mb-1">${producto.nombre}</p>
