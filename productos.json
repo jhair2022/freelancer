@@ -537,9 +537,9 @@
     {
         "id": 43,
         "nombre": "LECTOR DE MEMORIAS TPL0018",
-        "imagen": "assets/img/productos/mouse-bt-et-m3658b.png",
+        "imagen": "assets/img/productos/lector-tpl0018.png",
         "imagenes_adicionales": [
-             "assets/img/productos/mouse-bt-et-m3658b-2.png"
+             "assets/img/productos/lector-tpl0018-2.png"
        ],
         "stock": "Disponible",
         "modelo": "TPL0018",
