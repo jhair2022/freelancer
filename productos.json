@@ -538,6 +538,9 @@
         "id": 43,
         "nombre": "LECTOR DE MEMORIAS TPL0018",
         "imagen": "assets/img/productos/mouse-bt-et-m3658b.png",
+        "imagenes_adicionales": [
+             "assets/img/productos/mouse-bt-et-m3658b-2.png"
+       ],
         "stock": "Disponible",
         "modelo": "TPL0018",
         "marca": "Romax",
