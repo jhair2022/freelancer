@@ -548,7 +548,8 @@
         "precio_pen": 10.00,
         "categoria": "área computo",
         "subcategoria": "Adaptadores",
-        "destacado": false
+        "destacado": false,
+        "descripcion": "Lector de memorias USB 3.0 compatible con tarjetas SD, microSD y más. Ideal para transferir fotos, videos y archivos de forma rápida y sencilla entre tu memoria y la computadora."
     },
     {
         "id": 48,
