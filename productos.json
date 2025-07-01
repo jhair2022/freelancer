@@ -536,6 +536,19 @@
     },
     {
         "id": 43,
+        "nombre": "LECTOR DE MEMORIAS TPL0018",
+        "imagen": "assets/img/productos/mouse-bt-et-m3658b.png",
+        "stock": "Disponible",
+        "modelo": "TPL0018",
+        "marca": "Romax",
+        "precioAnterior": 15.00,
+        "precio_pen": 10.00,
+        "categoria": "área computo",
+        "subcategoria": "Adaptadores",
+        "destacado": false
+    },
+    {
+        "id": 48,
         "nombre": "SOLAPERO INALAMBRICO X2 TSM0016 ",
         "imagen": "assets/img/productos/solapero-romax-tsm0016.png",
         "imagenes_adicionales": [
@@ -555,7 +568,7 @@
 
     },
     {
-        "id": 44,
+        "id": 49,
         "nombre": "SOLAPERO INALAMBRICO X2 TSM0019 ",
         "imagen": "assets/img/productos/solapero-tsm0019.png",
         "stock": "Disponible",
