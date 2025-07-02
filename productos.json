@@ -165,8 +165,8 @@
         "marca": "Ewtto",
         "precioAnterior": 15.00,
         "precio_pen": 10.00,
-        "categoria": "cargador",
-        "subcategoria": "Micro USB - V8",
+        "categoria": "cables para celular",
+        "subcategoria": "V8",
         "destacado": false,
         "descripcion": "Cable EWTTO V8 resistente y de carga rápida. Ideal para uso diario con excelente durabilidad..",
         "caracteristicas": "<ul><li>Cable Micro USB (V8) marca EWTTO.</li><li>Compatible con dispositivos Android con entrada V8.</li><li>Admite carga y transferencia de datos.</li><li>Longitud aproximada de 1 metro.</li><li>Diseño resistente con refuerzo en los extremos.</li></ul><p>*Para mejor rendimiento, usar con adaptadores de buena calidad.</p><p>**No compatible con dispositivos con entrada Tipo C o Lightning.</p>"
@@ -228,7 +228,7 @@
         "marca": "Romax",
         "precioAnterior": 12.00,
         "precio_pen": 10.00,
-        "categoria": "cargador",
+        "categoria": "cables para celular",
         "subcategoria": "Tipo C",
         "destacado": false,
         "caracteristicas": "<ul><li>Cable USB Tipo C marca Romax de alta potencia.</li><li>Soporta carga rápida de hasta 6A / 55W.</li><li>Ideal para celulares, tablets y dispositivos de carga rápida.</li><li>Diseño reforzado para mayor durabilidad.</li><li>Longitud aproximada de 1 metro.</li></ul><p>*Se recomienda usar con cargadores compatibles con carga rápida de 55W.</p><p>**No utilizar con adaptadores de baja capacidad para evitar sobrecalentamiento.</p>"
