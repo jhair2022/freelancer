@@ -237,9 +237,9 @@
     {
         "id": 15,
         "nombre": "CARGADOR V8 DEXBO",
-        "imagen": "assets/img/productos/cargador-dexbo-v8.jpg",
+        "imagen": "assets/img/productos/cargador-e5142m.png",
         "stock": "Agotado",
-        "modelo": "DE-5107M",
+        "modelo": "DE-5142M",
         "marca": "Dexbo",
         "precioAnterior": 17.00,
         "precio_pen": 14.00,
