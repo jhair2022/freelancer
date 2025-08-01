@@ -399,45 +399,6 @@
     },
     {
         "id": 34,
-        "nombre": "PARLANTE EW-P102B",
-        "imagen": "assets/img/productos/EW-P102B.jpg",
-        "stock": "Disponible",
-        "modelo": "EW-P102B",
-        "marca": "Ewtto",
-        "precioAnterior": 110.00,
-        "precio_pen": 110.00,
-        "categoria": "parlantes",
-        "subcategoria": "Ewtto",
-        "destacado": false
-    },
-    {
-        "id": 35,
-        "nombre": "PARLANTE EW-P123B",
-        "imagen": "assets/img/productos/EW-P123B.jpg",
-        "stock": "Disponible",
-        "modelo": "EW-P123B",
-        "marca": "Ewtto",
-        "precioAnterior": 140.00,
-        "precio_pen": 130.00,
-        "categoria": "parlantes",
-        "subcategoria": "Ewtto",
-        "destacado": false
-    },
-    {
-        "id": 36,
-        "nombre": "PARLANTE EW-P120B",
-        "imagen": "assets/img/productos/EW-P120B.jpg",
-        "stock": "Disponible",
-        "modelo": "EW-P120B",
-        "marca": "Ewtto",
-        "precioAnterior": 155.00,
-        "precio_pen": 145.00,
-        "categoria": "parlantes",
-        "subcategoria": "Ewtto",
-        "destacado": false
-    },
-    {
-        "id": 37,
         "nombre": "PARLANTE LD-S007AC",
         "imagen": "assets/img/productos/ld-s007ac.png",
         "imagenes_adicionales": [
@@ -453,7 +414,7 @@
         "destacado": false
     },
     {
-        "id": 38,
+        "id": 35,
         "nombre": "PARLANTE LIDIMI S652",
         "imagen": "assets/img/productos/parlante-s652.png",
         "stock": "Disponible",
