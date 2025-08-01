@@ -427,6 +427,19 @@
         "destacado": false
     },
     {
+        "id": 36,
+        "nombre": "PARLANTE LIDIMI S681",
+        "imagen": "assets/img/productos/parlante-s681.png",
+        "stock": "Disponible",
+        "modelo": "LD-S681",
+        "marca": "LIDIMI",
+        "precioAnterior": 289.00,
+        "precio_pen": 259.00,
+        "categoria": "parlantes",
+        "subcategoria": "Lidimi",
+        "destacado": false
+    },
+    {
         "id": 39,
         "nombre": "MOUSE SEISA N611",
         "imagen": "assets/img/productos/mouse-seisa-dn-n611.png",
