@@ -530,23 +530,8 @@
             "Tipo": "Alámbrico"
         }
     },
-    {
-        "id": 41,
-        "nombre": "MOUSE SEISA N702",
-        "imagen": "assets/img/productos/mouse-dn-n702.png",
-        "imagenes_adicionales": [
-             "assets/img/productos/mouse-dn-n702-2.png",
-            "assets/img/productos/mouse-dn-n702-3.png"
-       ],
-        "stock": "Disponible",
-        "modelo": "DN-N702",
-        "marca": "SEISA",
-        "precioAnterior": 19.00,
-        "precio_pen": 17.00,
-        "categoria": "área computo",
-        "subcategoria": "Mouse",
-        "destacado": false
-    },
+    
+    
     {
         "id": 42,
         "nombre": "MOUSE BT M3658B",
