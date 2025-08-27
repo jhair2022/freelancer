@@ -40,7 +40,7 @@
     },
     {
         "id": 3,
-        "nombre": "AUDÍFONO PRO 6",
+        "nombre": "AUDÍFONO PRO 7",
         "imagen": "assets/img/productos/aud-pro6.png",
         "stock": "Disponible",
         "modelo": "PRO6",
@@ -531,7 +531,7 @@
         }
     },
     
-    
+
     {
         "id": 42,
         "nombre": "MOUSE BT M3658B",
