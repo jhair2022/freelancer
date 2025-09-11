@@ -381,7 +381,7 @@
         "imagenes_adicionales": [
             "assets/img/productos/parlante-ld-s650-2.png"
        ],
-        "stock": "Agotado",
+        "stock": "Disponible",
         "modelo": "LD-S650",
         "marca": "LIDIMI",
         "precioAnterior": 110.00,
@@ -491,12 +491,31 @@
 
     },
     {
+        "id": 37,
+        "nombre": "PARLANTE LIDIMI S600",
+        "imagen": "assets/img/productos/s600",
+         "imagenes_adicionales": [
+            "assets/img/productos/s600-1",
+            "assets/img/productos/s600-2"
+        ],
+        "stock": "Disponible",
+        "modelo": "LD-S681",
+        "marca": "LIDIMI",
+        "precioAnterior": 289.00,
+        "precio_pen": 259.00,
+        "categoria": "parlantes",
+        "subcategoria": "Lidimi",
+        "destacado": false,
+        "caracteristicas": "<ul><li>Potencia de 100W con sonido estéreo envolvente.</li><li>Resistencia al agua (ideal para exteriores).</li><li>Conectividad Bluetooth 5.0 de alta estabilidad.</li><li>Batería recargable de larga duración.</li><li>Entrada auxiliar, USB y ranura microSD.</li><li>Diseño compacto con luz LED decorativa.</li></ul><p>*La duración de la batería varía según el volumen y el uso.</p><p>**Para un mejor rendimiento, cargar completamente antes del primer uso.</p>"
+
+    },
+    {
         "id": 39,
         "nombre": "MOUSE SEISA N611",
         "imagen": "assets/img/productos/mouse-seisa-dn-n611.png",
         "imagenes_adicionales": [
             "assets/img/productos/mouse-seisa-dn-n611-2.jpg"
-       ],
+        ],
         "stock": "Disponible",
         "modelo": "DN-N611",
         "marca": "SEISA",
