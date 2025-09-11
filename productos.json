@@ -492,11 +492,11 @@
     },
     {
         "id": 37,
-        "nombre": "PARLANTE LIDIMI S600",
+        "nombre": "PARLANTE LIDIMI S600.png",
         "imagen": "assets/img/productos/s600",
          "imagenes_adicionales": [
-            "assets/img/productos/s600-1",
-            "assets/img/productos/s600-2"
+            "assets/img/productos/s600-1.png",
+            "assets/img/productos/s600-2.png"
         ],
         "stock": "Disponible",
         "modelo": "LD-S681",
