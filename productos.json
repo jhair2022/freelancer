@@ -452,9 +452,11 @@
     {
         "id": 34,
         "nombre": "PARLANTE LD-S007AC",
-        "imagen": "assets/img/productos/ld-s007ac.png",
+        "imagen": "assets/img/productos/parlante-s007ac.png",
         "imagenes_adicionales": [
+            "assets/img/productos/ld-s007ac.png",
             "assets/img/productos/ld-s007ac-2.png"
+
        ],
         "stock": "Disponible",
         "modelo": "LD-S007AC",
