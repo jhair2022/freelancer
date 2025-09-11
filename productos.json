@@ -492,8 +492,8 @@
     },
     {
         "id": 37,
-        "nombre": "PARLANTE LIDIMI S600.png",
-        "imagen": "assets/img/productos/s600",
+        "nombre": "PARLANTE LIDIMI S600",
+        "imagen": "assets/img/productos/s600.png",
          "imagenes_adicionales": [
             "assets/img/productos/s600-1.png",
             "assets/img/productos/s600-2.png"
