@@ -2,7 +2,7 @@ function mostrarBreadcrumb(subcategoria = null) {
     const breadcrumb = document.getElementById('breadcrumb-producto');
     breadcrumb.innerHTML = `
         <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-        <li class="breadcrumb-item"><a href="computo.html">área computo</a></li>
+        <li class="breadcrumb-item"><a href="computo.html">cámaras wifi</a></li>
         ${subcategoria ? `<li class="breadcrumb-item active" aria-current="page">${capitalizar(subcategoria)}</li>` : ''}
     `;
 }
@@ -23,7 +23,7 @@ fetch('productos.json')
     const contenedor = document.getElementById("productos-container");
     const subcatDiv = document.getElementById("subcategorias");
 
-    const productosAudifonos = productos.filter(p => p.categoria === "área computo");
+    const productosAudifonos = productos.filter(p => p.categoria === "cámaras wifi");
 
     // Obtener subcategorías únicas (evita vacíos)
     const subcategorias = [...new Set(productosAudifonos.map(p => p.subcategoria).filter(Boolean))];
