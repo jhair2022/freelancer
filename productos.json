@@ -191,19 +191,7 @@
 
 
 
-    {
-        "id": 13,
-        "nombre": "CABEZAL PD SAMSUNG 45W",
-        "imagen": "assets/img/productos/cabezal-samsung-45w.jpg",
-        "stock": "Disponible",
-        "modelo": "",
-        "marca": "Redd",
-        "precioAnterior": 60.00,
-        "precio_pen": 50.00,
-        "categoria": "cargador",
-        "subcategoria": "cabezal",
-        "destacado": false
-    },
+    
     {
         "id": 14,
         "nombre": "CABLE TC TCD0474",
