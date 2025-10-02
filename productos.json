@@ -508,23 +508,8 @@
         "subcategoria": "Mouse",
         "destacado": false
     },
-    {
-        "id": 43,
-        "nombre": "LECTOR DE MEMORIAS TPL0018",
-        "imagen": "assets/img/productos/lector-tpl0018.png",
-        "imagenes_adicionales": [
-             "assets/img/productos/lector-tpl0018-2.png"
-       ],
-        "stock": "Disponible",
-        "modelo": "TPL0018",
-        "marca": "Romax",
-        "precioAnterior": 15.00,
-        "precio_pen": 10.00,
-        "categoria": "área computo",
-        "subcategoria": "Adaptadores",
-        "destacado": false,
-        "descripcion": "Lector de memorias USB, compatible con tarjetas SD, microSD y más. Ideal para transferir fotos, videos y archivos de forma rápida y sencilla entre tu memoria y la computadora."
-    },
+    
+    
     {
         "id": 48,
         "nombre": "SOLAPERO INALAMBRICO X2 TSM0016 ",
