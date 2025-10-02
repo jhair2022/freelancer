@@ -190,7 +190,7 @@
     },
 
 
-    
+
     {
         "id": 13,
         "nombre": "CABEZAL PD SAMSUNG 45W",
@@ -307,8 +307,8 @@
         "stock": "Disponible",
         "modelo": "TCD0475",
         "marca": "Dexbo",
-        "precioAnterior": 12.00,
-        "precio_pen": 10.00,
+        "precioAnterior": 18.00,
+        "precio_pen": 15.00,
         "categoria": "cables para celular",
         "subcategoria": "Iphone",
         "destacado": false,
