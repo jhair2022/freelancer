@@ -188,25 +188,13 @@
 
 
     },
-    {
-        "id": 12,
-        "nombre": "CABEZAL USB-C BUYTITI",
-        "imagen": "assets/img/productos/cabezal-usb-c.jpg",
-        "stock": "Disponible",
-        "modelo": "",
-        "marca": "Buytiti",
-        "precioAnterior": 18.00,
-        "precio_pen": 15.00,
-        "categoria": "cargador",
-        "subcategoria": "cabezal",
-        "destacado": false,
-        "caracteristicas": "<ul><li>Cabezal de carga con doble puerto: USB y Tipo C.</li><li>Compatible con carga rápida hasta 60W (según dispositivo).</li><li>Diseño compacto y liviano, ideal para viajes.</li><li>Protección contra sobrecarga y sobrecalentamiento.</li></ul><p>*La velocidad de carga puede variar si se usan ambos puertos a la vez.</p><p>**Se recomienda usar cables de buena calidad para óptimo rendimiento.</p>"
 
-    },
+
+    
     {
         "id": 13,
         "nombre": "CABEZAL PD SAMSUNG 45W",
-        "imagen": "assets/img/productos/cabezal-samsung-45w.png",
+        "imagen": "assets/img/productos/cabezal-samsung-45w.jpg",
         "stock": "Disponible",
         "modelo": "",
         "marca": "Redd",
