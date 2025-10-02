@@ -529,16 +529,18 @@
     },
     {
         "id": 51,
-        "nombre": "CÁMARA WIFI H9005",
-        "imagen": "assets/img/productos/camara-h9005.png",
+        "nombre": "CÁMARA WIFI SANCI 1024",
+        "imagen": "assets/img/productos/camara-sanci.png",
         "stock": "Disponible",
-        "modelo": "",
-        "marca": "Bossney",
+        "modelo": "CA1024",
+        "marca": "Sanci",
         "precioAnterior": 210.00,
         "precio_pen": 200.00,
         "categoria": "cámaras wifi",
         "subcategoria": "Cámara Wifi",
-        "destacado": true
+        "destacado": true,
+        "descripcion": "La cámara de seguridad SC-CA1024 es un dispositivo avanzado diseñado para garantizar la vigilancia eficiente de espacios interiores y exteriores."
+
     }
     
 ]
