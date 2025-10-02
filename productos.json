@@ -191,7 +191,19 @@
 
 
 
-    
+    {
+        "id": 13,
+        "nombre": "CABEZAL PD SAMSUNG 45W",
+        "imagen": "assets/img/productos/cabezal-samsung-45w.jpg",
+        "stock": "Disponible",
+        "modelo": "",
+        "marca": "Calidad Original",
+        "precioAnterior": 60.00,
+        "precio_pen": 50.00,
+        "categoria": "cargador",
+        "subcategoria": "cabezal",
+        "destacado": false
+    },
     {
         "id": 14,
         "nombre": "CABLE TC TCD0474",
@@ -258,21 +270,8 @@
         "caracteristicas": "<ul><li>Cargador Dexbo con salida Tipo C de hasta 40W.</li><li>Compatible con carga rápida para smartphones, tablets y más.</li><li>Diseño compacto y resistente, ideal para uso diario.</li><li>Protección contra sobrecalentamiento, sobrecarga y cortocircuito.</li><li>Salida estable para una carga segura y eficiente.</li></ul><p>*Para un rendimiento óptimo, usar con cable de buena calidad compatible con 40W.</p><p>**La velocidad de carga puede variar según el dispositivo conectado.</p>"
 
     },
-    {
-        "id": 19,
-        "nombre": "CARGADOR V8 RD-6035",
-        "imagen": "assets/img/productos/cargador-rd-6035.png",
-        "stock": "Disponible",
-        "modelo": "RD-6035",
-        "marca": "Dexbo",
-        "precioAnterior": 19.00,
-        "precio_pen": 14.00,
-        "categoria": "cargador",
-        "subcategoria": "V8",
-        "destacado": false,
-        "caracteristicas": "<ul><li>Cargador Dexbo con salida MICRO USB de hasta 40W.</li><li>Compatible con carga rápida para smartphones, tablets y más.</li><li>Diseño compacto y resistente, ideal para uso diario.</li><li>Protección contra sobrecalentamiento, sobrecarga y cortocircuito.</li><li>Salida estable para una carga segura y eficiente.</li></ul><p>*Para un rendimiento óptimo, usar con cable de buena calidad compatible con 40W.</p><p>**La velocidad de carga puede variar según el dispositivo conectado.</p>"
-
-    },
+    
+    
     {
         "id": 20,
         "nombre": "CABLE TC TCD0584 ",
