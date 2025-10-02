@@ -271,7 +271,7 @@
 
     },
     
-    
+
     {
         "id": 20,
         "nombre": "CABLE TC TCD0584 ",
@@ -493,27 +493,7 @@
             "Tipo": "Alámbrico"
         }
     },
-    {
-        "id": 40,
-        "nombre": "MOUSE GENERICO TPM010",
-        "imagen": "assets/img/productos/mouse-tpm010-1.png",
-        "imagenes_adicionales": [
-             "assets/img/productos/mouse-tpm010-caja.png",
-            "assets/img/productos/mouse-tpm010-2.png"
-       ],
-        "stock": "Disponible",
-        "modelo": "TPM010",
-        "marca": "Generico",
-        "precioAnterior": 14.00,
-        "precio_pen": 12.00,
-        "categoria": "área computo",
-        "subcategoria": "Mouse",
-        "destacado": false,
-        "info_adicional": {
-            "Tipo": "Alámbrico"
-        }
-    },
-    
+   
 
     {
         "id": 42,
