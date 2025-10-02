@@ -531,6 +531,9 @@
         "id": 51,
         "nombre": "CÁMARA SANCI DE DOBLE LENTE",
         "imagen": "assets/img/productos/camara-sanci.png",
+        "imagenes_adicionales": [
+             "assets/img/productos/camara-sanci-2.png"
+       ],
         "stock": "Disponible",
         "modelo": "CA1024",
         "marca": "Sanci",
