@@ -8,10 +8,10 @@ if (breadcrumb) {
       <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
       <li class="breadcrumb-item active" aria-current="page">Audífonos</li>
     `;
-  } else if (path.includes("computo.html")) {
+  } else if (path.includes("camaras-wifi.html")) {
     breadcrumb.innerHTML = `
       <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Área Computo</li>
+      <li class="breadcrumb-item active" aria-current="page">Cámaras Wifi</li>
     `;
   }
   else if (path.includes("cargadores.html")) {

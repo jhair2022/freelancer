@@ -474,41 +474,10 @@
         "destacado": false
 
     },
-    {
-        "id": 39,
-        "nombre": "MOUSE SEISA N611",
-        "imagen": "assets/img/productos/mouse-seisa-dn-n611.png",
-        "imagenes_adicionales": [
-            "assets/img/productos/mouse-seisa-dn-n611-2.jpg"
-        ],
-        "stock": "Disponible",
-        "modelo": "DN-N611",
-        "marca": "SEISA",
-        "precioAnterior": 25.00,
-        "precio_pen": 20.00,
-        "categoria": "área computo",
-        "subcategoria": "Mouse",
-        "destacado": false,
-        "info_adicional": {
-            "Tipo": "Alámbrico"
-        }
-    },
+    
    
 
-    {
-        "id": 42,
-        "nombre": "MOUSE BT M3658B",
-        "imagen": "assets/img/productos/mouse-bt-et-m3658b.png",
-        "stock": "Disponible",
-        "modelo": "ET-M3658B",
-        "marca": "Ewtto",
-        "precioAnterior": 38.00,
-        "precio_pen": 35.00,
-        "categoria": "área computo",
-        "subcategoria": "Mouse",
-        "destacado": false
-    },
-    
+
 
     {
         "id": 48,
@@ -554,7 +523,7 @@
         "marca": "Bossney",
         "precioAnterior": 280.00,
         "precio_pen": 270.00,
-        "categoria": "área computo",
+        "categoria": "cámaras wifi",
         "subcategoria": "Cámara wifi",
         "destacado": false
     },
@@ -567,7 +536,7 @@
         "marca": "Bossney",
         "precioAnterior": 210.00,
         "precio_pen": 200.00,
-        "categoria": "área computo",
+        "categoria": "cámaras wifi",
         "subcategoria": "Cámara wifi",
         "destacado": true
     }
