@@ -116,7 +116,7 @@
         "precioAnterior": 40.00,
         "precio_pen": 30.00,
         "categoria": "cargador",
-        "subcategoria": "Tipo C",
+        "subcategoria": "cabezal",
         "destacado": true,
         "descripcion": "Cabezal Samsung de carga rápida, calidad original y segura. Ideal para dispositivos compatibles.",
         "caracteristicas": "<ul><li>Compatibilidad universal con dispositivos Samsung.</li><li>Carga rápida Adaptive Fast Charging (AFC).</li><li>Salida de 9V/1.67A o 5V/2A.</li><li>Incluye cable USB tipo C de alta calidad.</li></ul><p>*Velocidad de carga puede variar según el dispositivo.</p><p>**Se recomienda usar con cable y adaptador originales para mejor rendimiento.</p>"
@@ -149,7 +149,7 @@
         "modelo": "",
         "marca": "C/Original",
         "precioAnterior": 20.00,
-        "precio_pen": 15.00,
+        "precio_pen": 19.00,
         "categoria": "cables para celular",
         "subcategoria": "Tipo C",
         "destacado": false,
