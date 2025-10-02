@@ -524,7 +524,7 @@
         "precioAnterior": 280.00,
         "precio_pen": 270.00,
         "categoria": "cámaras wifi",
-        "subcategoria": "Cámara wifi",
+        "subcategoria": "Cámara + Panel",
         "destacado": false
     },
     {
@@ -537,7 +537,7 @@
         "precioAnterior": 210.00,
         "precio_pen": 200.00,
         "categoria": "cámaras wifi",
-        "subcategoria": "Cámara wifi",
+        "subcategoria": "Cámara Wifi",
         "destacado": true
     }
     
