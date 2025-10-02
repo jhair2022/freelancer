@@ -340,22 +340,9 @@
         "subcategoria": "alambricos",
         "destacado": false
     },
-    {
-        "id": 28,
-        "nombre": "AUDIFONO BOSSNEY A1054",
-        "imagen": "assets/img/productos/aud-bs-a1054.jpg",
-        "imagenes_adicionales": [
-            "assets/img/productos/aud-bs-a1054-2.jpg"
-        ],
-        "stock": "Disponible",
-        "modelo": "BS-A1054",
-        "marca": "Bossney",
-        "precioAnterior": 6.00,
-        "precio_pen": 5.00,
-        "categoria": "audifonos",
-        "subcategoria": "alambricos",
-        "destacado": false
-    },
+  
+
+    
     {
         "id": 29,
         "nombre": "AUDÍFONO BT M28",
