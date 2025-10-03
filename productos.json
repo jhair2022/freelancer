@@ -556,7 +556,7 @@
         "precio_pen": 300.00,
         "categoria": "cámaras wifi",
         "subcategoria": "Cámara Wifi",
-        "destacado": true,
+        "destacado": false,
         "descripcion": "La cámara de seguridad Bossney es un dispositivo avanzado diseñado para garantizar la vigilancia eficiente de espacios interiores y exteriores."
 
     },
@@ -571,7 +571,7 @@
         "precio_pen": 99.00,
         "categoria": "cámaras wifi",
         "subcategoria": "Cámara Wifi",
-        "destacado": true,
+        "destacado": false,
         "descripcion": "La cámara de seguridad Bossney es un dispositivo avanzado diseñado para garantizar la vigilancia eficiente de espacios interiores y exteriores."
 
     },
@@ -586,7 +586,7 @@
         "precio_pen": 400.00,
         "categoria": "cámaras wifi",
         "subcategoria": "Cámara + Panel",
-        "destacado": true,
+        "destacado": false,
         "descripcion": "La cámara de seguridad Bossney es un dispositivo avanzado diseñado para garantizar la vigilancia eficiente de espacios interiores y exteriores."
 
     }
