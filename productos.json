@@ -544,7 +544,23 @@
         "destacado": true,
         "descripcion": "La cámara de seguridad SC-CA1024 es un dispositivo avanzado diseñado para garantizar la vigilancia eficiente de espacios interiores y exteriores."
 
+    },
+    {
+        "id": 52,
+        "nombre": "CÁMARA BOSSNEY DOBLE LENTE",
+        "imagen": "assets/img/productos/camara-bossney-doble.jpg",
+        "stock": "Disponible",
+        "modelo": "",
+        "marca": "Bossney",
+        "precioAnterior": 320.00,
+        "precio_pen": 300.00,
+        "categoria": "cámaras wifi",
+        "subcategoria": "Cámara Wifi",
+        "destacado": true,
+        "descripcion": "La cámara de seguridad Bossney es un dispositivo avanzado diseñado para garantizar la vigilancia eficiente de espacios interiores y exteriores."
+
     }
+    
     
 ]
 
