@@ -559,6 +559,36 @@
         "destacado": true,
         "descripcion": "La cámara de seguridad Bossney es un dispositivo avanzado diseñado para garantizar la vigilancia eficiente de espacios interiores y exteriores."
 
+    },
+    {
+        "id": 53,
+        "nombre": "CÁMARA LIDIMI",
+        "imagen": "assets/img/productos/camara-bossney-doble.jpg",
+        "stock": "Disponible",
+        "modelo": "",
+        "marca": "Bossney",
+        "precioAnterior": 105.00,
+        "precio_pen": 99.00,
+        "categoria": "cámaras wifi",
+        "subcategoria": "Cámara Wifi",
+        "destacado": true,
+        "descripcion": "La cámara de seguridad Bossney es un dispositivo avanzado diseñado para garantizar la vigilancia eficiente de espacios interiores y exteriores."
+
+    },
+    {
+        "id": 54,
+        "nombre": "CÁMARA BOSSNEY + PANEL",
+        "imagen": "assets/img/productos/camara-doble lente + panel.jpg",
+        "stock": "Disponible",
+        "modelo": "",
+        "marca": "Bossney",
+        "precioAnterior": 410.00,
+        "precio_pen": 400.00,
+        "categoria": "cámaras wifi",
+        "subcategoria": "Cámara + Panel",
+        "destacado": true,
+        "descripcion": "La cámara de seguridad Bossney es un dispositivo avanzado diseñado para garantizar la vigilancia eficiente de espacios interiores y exteriores."
+
     }
     
     
