@@ -529,7 +529,7 @@
     },
     {
         "id": 51,
-        "nombre": "CÁMARA SANCI DE DOBLE LENTE",
+        "nombre": "CÁMARA SANCI 2 LENTES",
         "imagen": "assets/img/productos/camara-sanci.png",
         "imagenes_adicionales": [
              "assets/img/productos/camara-sanci-2.jpg"
@@ -547,7 +547,7 @@
     },
     {
         "id": 52,
-        "nombre": "CÁMARA BOSSNEY DOBLE LENTE",
+        "nombre": "CÁMARA BOSSNEY 2 LENTES",
         "imagen": "assets/img/productos/camara-bossney-doble.jpg",
         "stock": "Disponible",
         "modelo": "",
