@@ -358,9 +358,9 @@
     {
         "id": 31,
         "nombre": "PARLANTE LIDIMI S032AC",
-        "imagen": "assets/img/productos/parlante-ld-s032ac.png",
+        "imagen": "assets/img/productos/parlante-ld-s032ac-2.png",
         "imagenes_adicionales": [
-            "assets/img/productos/parlante-ld-s032ac-2.png"
+            "assets/img/productos/parlante-ld-s032ac.png"
        ],
         "stock": "Disponible",
         "modelo": "LD-S032AC",
