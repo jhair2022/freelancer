@@ -431,13 +431,18 @@
     },
     {
         "id": 35,
-        "nombre": "PARLANTE LIDIMI S652",
-        "imagen": "assets/img/productos/parlante-s652.png",
+        "nombre": "PARLANTE LIDIMI S704",
+        "imagen": "assets/img/productos/parlante-s704.png",
+        "imagenes_adicionales": [
+            "assets/img/productos/parlante-s704-2.png",
+            "assets/img/productos/parlante-s704-3.png"
+
+       ],
         "stock": "Disponible",
-        "modelo": "LD-S652",
+        "modelo": "LD-S704",
         "marca": "LIDIMI",
-        "precioAnterior": 140.00,
-        "precio_pen": 130.00,
+        "precioAnterior": 100.00,
+        "precio_pen": 95.00,
         "categoria": "parlantes",
         "subcategoria": "Lidimi",
         "destacado": false
