@@ -270,8 +270,21 @@
         "caracteristicas": "<ul><li>Cargador Dexbo con salida Tipo C de hasta 40W.</li><li>Compatible con carga rápida para smartphones, tablets y más.</li><li>Diseño compacto y resistente, ideal para uso diario.</li><li>Protección contra sobrecalentamiento, sobrecarga y cortocircuito.</li><li>Salida estable para una carga segura y eficiente.</li></ul><p>*Para un rendimiento óptimo, usar con cable de buena calidad compatible con 40W.</p><p>**La velocidad de carga puede variar según el dispositivo conectado.</p>"
 
     },
-    
+    {
+        "id": 19,
+        "nombre": "CARGADOR TC T1169T",
+        "imagen": "assets/img/productos/cargador-sanci-tc.png",
+        "stock": "Disponible",
+        "modelo": "DE-E5107C",
+        "marca": "Sanci",
+        "precioAnterior": 27.00,
+        "precio_pen": 25.00,
+        "categoria": "cargador",
+        "subcategoria": "Tipo C",
+        "destacado": false,
+        "caracteristicas": "<ul><li>Cargador Dexbo con salida Tipo C de hasta 40W.</li><li>Compatible con carga rápida para smartphones, tablets y más.</li><li>Diseño compacto y resistente, ideal para uso diario.</li><li>Protección contra sobrecalentamiento, sobrecarga y cortocircuito.</li><li>Salida estable para una carga segura y eficiente.</li></ul><p>*Para un rendimiento óptimo, usar con cable de buena calidad compatible con 40W.</p><p>**La velocidad de carga puede variar según el dispositivo conectado.</p>"
 
+    },
     {
         "id": 20,
         "nombre": "CABLE TC TCD0584 ",
